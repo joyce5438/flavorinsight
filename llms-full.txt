@@ -1,0 +1,1081 @@
+# Flavor Insight
+
+> 以文化研究者與長期投資者的視角，書寫飲食、消費與社會文化脈絡的深度文章。目前主要為「馬來筆記」系列：馬來西亞的交通、族群共存、檳城與台南飲食文化交流、馬來西亞飲食觀察。
+
+作者：Austin（X: @austinsayhi）。內容語言：繁體中文（台灣）。
+
+# 馬來筆記 Part.1 行路不難(上)
+
+- 發佈日期: 2024-10-07
+- 最後更新: 2025-04-30
+- 作者: Austin
+- 分類: Malaysia
+- 標籤: MY2024
+- 原文網址: https://flavorinsight.com/smoothtripml1/
+
+> 檳城朋友拜託我回台後把旅途體驗分享出來，讓更多台灣人去大馬旅遊，個人討厭走觀光客行程，也不想用旅遊部落客老套的時序類寫法，加上本身有史地、文化研究、飲食消費…的知識存量，所以打算用幾篇不同面向的主題、隨筆的方式來分享這趟大馬旅行
+
+前陣子去了大馬一趟，離開檳城時，當地朋友拜託我回台後把旅途體驗分享出來，讓更多台灣人去大馬旅遊。人越老越怕欠人情，這趟受馬來西亞熟識或不認識的人太多幫助，既然答應了，那就盡全力做到心安理得吧！全系列很長，預計接近十篇。
+
+<figure class="wp-block-image size-large is-resized"><img alt="" class="wp-image-161" decoding="async" height="541" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/271740.jpg" style="width:533px;height:auto" width="1024"/></figure>
+
+個人討厭走觀光客行程，也不想用旅遊部落客老套的時序類寫法，加上本身有史地、文化研究、飲食消費…的相關背景，所以打算用幾篇不同面向的主題、隨筆的方式來分享這趟大馬旅行。
+
+**先讓大家對馬來西亞有個較具體的比例認知。**  
+  
+馬來西亞本島南北長度大約是台灣兩倍，寬度則差不多，同樣西側的開發程度遠高於東部，東部較多人煙稀少的自然景觀與海景景點，國土中央一樣是山脈，東西之間有經過山區的橫貫公路，跟台灣一樣，都是風景漂亮但又較危險的山路，而馬來西亞還有一大塊國土位於砂勞越，感覺又更原始了。  
+  
+以此估算城市之間的距離，例如這趟我是由北部的檳城入境，中部的吉隆坡離開，兩者的距離就大約是台北到高雄，開車 5-6 小時，國內線飛機 1 小時內，同理，中部的吉隆坡到南部的新山、柔佛等地，也差不多是北高的距離，如果你跟我一樣，有要在大馬跨城市移動，這個估算法能比較快掌握距離感，所以位於檳城與吉隆坡之間的怡保、太平，就是台北到台中彰化的距離，開車 2-3 小時，掌握距離也就比較好選擇最適合的交通方式：飛機、輕航機、機車、火車、巴士、自駕、包車、計程車、坐船…等。  
+  
+原先想要自駕，還好沒有，馬來西亞是右駕，我非常不習慣右駕，之前有次去日本租車，差點瘋掉，一路自我懷疑駕照是雞腿換來的，又驚又怕反而失去駕駛的樂趣，另外檳城的市中心路很窄，單向道很多，可能得非常熟悉路況的人較適合。當然，如果你很習慣右駕，又或是去東馬這類公共運輸較不便的點，可嘗試自駕，下次我打算租重機😌  
+  
+這趟我多數是徒步搭配 Grab 計程車，幾段跨城市移動是用火車（發生好多誇張的事，下面說），在吉隆坡則還有搭配捷運與電動滑板車。
+
+提到交通，不禁想說，我常覺得台灣社會面對問題，常過度責備、貶低自己，例如行人地獄的稱號，我們將對行人友善這件事，拿水準極誇張高的日本來比較😂  
+  
+這裡面包含兩個層面，一個是城市的交通設施設計不獨厚行車，以及汽機車駕駛對尊重行人安全的意識，然而台灣社會卻過度把問題重點放在駕駛不禮讓行人這點，對駕駛的苛責即是將交通問題視為禮儀的道德問題，而非大幅度去改變基礎設施的設計思維。
+
+<figure class="wp-block-image size-large is-resized"><img alt="連結高速公路兩端的空橋（我當時莫名一直想到新竹關埔的那群北七）" class="wp-image-89" decoding="async" height="1024" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/IMG_20240903_160152.jpg" style="width:494px;height:auto" width="768"/><figcaption class="wp-element-caption"><strong>連結高速公路兩端的空橋（我當時莫名一直想到新竹關埔的那群北七）</strong></figcaption></figure>
+
+會提到這點是在大馬的體驗，坦白說他們的駕駛並不太在乎路上行人，遇到行人要禮讓？禮讓個屁，還真沒車禮讓過我😆，可是他們城市的交通基礎設施在平衡行車權與行人路權的細節，做的是比台灣好一些，較少有那種高密度的人車交集，必須互搶路的狀況，例如台灣常見騎樓被雜物霸佔，加上本來不該規劃卻規劃停車格的路邊，使得行人冒險走在狹窄馬路邊，與路上的汽機車距離極為靠近，這其中問題更多是設計不良，把行人送去給車撞…
+
+<figure class="wp-block-image size-large is-resized"><img alt="" class="wp-image-92" decoding="async" height="768" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/IMG_20240901_145940.jpg" style="width:906px;height:auto" width="1024"/><figcaption class="wp-element-caption"><strong>騎樓較少見被堆滿雜物，即使放植物盆栽的人也不多</strong></figcaption></figure>
+
+不過大馬依舊距離日本那麼適宜行人的水準很遠很遠，我才會說台灣拿日本交通來當比較或目標，實在太苛責自己啦！台灣要改進的地方確實很多，卻也尚且稱不上行人地獄，我去過對行人更不友善的地區🤭
+
+總之，徒步旅行就是要安全與樂趣，馬來西亞道路對行人不算友好，但是及格的，加分點是樂趣太多，像是許多老屋的騎樓都別具特色，我到大馬好幾個城市都樂此不疲的四處亂逛，收集不同騎樓的老花磚圖案。
+
+<figure class="wp-block-image size-large is-resized"><img alt="" class="wp-image-97" decoding="async" height="576" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/tile.jpg" style="width:933px;height:auto" width="1024"/></figure>
+
+與藏在城市各個角落的彩繪，彩繪多數是政府規劃，也還有人們隨性畫的塗鴉或商家用來做廣告用的彩繪。
+
+<figure class="wp-block-image size-large is-resized"><img alt="" class="wp-image-98" decoding="async" height="1024" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/grafiti.jpg" style="width:943px;height:auto" width="1024"/><figcaption class="wp-element-caption"><strong>藏在奇怪巷子裡的塗鴉 青鳥跟東鹿</strong></figcaption></figure>
+
+另外對貓奴而言，馬來西亞超棒的！由於伊斯蘭教法禁止養狗，所以大馬人最常養貓也愛貓，畢竟先知穆罕默德也極愛他名為米埃扎(Muezza)的貓，街頭上也常有被照顧得很好的流浪貓，步行旅遊會經常遇到，我也發現檳城麒麟尾的貓咪比例偏高，麒麟尾貓除了少數是生病，絕大多數都是大航海時代源自印尼的品種，跟著荷蘭人的船隻擴散到各國，歷史上檳城與爪哇的商貿關係密切，可在麒麟尾窺見，今年台南文博會的主視覺也是刻意選麒麟尾貓來紀念台南曾經的貿易歷史。
+
+<figure class="wp-block-image size-large"><img alt="" class="wp-image-147" decoding="async" height="1024" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/neco.jpg" width="1024"/><figcaption class="wp-element-caption">有機會去檳城擼貓之餘，別忘了注意尾巴</figcaption></figure>
+
+這次有個遺憾是沒去[檳城的貓咪海灘](https://www.instagram.com/p/C_7fEcwzYqy/)
+
+<figure class="wp-block-image size-large is-resized"><img alt="" class="wp-image-179" decoding="async" height="768" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/IMG_20240830_080825.jpg" style="width:621px;height:auto" width="1024"/><figcaption class="wp-element-caption">馬來愛貓的小細節：攤販攤車上貼著留意貓咪行走的可愛告示</figcaption></figure>
+
+<figure class="wp-block-image size-large is-resized"><img alt="" class="wp-image-181" decoding="async" height="768" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/IMG_20240830_092513.jpg" style="width:643px;height:auto" width="1024"/><figcaption class="wp-element-caption">到處都有貓裝飾品，我看到一台白色車甚至裝上白貓耳朵，但來不及拍攝</figcaption></figure>
+
+此外殖民時代的古屋多樣性也是會讓建築迷樂在其中，如果你跟我一樣喜愛 walk trip ，不妨可以去大馬試試
+
+<figure class="wp-block-image size-large is-resized"><img alt="" class="wp-image-99" decoding="async" height="768" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/IMG_20240901_070942.jpg" style="width:989px;height:auto" width="1024"/></figure>
+
+<figure class="wp-block-image size-large is-resized"><img alt="" class="wp-image-100" decoding="async" height="769" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/IMG_20240901_071447.jpg" style="width:990px;height:auto" width="1024"/></figure>
+
+<figure class="wp-block-image size-large is-resized"><img alt="" class="wp-image-101" decoding="async" height="768" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/IMG_20240902_073413.jpg" style="width:987px;height:auto" width="1024"/></figure>
+
+<figure class="wp-block-image size-large is-resized"><img alt="" class="wp-image-102" decoding="async" height="768" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/IMG_20240831_103640.jpg" style="width:988px;height:auto" width="1024"/></figure>
+
+<figure class="wp-block-image size-large"><img alt="" class="wp-image-103" decoding="async" height="1024" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/IMG_20240901_135734.jpg" width="768"/></figure>
+
+<table class="wpb-plt-table wpb-plt-table-hover">
+<thead>
+<tr>
+<th>Title</th>
+<th>Date</th> <th>Tag</th> </tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="/tobecontinued/">馬來筆記 Part5 未完待續</a></td>
+<td>2024-10-28</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
+<tr>
+<td><a href="/malaysianfood3/">馬來筆記 Part4 再談馬來西亞飲食（下）</a></td>
+<td>2024-10-17</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
+<tr>
+<td><a href="/malaysianfood2/">馬來筆記 Part4 再談馬來西亞飲食（中）</a></td>
+<td>2024-10-15</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
+<tr>
+<td><a href="/malaysianfood1/">馬來筆記 Part4 再談馬來西亞飲食（上）</a></td>
+<td>2024-10-14</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
+<tr>
+<td><a href="/penangtotainan/">馬來筆記 Part.3 從檳城看見台南的府城味</a></td>
+<td>2024-10-09</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
+<tr>
+<td><a href="/livingwisdom/">馬來筆記 Part.2 折衷的共存智慧</a></td>
+<td>2024-10-08</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
+<tr>
+<td><a href="/smoothtripml3/">馬來筆記 Part.1 行路不難(下)</a></td>
+<td>2024-10-07</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
+<tr>
+<td><a href="/smoothtripml2/">馬來筆記 Part.1 行路不難(中)</a></td>
+<td>2024-10-07</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
+<tr>
+<td><a href="/smoothtripml1/">馬來筆記 Part.1 行路不難(上)</a></td>
+<td>2024-10-07</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
+</tbody>
+</table>
+
+
+---
+
+# 馬來筆記 Part.1 行路不難(中)
+
+- 發佈日期: 2024-10-07
+- 最後更新: 2025-04-30
+- 作者: Austin
+- 分類: Malaysia
+- 標籤: MY2024
+- 原文網址: https://flavorinsight.com/smoothtripml2/
+
+> Platinum 列車 A 車廂的金座椅，整體設計是採用飛機座艙的概念，每個座位都有服務鈴，並有兩位服務員隨侍在這個車廂內，Platinum 只停靠大站，大站之間車程都有一個半小時以上，足夠供餐，餐點的設計比飛機整套正餐簡單，大致是飲料加點心的下午茶概念
+
+這趟旅途多次搭乘馬來西亞的火車，具體如何操作我就不寫操作指南了，有 KTMB mobile 的 app 可直接訂票，真的不懂再來推特問我，純粹分享這趟我踩的雷以及有趣的體驗。
+
+在部分路線，馬來西亞有所謂 Platinum 列車（另外還有 Gold 、Silver、 Express 三種），大馬的火車價格大約台灣一半，可是班次很少，高階車種的誤點狀況較少，Platinum 是停靠最少、車速最快，Gold 其次，Silver 跟 Express 則是大站小站全都停，所以很慢，如果大城市間移動你希望快一點，選擇 Platinum 跟 Gold ，想去特別的小城市或小鎮，才選擇 Express。
+
+Platinum 跟另外三種最大的差別就是第一個車廂 Coach A，座椅類似飛機規格，有多媒體播放器並且票價包含供應一份餐飲！前後左右都較寬敞，充電座等設備都有，空間只放 ABC三排椅，其他車廂都是很擠的四排普通椅，
+
+<figure class="wp-block-image size-large is-resized"><img alt="" class="wp-image-114" decoding="async" height="1024" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/271487.jpg" style="width:458px;height:auto" width="523"/><figcaption class="wp-element-caption">Platinum 的尊榮 A車廂在訂位時會顯示金色座椅，喜歡這種撩撥人虛榮心的設計🤣</figcaption></figure>
+
+正常來說 Gold 、Silver跟 Express，所有車廂都是四排普通椅，我第一個踩到的雷就在這裡，使用訂位app 時，我看到 Express 的 A 車廂是四排椅，就訂了 9 D 座位，但上車傻眼，只有 ABC 三排椅子，我要坐哪？當下真心無語，難道火車跟飛機一樣會超賣座位嗎？結果這根本是他們 app 錯誤，某些少數的Express 的 A 車廂只有三排椅！app 卻仍舊顯示四排，只是 Express 的三排椅車廂，跟 Platinum 那種比較奢華的服務不同，完全不懂幹嘛拿掉一排椅子，我猜測可能日後所有車種的A 車廂都會升級成 Platinum 那樣，目前是轉換期，這個 app 錯誤我寫文的同時，打開app來看應還沒解決(下圖)， app 中的 Express A 車廂一樣有三排跟四排，為了避免可能沒座位的情況，任何車種的選位記得只選 ABC 的座位！
+
+<figure class="wp-block-image size-large is-resized"><img alt="" class="wp-image-115" decoding="async" height="683" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/ticket.jpg" style="width:768px;height:auto" width="1024"/><figcaption class="wp-element-caption">有的Express 顯示三排椅 有的班次顯示四排椅，但實際車相會是三排還四排只有到現場才知道</figcaption></figure>
+
+跟我一樣買到不存在座位狀況的人有十幾位，車務人員蠻厲害的，幫我安排到後面普通車廂，卻特別找出隔壁沒人坐的座位，讓我一路獨享兩個座椅的寬敞空間，大馬人變通的速度就是很快呀。
+
+<figure class="wp-block-image size-large is-resized"><img alt="" class="wp-image-116" decoding="async" height="768" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/271485_0.jpg" style="width:735px;height:auto" width="1024"/></figure>
+
+多數列車的C 或D 車廂，還留著英國火車習慣，會有一個小咖啡吧跟小餐桌椅，吃東西的人也會比較多，如果不喜歡食物氣味的朋友請避開這車廂，想體驗則記得走過去看看。
+
+<figure class="wp-block-image size-large"><img alt="" class="wp-image-117" decoding="async" height="768" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/IMG_20240902_181640.jpg" width="1024"/></figure>
+
+第二個雷不是在火車上發生，因為多數票我都在台灣就訂購好了（一個月前可訂票，想搭乘Platinum 的 A 車廂記得早點訂起來），但有幾段臨時想搭乘的路線，在當地我卻發生手機漫遊收不到信用卡驗證簡訊的情況，因此得用購票機操作，購票機不吃現鈔，只支援馬來的電子錢包，還好支援信用卡，搞笑的事來了，大馬機場、捷運、商場、超商、餐廳，幾乎都是靠卡感應式的刷卡機，馬鐵的購票機看起來也是呢，But 它是插卡式讀取！你從黑色外觀根本看不出來有插槽，於是我靠卡在讀卡機螢幕處，支付失敗了十幾次準備放棄時，才突然認出卡跟箭頭的超小icon，忍著暴躁再重新操作一次訂購流程，然後把卡從下面往上插看看，可以了！這什麼鬼設計啦😭 我甚至懷疑這個讀卡機的插槽是不是生產商把上下裝反了，畢竟一般插卡機也多數是由頂端或正面插入，總之當下氣歸氣，事後就覺得自己很白癡很好笑。
+
+<figure class="wp-block-image size-large is-resized"><img alt="" class="wp-image-119" decoding="async" height="1024" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/IMG_20240904_080231.jpg" style="width:679px;height:auto" width="768"/><figcaption class="wp-element-caption">差點把我搞死的購票機長這樣，信用卡插槽正面看不到，放大看才看的到一個超小的圖示</figcaption></figure>
+
+我搭乘南北的主幹線沒遇過誤點，只是車站大廳人潮洶湧，大馬不給隨意進月台，只有在要開車前 15~20 分鐘站務人員會開始剪票放進。而一些支線如往巴生港或黑風洞（Batu Caves），就跟台灣一樣很隨意可以在月台候車，不過我遇到最多妙事與最長誤點也都在支線列車上。
+
+<figure class="wp-block-image size-large is-resized"><img alt="" class="wp-image-120" decoding="async" height="1024" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/271486_0.jpg" style="width:541px;height:auto" width="768"/><figcaption class="wp-element-caption">電訊信號異常暫停行駛</figcaption></figure>
+
+支線列車的座椅配置數量很多，更像是捷運車廂的配置，只有少數車廂是類似傳統火車，你想像跟台灣的區間車一樣就對了，所以搭乘體驗用中國詞彙來形容就是鬆弛感，例如開到一半，廣播說電車訊號異常，於是停下來十分鐘再繼續開，更有遇過，完全沒廣播就莫名停住將近半小時（笑），而我當下卻在心裡慶幸還好車內電燈跟冷氣還有運作，轉頭看四周乘客，沒人動作，**來到大馬幾天，我也漸漸感染了他們那種遇事見怪不怪的自在個性**，如果是在台灣，這時候車廂乘客大概開始交頭接耳、議論紛紛，是個奇怪的時刻，我卻感到內心莫名寧靜，也許漫遊了數天至此，身心在這一刻不再有絲毫身處國外的陌生感，好笑的是十來分鐘後，依舊沒有乘務人員來說明停車原因，這也太鬆弛了吧🤣在台灣已經會被 po 上靠北 xx社團了。
+
+又或是我已經喜歡上大馬這個國家了，好的壞的，都是它的一部分，沒道理只因為壞事而生氣。前幾天我才搭乘過 Platinum 的金座椅，體驗了快速無誤點、貼心的車廂服務；區間通勤的列車線，緩慢、誤點、列車異常、沒有服務，有可能是日常就是如此？或是被我撞上的偶然，不管哪一種就都不值得放心上。
+
+當然，還是時常遇到超乎想像的情景，請看下一張圖，我一踏進這個支線列車的車廂，就忍不住倒退一步，再仔細看一次，確認我沒看錯，這玻璃上是彈孔吧😆 看看車廂地板，沒有血跡、沒有凶器，也沒有屍體，好吧，有屍體我也不是《東方快車謀殺案》（Murder on the Orient Express）裡的名偵探，鐵道推理的情節只在腦袋存在瞬間，我接著平靜的拍幾張照片傳給朋友看，去坐其他車廂了，分享個小知識，歐洲原版的東方快車，因金融海嘯帶來的經濟蕭條而停駛了，先前有機會坐到的鐵道迷很幸運。
+
+<figure class="wp-block-image size-large is-resized"><img alt="" class="wp-image-118" decoding="async" height="768" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/IMG_20240904_132431.jpg" style="width:885px;height:auto" width="1024"/></figure>
+
+說到這裡，希望你不要覺得馬來西亞鐵路很爛，狀況多可能是我有點柯南體質，一般人應該不會像我有這麼多加戲的機會（笑）  
+馬來西亞火車還給我添了一個小困擾，離開檳城往怡保是我在台灣就預定的路線，我出發前上網多次查詢怡保車站是否有寄物櫃，網路上只看到 2010 以前的討論，說在清真禱告室旁有但已拆除，官方網站上也顯示沒有，我都抱著拖著行李箱到處走的心理準備了，當天出車站我隨口問站務人員，回答竟然是有！藏在很隱密的角落且數量很少，但是有！可以好好更新你們的網站嗎🥹
+
+<figure class="wp-block-image size-large is-resized"><img alt="" class="wp-image-121" decoding="async" height="1024" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/IMG_20240902_070714.jpg" style="width:692px;height:auto" width="768"/><figcaption class="wp-element-caption">藏很隱密的寄物櫃數量不多，可放20吋行李箱的約12個，圖片這4個的大小可以放50吋左右的行李箱</figcaption></figure>
+
+最後來分享 Platinum 列車 A 車廂的金座椅，前面有提到整體設計是採用飛機座艙的概念，每個座位都有服務鈴，並有兩位服務員隨侍在這個車廂內，Platinum 只停靠大站，大站之間車程都有一個半小時以上，足夠供餐，餐點的設計就比飛機整套正餐簡單，大致是飲料加點心的下午茶概念，台鐵跟高鐵在餐點上還是較豐富。
+
+<figure class="wp-block-image size-large is-resized"><img alt="" class="wp-image-122" decoding="async" height="768" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/train.jpg" style="width:917px;height:auto" width="1024"/></figure>
+
+說來不好意思，個人是易暈體質，暈車暈船暈機你想得到的交通工具我都暈過，從小從不在搭乘交通工具時飲食，飛機的供餐事先可查看，假如沒有誇張想吃的，十次有九次我都請空姐不必為我備餐，給我杯威士忌或調酒讓我好睡就好，因此搭乘 Platinum 我也是婉拒服務員幫我送餐，整趟行程讓我最驚艷的點來了。  
+  
+當我在車上睡著，距離怡保大約還有 15 分鐘抵達，服務員過來輕輕搖醒我，告知將要抵達我要下車的站！他們竟然有查看每個座位的旅客的目的地是何處，並主動一對一提醒，更讓我驚訝的是她一邊露出空姐式的職業笑容，一邊遞給我一袋熱騰騰的餐盒、零食與瓶裝水，要我帶著吃！真希望航空公司也可以有這種 take out服務！天知道我多少次聞到全飛機充滿機上餐的味道，卻無法吃時有多麼怨念。我很想請她幫我把瓶裝水換成先前聞到的超香咖啡，但臉皮薄還是沒開口。
+
+<figure class="wp-block-image size-large is-resized"><img alt="" class="wp-image-123" decoding="async" height="1024" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/FotoJet.jpg" style="width:764px;height:auto" width="1024"/></figure>
+
+下車後在月台迫不及待開了餐盒，是雞肉仁當口味的陽春版nasi lemak，口味就是超商微波食品那樣中規中矩，真心覺得食物部分太可惜，大馬交通部長應該派人來台灣跟日本考察，若有馬來朋友看到，歡迎把這篇寄給你們備受期待的新任華人部長。
+
+<figure class="wp-block-image size-large is-resized"><img alt="" class="wp-image-125" decoding="async" height="768" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/IMG_20240902_065656-1.jpg" style="width:772px;height:auto" width="1024"/><figcaption class="wp-element-caption">可惜 餐盒能更好</figcaption></figure>
+
+大馬的 Platinum 不是最先進的高速車種，金椅子車廂的設備也並不高檔奢華，沿路更沒啥風景，在資金資源受限的狀況下，鐵道服務要怎麼做出高階車廂的差異化？畢竟不是每個國家的鐵道公司都能像日本那樣在硬體上花大錢，做出誇張的奢華感或購買特殊車種，也很少有國家能像日本，有那麼多的自然景觀能恰好跟鐵道路線搭配，更別提各地種類多樣的鐵道便當與各車站都有特色伴手禮，馬來西亞給了我一些答案：**服務與細節設計，有時候做出一些乘客期待之上、意料之外的小服務，效果勝過於無微不至的服務。**
+
+看資料，馬鐵連年虧損，從 1992 至今都虧，不禁讓我想到台灣台鐵也是慘巴巴的連年虧損（1978 至今），票價過去受交通部限制，加上相關養護成本高，使得擺脫虧損一直是努力的目標，在這種狀況下，台鐵也是企圖做出車種的差異化來增加營收，近期開賣的【[總統花車](https://www.eztravel.com.tw/activity/railwaysalooncar/)】我就覺得很有意思，台鐵對高階鐵道的想像來自郵輪，更重視硬體氛圍設計與套裝旅遊的搭配，可我認為缺陷也是有的，承接台鐵觀光列車業務的國內旅行社，眼光並沒有放在國際觀光客，許多的設計跟宣傳還是以國內觀光客群，尤其是鐵道迷為主，非常可惜呀！但我搭乘馬鐵 Platinum 列車的 A 級車廂，有半數以上是歐美觀光客！像近期開賣的【[總統花車](https://www.eztravel.com.tw/activity/railwaysalooncar/)】，是過往為李登輝總統設計的總統級車廂，這就非常適合拿去日本宣傳，加上本來就有知本、瑞穗溫泉的規劃，整個就是很有吸引日本觀光客的賣點不是嗎？當然如果車廂內服務還能做出意料之外的小服務，我相信會讓乘客無比難忘。
+
+所以與其嘴砲台鐵不爭氣，我倒覺得台灣社會幾乎沒有集體來想像我們想要怎麼樣的鐵路交通，沒有廣泛認真想過如何讓鐵路服務更好、更好玩，如果說有，可能就是太魯閣號事故後，整個社會對台鐵的究責以及追求安全的呼聲，我得說安全議題絕對重要，但由這個點並沒有擴散出去，形成更全面的議題討論。  
+例如，你希望台鐵花東線更安全，是否願意讓他們提高票價，做更多安全維護？是否願意改革現有法令，讓他們從事更多高載量的南北物流或是特殊冷鏈物流？也許一些公路司機會失業，但將現今的國內物流承載方式重新調配，是否能讓台鐵增加收入，同時降低公路上貨運車輛，增加一般公路駕駛的安全？或是增加第三條鐵軌來分流快慢車，提高準點率？  
+  
+這些台灣公眾從沒討論，就只有交通專家或鐵道迷們參與，我覺得這才是台灣交通想要變革的阻力，民眾不參與，難道期待只求不功不過的交通官員做出什麼大步改變？
+
+相比台鐵，大馬鐵路資源絕對沒台灣多，台鐵在特殊車廂車輛的投資更遠比大馬有作為，今年台鐵也公司化成為台鐵公司，公司認為幾年內就可轉虧為盈，在這個組織轉型的契機點，希望台鐵可以好好把握機會。同理，台鐵有一些低成本的商業技巧，可以吸引人們搭乘，例如彩繪列車、復古車款、特定路線的郵輪式旅遊、紀念品，也值得馬來西亞鐵路學習。
+
+寫到這離題太遠了，總之，我覺得如果去馬來西亞旅遊，蠻建議搭看看他們 Platinum 列車 A 級車廂，是一般觀光客很少會去的體驗。  
+假如你是吉隆坡入境，可以嘗試搭乘吉隆坡中央車站，往怡保或太平的一日遊，透早第一班出發，晚上最後一班回吉隆坡；或是吉隆坡入境玩幾天，搭 Platinum 列車到怡保住一兩晚，再搭乘 Platinum 去北海（Butterworth），然後去渡輪口搭船去檳城玩，爾後從檳城直飛回台灣。純個人感受，我覺得旅程都待在大城市吉隆坡很無聊，建議可多往外走走看看。  
+  
+P.S.金座椅是我開玩笑的稱呼，別當真
+
+<table class="wpb-plt-table wpb-plt-table-hover">
+<thead>
+<tr>
+<th>Title</th>
+<th>Date</th> <th>Tag</th> </tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="/tobecontinued/">馬來筆記 Part5 未完待續</a></td>
+<td>2024-10-28</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
+<tr>
+<td><a href="/malaysianfood3/">馬來筆記 Part4 再談馬來西亞飲食（下）</a></td>
+<td>2024-10-17</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
+<tr>
+<td><a href="/malaysianfood2/">馬來筆記 Part4 再談馬來西亞飲食（中）</a></td>
+<td>2024-10-15</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
+<tr>
+<td><a href="/malaysianfood1/">馬來筆記 Part4 再談馬來西亞飲食（上）</a></td>
+<td>2024-10-14</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
+<tr>
+<td><a href="/penangtotainan/">馬來筆記 Part.3 從檳城看見台南的府城味</a></td>
+<td>2024-10-09</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
+<tr>
+<td><a href="/livingwisdom/">馬來筆記 Part.2 折衷的共存智慧</a></td>
+<td>2024-10-08</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
+<tr>
+<td><a href="/smoothtripml3/">馬來筆記 Part.1 行路不難(下)</a></td>
+<td>2024-10-07</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
+<tr>
+<td><a href="/smoothtripml2/">馬來筆記 Part.1 行路不難(中)</a></td>
+<td>2024-10-07</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
+<tr>
+<td><a href="/smoothtripml1/">馬來筆記 Part.1 行路不難(上)</a></td>
+<td>2024-10-07</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
+</tbody>
+</table>
+
+
+---
+
+# 馬來筆記 Part.1 行路不難(下)
+
+- 發佈日期: 2024-10-07
+- 最後更新: 2025-04-30
+- 作者: Austin
+- 分類: Malaysia
+- 標籤: MY2024
+- 原文網址: https://flavorinsight.com/smoothtripml3/
+
+> 被陌生人餵食的經驗實在很特別，讓我想起怕你餓的台灣阿嬤，與台灣擔心怠慢客人的熱情周到不同，當你表露對大馬食物的由衷喜愛，大馬人就會把你當朋友般分享，而不僅僅是一個外國人、觀光客或過路人！
+
+在大馬徒步旅行最大阻礙莫過於天氣炎熱，大城市還好，購物商場非常多，超商的密度也蠻高，有冷氣的咖啡廳也不少，時常進去吹吹冷氣修整一下再上路，但若是去小城市或偏僻點的地方，上面的商場、超市、咖啡廳都很少見，會熱到你反覆懷疑人生。  
+  
+我強力推薦去大馬一定要準備 Biore 的涼感濕紙巾（要選包裝上有 cool 小字樣的版本，沒 cool 字樣的沒用），多帶個兩包，你一定會感謝我，不要在台灣買身體降溫噴霧，那完全沒用，請抵達大馬後，在機場藥妝店，直接買兩瓶當地 Koolfever Spray 這個牌子的衣物涼感噴霧（下圖），裡面薄荷腦的成份高、酒精成分低所以不用怕過敏，只要你覺得身體有要燥起來，就趕緊往衣服前後噴好噴滿，相信我，這真的夠涼而且才能在大太陽曝曬下維持較長時間！台灣藥妝店賣的幾個牌子，都是噴上去瞬間有感，走在高溫環境，大概一分鐘就毫無效果了，純粹是智商稅… 不知道為何沒看過旅遊部落客介紹 Koolfever Spray 這個降溫神器，我準備搭機離開大馬時，還特地帶了兩罐回台，你看有多愛它（有擅長做網購進口的推友可留意，這是一個超適合引進台灣的商品）。
+
+<figure class="wp-block-image size-large is-resized"><img alt="" class="wp-image-135" decoding="async" height="768" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/cool.jpg" style="width:898px;height:auto" width="1024"/></figure>
+
+也許是我經常跑去沒觀光客會去的地方，就常被當地人拉著攀談或餵食😂 可能你會好奇跟大馬人可以聊什麼？聊天通常語言能力要好，其次是要有話題可以一直談論，我語言能力算蠻不錯，不過馬來西亞的語言能力所重視的面向，跟我們習以為常的很不同，下一篇會再細說，經過跟幾個路人嘗試後，我很快就掌握讓任何大馬人會喜歡跟你一直聊下去的的話題 – 談論食物！
+
+跟美國人 small talk 的禁忌一樣，盡量不要跟大馬人談論政治，尤其是非華裔，因大馬人的政治立場跟種族矛盾是高度重疊的密集雷區，尤其跟你族裔不同時，很容易讓人不想跟你談下去，但面對大馬華人，就無所謂，許多馬華的叔叔阿姨們，可是對台灣政治瞭若指掌，馬華處在政治弱勢，面對台灣人，也較願意分享大馬社會下隱藏的不平等與不自由的點，但一般來說，除非很熟，否則人們還是不願意跟外國人說自己國家不好的點。
+
+<figure class="wp-block-image size-large is-resized"><img alt="" class="wp-image-136" decoding="async" height="1024" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/271499.jpg" style="width:582px;height:auto" width="772"/><figcaption class="wp-element-caption">檳城咖哩麵神人六叔與身穿挺基隆罷樑 T-shirt 的我😆，六叔是已故的施明德鐵粉，其素食咖哩麵真是絕品美味，跪推</figcaption></figure>
+
+綜合來說，無論跟哪一種大馬民族開啟對話，聊食物就成為門檻最低、效果最好的話題！其次則是誇讚大馬，第三則是音樂。大馬人對自己食物是又熱愛又自豪，當被攀談時，話題就可以如下面範例這樣開始（多數是英語夾雜台語跟中文，我打成中文，方便讀者閱讀）
+
+> 如果是馬來人：你從哪來？來旅行或工作？  
+> 我：我從台灣來，在台灣認識了很多大馬朋友，他們知道我喜歡吃漢堡，一直跟我推薦馬來西亞的 ramly burger，這趟旅行，很希望能品嚐到各種美味的 ramly burger，能跟我推薦你吃過最好吃的 burger嗎？
+
+> 如果是華人：你從哪來？來旅行或工作？  
+> 我：我台灣人，第一次來怡保玩，特別想來吃芽菜雞，aunty，你平常最喜歡吃哪一家芽菜雞？
+
+> 如果是印度裔：中國人？來旅行或工作？  
+> 我：我是台灣人，來檳城第三天了，說真的，我覺得馬來西亞食物實在太美味太驚人太特別了（跟印度裔聊天，形容詞多堆砌、表情豐富點就對了）！不過我感到有點困惑，咖哩跟 laksa 的區別是什麼？種類這麼多，常常不知道怎麼點餐
+
+你會發現無論對方問什麼，我都把回答導引到馬來食物，記得要具體說出食物的名稱😆 常常聊著聊著，對方就帶我去他推薦的店，或是給我美食情報，又或是為我講解馬來食物的料理方式、吃的方法…等等，更有幾次是邊聊，對方邊轉頭跟旁邊小販點餐，說著一些我聽不懂的詞彙，似乎是交代他們要怎麼特別製作調味，接著把餐點塞給我吃，並一邊解釋如何吃，被陌生人餵食的經驗實在很特別，讓我想起怕你餓的台灣阿嬤，與台灣擔心怠慢客人的熱情周到不同，當你表露對大馬食物的由衷喜愛，大馬人就會把你當朋友般分享，而不僅僅是一個外國人、觀光客或過路人！非常感謝這次一路上偶遇、關照我這吃貨的大馬朋友們。
+
+<figure class="wp-block-image size-large is-resized"><img alt="" class="wp-image-139" decoding="async" height="1024" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/IMG_20240830_142625.jpg" style="width:585px;height:auto" width="768"/><figcaption class="wp-element-caption">被陌生印度小哥請的飲料</figcaption></figure>
+
+如果你本身是個 small talk 高手，我相信不管在什麼國家，應該都能跟當地人相處的很好，當然啦，不管別人怎麼對待，我們終究是外國人，一些禮儀還是要遵守，我覺得有三點比較要注意
+
+1. 茶餐室 (Kopitiam) 或是巴剎（市場）邊的餐桌椅，當你坐下來後，就會有茶水小販過來問你要喝什麼，記住，無論你想不想喝，只要坐下來就一人要點一杯喝的，我本身很不愛喝飲料，在台灣也是一年喝不到幾次手搖飲的人，但在這裡，點茶水是必要的消費習俗，茶水看場合也會有水準差別，馬來西亞國內也經常在討論這習俗是否合宜，因為有些小攤的茶水品質過於低劣，但又不得不點，實在惱人。  
+     
+   既來之則安之，後來我也習慣並找到其中樂趣，像我們去西式餐酒館，享受的不只是吃食，還有與之搭配的酒飲，我嘗試在茶水小販過來詢問時，先告知他我點了什麼餐點，請他幫我推薦最適合搭配的茶水，像把他當侍酒師使用🤣，於是品嚐到滷肉配菊花茶、炒粿條配涼茶、福建麵配龍眼茶、乾粉炸料配紅豆冰沙，當然也有被推薦過很雷的飲料，我自己還嘗試搭配過福建蝦麵配冰杏仁茶（這很搭❤️）、叉燒雲吞麵配虎咬獅、潮州粥配印度奶茶、白咖哩麵配甘蔗汁…等，只要懂得怎麼跟茶水小販打交道，點茶水這件事也成為吃食體驗的加分項。  
+     
+   小知識：有些茶水單會有紅毛水這個選項，即是蘇打水、汽水
+
+<figure class="wp-block-image size-large is-resized"><img alt="" class="wp-image-137" decoding="async" height="768" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/IMG_20240901_144803.jpg" style="width:846px;height:auto" width="1024"/></figure>
+
+2. 廟宇，無論是中式廟宇、清真寺或興都廟，若進去內部後，不要把它當成網紅景點在那邊吵鬧擺拍，中式廟宇對進出比較寬鬆，清真寺與印度廟則通常有開放參觀的時間，不要冒冒然就亂闖，進去也有服儀穿著的習俗，可上網先做做功課。
+
+3. 大馬抽菸者指南：馬來西亞的禁菸規定非常嚴格，官方的理想是能做到類似新加坡、日本，效果也確實是有的，煙草大廠Philip Morris(美股 PM) 這幾年在大馬的紙菸銷售量下滑的非常厲害，不過一次性電子菸的銷量卻同時大增，並且消費族群有往更年輕化發展，目前多數許可電子菸的國家都有這種現象，明明是為了降低年輕人吸菸，可是禁止紙菸影響不大，反倒是開放電子菸對年輕人吸引力更高。  
+     
+   總的來說，不想給大馬官方造成困擾，所以接下來我隱晦地講，法規來講，大馬可以說處於全面禁菸的程度，只有特別設置的吸菸區才可以，但官方規劃的區域少之又少，因此還是很多人在不可抽菸的場所抽菸，此外，不同城市的執法力度差異很大，越是小地方，執法力度越低，守法意識也越低，也就產生一種奇妙的狀況，法規很清楚，可是執法與守法的範圍卻極度模糊，但我總歸了五個“絕對不要抽菸“的地點，包括電子菸，就是學校附近、廟宇周遭、餐廳旁、交通設施、政府機構附近。  
+     
+   首先不要帶菸跟電子菸入境，很容易被查沒罰款，在當地超商買就可，如果你本身有很高的抽菸需求，住宿時請先確認旅館有設置吸菸區或吸菸室，然後買個一次性的電子菸，抽起來比較不起眼，並且只要不是上面五個地點，偷偷抽不太會有人管你，好了我就說到這😌還是請吸菸朋友（盡可能地）遵守當地法規，不丟台灣人的臉。
+
+旅途中，一位意外很談的來的馬來朋友曾跟我說：「**大馬社會包容而且多元，並不自由**」，在我看來並不盡如此，中國有所謂潛規則，源自於 CCP錢權的基礎，隱性的箝制多數人，也讓多數人自我限制。  
+我看見的馬來西亞是多民族治理的情境，讓他們在價值上，必須首要先追求多民族的包容、凝聚、團結，包括前述法規強硬與執法彈性的落差，根本原因也是多民族治理力道的困難，因此大馬也是個自由民主的政體，如同新加坡也是，可能跟我們習以為常的不太一樣，但絕對不是中國那樣充滿極權特徵與叢林法則的社會風範，大可放心。  
+  
+順帶一提，上述大馬朋友經營一家手工藝/藝術品/文創商品的選物店 Timura @ Armenian （[google map](https://maps.app.goo.gl/PgvAnfP7sXLH1NqSA)），是個親切健談的姐姐，有去檳城的朋友，歡迎去找她喝杯茶、買點別緻的伴手禮、聽聽檳城與大馬的故事。隔壁的名香泰餅家（Ming Xiang Tai），美味的蛋塔、咖央餃、雞肉叉燒包務必試試，台灣也有的老婆餅與蛋黃酥大可不必了。  
+  
+所有內容純粹為個人旅途的觀察、對談後的體悟，若有良性的見解歡迎指教，若要政治意見筆戰，恕不奉陪。
+
+<table class="wpb-plt-table wpb-plt-table-hover">
+<thead>
+<tr>
+<th>Title</th>
+<th>Date</th> <th>Tag</th> </tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="/tobecontinued/">馬來筆記 Part5 未完待續</a></td>
+<td>2024-10-28</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
+<tr>
+<td><a href="/malaysianfood3/">馬來筆記 Part4 再談馬來西亞飲食（下）</a></td>
+<td>2024-10-17</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
+<tr>
+<td><a href="/malaysianfood2/">馬來筆記 Part4 再談馬來西亞飲食（中）</a></td>
+<td>2024-10-15</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
+<tr>
+<td><a href="/malaysianfood1/">馬來筆記 Part4 再談馬來西亞飲食（上）</a></td>
+<td>2024-10-14</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
+<tr>
+<td><a href="/penangtotainan/">馬來筆記 Part.3 從檳城看見台南的府城味</a></td>
+<td>2024-10-09</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
+<tr>
+<td><a href="/livingwisdom/">馬來筆記 Part.2 折衷的共存智慧</a></td>
+<td>2024-10-08</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
+<tr>
+<td><a href="/smoothtripml3/">馬來筆記 Part.1 行路不難(下)</a></td>
+<td>2024-10-07</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
+<tr>
+<td><a href="/smoothtripml2/">馬來筆記 Part.1 行路不難(中)</a></td>
+<td>2024-10-07</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
+<tr>
+<td><a href="/smoothtripml1/">馬來筆記 Part.1 行路不難(上)</a></td>
+<td>2024-10-07</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
+</tbody>
+</table>
+
+
+---
+
+# 馬來筆記 Part.2 折衷的共存智慧
+
+- 發佈日期: 2024-10-08
+- 最後更新: 2025-04-30
+- 作者: Austin
+- 分類: Malaysia
+- 標籤: MY2024
+- 原文網址: https://flavorinsight.com/livingwisdom/
+
+> 同一道菜，不同族裔有不同的側重，華人在意米的烹煮，馬來人首重辣醬的層次感，印度人則更希望能在其中吃到熟悉的傳統風味，多樣性的交融就是馬來西亞食物最有趣之處
+
+出發之前，我對馬來西亞眾所皆知的多種族多元文化已經有心理準備，實際抵達後，遠比書籍或網上資料，有更強烈的衝擊與感觸。
+
+文章篇幅很長，下面是AI生成的摘要聲音檔，可聽聽有興趣再讀全文
+
+<figure class="wp-block-audio"><audio controls="" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/dq4sq4m28pi5d3.mp3"></audio></figure>
+
+大馬經常看到不同族群之間的差異，可是下一刻又看到族群沒有差別的點，例如當我在檳城的觀音廟時，廟宇與周邊巷弄的格局，都有身處彰化或台南古都的感受，若是真的拿檳城觀音廟與彰化觀音亭做座標參照，就會發現非常多相似處，觀音廟都處在最起初的城區範圍的正中心點，彰化關帝廟的位置，在檳城出現的是印度廟，彰化孔廟的位置在檳城則是基督教堂，鄰近還有清真寺與福德祠，有興趣可嘗試將地圖旋轉做空間參照，大馬對信仰的需求不分族裔，在有限的街區空間，各信仰各安其所的共存，所以這條街又稱為「和諧之街」。
+
+<figure class="wp-block-image size-large is-resized"><img alt="" class="wp-image-155" decoding="async" height="1024" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/temple.jpg" style="width:526px;height:auto" width="891"/><figcaption class="wp-element-caption">檳城與彰化，城市早期的規劃 都以觀音亭作為中心點</figcaption></figure>
+
+走進了附近的茶餐室(kopitiam)，看到多族裔不分信仰一起擠在茶餐室用餐，一開始會以為雞飯、雲吞麵可能華人愛吃，海南麵包與咖哩雞可能是印度裔，nasi lemak 則是馬來人，實際上全然不是這麼一回事，信仰也許無法共享，但在飲食上，除了伊斯蘭信仰者必須遵守的飲食戒律，大馬人不分族裔，只要是好吃的都會大口吃下。
+
+<figure class="wp-block-image size-large"><img alt="" class="wp-image-249" decoding="async" height="1024" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/IMG_20240904_155939.jpg" width="768"/><figcaption class="wp-element-caption">馬來西亞有多愛nasi lemak，從肯德基也不得不賣就看的出來</figcaption></figure>
+
+馬來西亞朋友很喜歡推薦外國人吃辣死你媽（nasi lemak），辣死你媽實際上多數並不辣，是一種椰漿飯，搭配炸江仔小魚與叄巴辣醬 （sambal tumis），這也是一個多民族共享的料理，你可以在吉隆坡由華人掌廚的 Village Park 餐廳，吃到清爽卻奇香無比的椰漿飯
+
+<figure class="wp-block-image size-large"><img alt="" class="wp-image-150" decoding="async" height="1024" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/Nasi.jpg" width="683"/></figure>
+
+也可以清晨時在馬來婦女開的街邊檔口，吃到辣到你想叫媽的叄巴辣醬（sambal tumis），印度廟附近的 nasi lemak 則增添些許印度香料飯（nasi briyani）的風味，印度風味的配菜比例高，如坦都里烤雞與脆餅。我個人則最喜歡 nasi lemak 搭配仁當牛肉或亞參蘇東（asam sotong），然後再點上一塊馬來炸雞，熱量爆表這種事來馬來西亞就請忘了吧。
+
+<figure class="wp-block-image size-large is-resized"><img alt="" class="wp-image-151" decoding="async" height="683" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/Nasi-lemak.jpg" style="width:833px;height:auto" width="1024"/></figure>
+
+同一道菜，不同族裔有不同的側重，華人在意米的烹煮，馬來人首重辣醬的層次感，印度人則更希望能在其中吃到熟悉的傳統風味，多樣性的交融就是馬來西亞食物最有趣之處，例如前述Village Park 的華人老闆烹煮椰漿飯的秘訣是連蒸三回逐次添料（下圖），這種手法在印度香料飯（nasi briyani）就常被使用，是創始人自己揣摩出來的或確實跟印度料理借鏡，不得而知。我還見過不少馬來人經營的 nasi lemak ，裡面放的不是最常見的水煮蛋或煎蛋，而是中式鹹蛋！可惜我當時已經飽到絲毫吃不下，否則很想嚐嚐那是什麼滋味。
+
+<figure class="wp-block-image size-large is-resized"><img alt="" class="wp-image-156" decoding="async" height="726" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/IMG_20240903_153747.jpg" style="width:887px;height:auto" width="1024"/></figure>
+
+即便不同族裔的料理人有不同風味，客群往往不會因此受限，大馬人味覺的偏好光譜實在很寬，美味的店家不管什麼族群的客人都有，大馬人對待不同飲食文化的態度是非常平等的（當然政治上未必平等），這點我覺得台灣社會值得學習，我們談論飲食時，還是常不自覺帶著社經階層的刻板印象。
+
+料理的思維在不同族裔，也經常有異曲同工之妙，例如薄餅是大馬所有民族都有各自的料理方式（可翻閱[陳靜宜老師的著作](https://www.books.com.tw/products/E050027426?sloc=main)），華人的福建蝦麵以濃郁的蝦味湯頭聞名，我發現馬來人料理也有一個 mee udang 的蝦麵料理，兩者沒有直接關係，但是料理創作的思路非常雷同，咖哩麵、雞飯（nasi ayam）也是同樣的例子，不同族裔做出來的口味也截然不同，各有其精妙之處，所以來到檳城，除了各種茶餐室，印度裔的嘛嘛檔（mamak）也一定不能錯過。
+
+<figure class="wp-block-image size-large is-resized"><img alt="" class="wp-image-152" decoding="async" height="683" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/mee-udong.jpg" style="width:860px;height:auto" width="1024"/><figcaption class="wp-element-caption">左為mee udang  右為福建蝦麵 可看出調味方式全然不同</figcaption></figure>
+
+路途中的感觸：**在大馬，你以為是界線的地方，其實只是你認知的界線，你見到界線的地方，也許明天就發現新的事物輾過去，讓先前的界線毫無痕跡。**
+
+最明顯的界線被改變來自於自己的變化，才一兩天，我講話也開始中文台語英語夾雜，本來三種語言我都算道地，混在一起夾雜講，我感覺自己語感都錯亂了，聽到自己口中說出類似晶晶體的話，還有種難以言喻的羞恥感。有時候，談話的對象還夾雜馬來語或廣東話，但他沒意識到，對話時，我必須講的同時判斷對方反應，經常一句話還沒講完，發現對方不懂，就要快速切換另一個語言的詞彙，來讓對方理解我意思，當我切換越快越順暢，他越覺得我好聊而且語言能力好，我甚至被逼著偶爾冒出日文，可是即便一句話我夾雜三個語言，但對方毫不在意。
+
+這打破我過往的語言習慣，大馬語言能力好的基本標準，是語系的廣度與詞彙的包容度，而不是發音的精準或語彙的深度，作為標準話的馬來語原先就是拼裝而來，在不同族群的使用下，相同的語彙固然多，但各族群把自己語言的更多慣用語夾藏進去或挪用，讓馬來語變得更具包容與多元性（當然也更複雜了），隨著不同文化背景的人們頻繁相互流動、交融和交流，所有的文化界線都變得越來越難以辨識。
+
+福建移民是大馬華人中最多的，普遍都會說福建話，不過台灣台語跟馬來西亞的福建話差異不小，北部的檳城福建話向馬來語的借用語較少，我們聽起來就較好懂，但越往中部南部借用語越多、發音腔調越重，甚至混進潮州、客家或馬來語，聽起來就極吃力，對凡事喜歡追根究底的我來說，讓自己放輕鬆接受這些交融後的語言產生的不解，充滿好奇心卻無法被滿足，著實難受（有些詞彙大馬人也不知道從何處用過來，或為何這樣使用，多數時候就只是習慣這樣說，或聽人這樣說過就學起來用），可能得真格去當地長時間進行田野調查，才能更清晰的梳理出脈絡。
+
+**土生華人 (Peranakan)**
+
+事實上，即便是如今大馬的五大族群中，馬來西亞華人也並非是那麼純粹華味，像是還有土生華人、土生葡萄牙人這些，土生華人 (Peranakan) 詞意是由馬來語的 Anak (本地的) 與 Child (孩子) 組成，是指馬來本地人與外國人通婚後的後裔，由於族群混合的多樣性，土生華人只是一個模糊的詞彙，像是菲律賓就有極多不同的混血族裔的稱呼與分支，例如麥士蒂索人 Mestizo 就包含華裔混血、西班牙裔混血、阿拉伯裔混血…等等。
+
+在馬來的土生華人 (Peranakan) 中，最特色鮮明的莫過於峇峇娘惹(Babas Nyonyas)，不過若釐清血緣與認同，可以說峇峇娘惹 (Babas Nyonyas) 都是土生華人 (Peranakan)，但不是每個土生華人 (Peranakan) 都是峇峇娘惹 (Babas Nyonyas) 人，以下簡稱娘惹人，娘惹人也並非馬來專屬，泰國、緬甸、印尼、新加坡等地也有。
+
+娘惹人是少數族裔，並不是我們刻板印象中文化落後的少數民族，家族成員有的甚至可溯源到十代以上，祖輩遠在荷蘭殖民前就定居在馬來、爪哇，取了當地女性為妻，生下的男孩稱為「峇峇」，女孩則名「娘惹」，默默累積家族財富，太田泰彥描述到在英國取代荷蘭統治麻六甲等地後，峇峇娘惹來到最顛峰的財富盛世，富裕促進了對消費文化品味的精雕細琢，關於娘惹人的興衰與文化特徵，有興趣多了解推薦日本記者太田泰彥寫的【[發現峇峇娘惹](https://www.books.com.tw/products/0010971469?srsltid=AfmBOooOdcH9MrBvf664q78Ks_UllXm1VtTCJO-Jk-IsE2SL-NFN_v4m)】。
+
+我對娘惹族群充滿好奇，很大一部分來自他們的文化產物之獨特品味，已經顯著地與祖輩的家鄉中國，有很高的歧異性，當一個移民或混血的社群與原生中國的社群，在文化發展走向不同方向時，這還能稱為同一個民族嗎？巔峰時的娘惹人是否有自覺自己在消費與文化上的高度，已經遠超過當時的中國？當這個自覺意識與財富自由的雙重條件出現時，他們還會維持對祖籍的國族認同嗎？他們之中有人經歷過對祖國幻想的破滅嗎？
+
+好奇感的第二部分也源自參照台灣人的處境，有許多人即使祖上不是 1949 遷徙來台，是在台灣落地生根數代，有的長達兩百年以上，例如號稱祖先來台至今十代的連勝文，但還是抱著落葉歸根的不切實際，又例如某位明明是在台灣好幾代的台灣人政客，卻將自己的名字改為崑崙山上的一株小草？他祖籍也跟崑崙山脈所處的省分八竿子打不著！不僅這群別有居心的政治人，我很納悶這群成天喊著落葉歸根的台灣民眾，會不會是對自身移民文化的不自信與充滿刻板印象？是什麼區分了芋頭跟番薯？
+
+對峇峇娘惹的諸多好奇探索與疑問，也引發我反覆再確認自己的認同歸於何處？政治光譜的我是 1450，文化認同跟族群認同上，我算是驕傲的土生台灣人吧 (笑)。  
+  
+以往學術中有許多關於離散人群 (diaspora) 的認同討論，在研究 18、19 世紀東南亞，都以海外華人作為含糊的描述主體，其中各族裔族群較欠缺深刻研究，偏偏娘惹人社群歷來就是低調、封閉，藏身在馬來人、華人中，神秘的色彩讓外人很難有機會接觸到他們，這趟旅程我積極地跟路人攀談，某個程度也是想碰碰運氣，看看是否能遇到明確族裔認同的的娘惹人，可惜沒直接遇到，不過遇到一位檳城朋友，其 70 幾歲的娘惹奶奶，是製作傳統娘惹服裝與珠繡鞋的老師傅，他願意在我下次去檳城時會幫忙引見，希望下一趟有機會能認識更多。
+
+身處大馬，有多熟悉感，卻也時常被陌生感挑戰，像在伊斯蘭博物館看文物，突然看到聲援加薩的童畫特展，才被提醒到這是一個伊斯蘭信仰，且與我對以哈戰爭的政治立場截然相反的國家，同樣伊斯蘭兄弟，新疆維吾爾人不也是伊斯蘭嘛，所以與其說是盲目的宗教信仰，更多還是國家政治的選擇。
+
+<figure class="wp-block-image size-large is-resized"><img alt="" class="wp-image-165" decoding="async" height="631" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/IMG_20240903_112629-1.jpg" style="width:772px;height:auto" width="1024"/></figure>
+
+<figure class="wp-block-image size-large is-resized"><img alt="" class="wp-image-157" decoding="async" height="1024" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/gaza.jpg" style="width:769px;height:auto" width="1024"/></figure>
+
+又或是正當我心滿意足吃完 Nasi Kandar 在散步，迎面就看到紅通通的招牌「馬來西亞一代一路研究所」，朝貢體系是前殖民時代的古中國維持東南亞影響力的方式，一代一路是中共試圖重建現代版本的朝貢體系，好喔，身為一個外國人沒資格說什麼，只是感受到這國家政府，對內淡化華人影響與強化馬來認同，對外有利益之處，也毫不猶豫親中，同時也跟美國討好處，在大國博弈間求生存，馬來西亞數百年的歷史一直是如此走過來的，這樣一個國家會輕易變成中共一代一路的魁儡嗎？我是存疑的
+
+<figure class="wp-block-image size-large is-resized"><img alt="" class="wp-image-158" decoding="async" height="1024" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/IMG_20240901_074207.jpg" style="width:725px;height:auto" width="768"/></figure>
+
+無論如何，馬來西亞就是這麼複雜又迷人。
+
+<table class="wpb-plt-table wpb-plt-table-hover">
+<thead>
+<tr>
+<th>Title</th>
+<th>Date</th> <th>Tag</th> </tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="/tobecontinued/">馬來筆記 Part5 未完待續</a></td>
+<td>2024-10-28</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
+<tr>
+<td><a href="/malaysianfood3/">馬來筆記 Part4 再談馬來西亞飲食（下）</a></td>
+<td>2024-10-17</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
+<tr>
+<td><a href="/malaysianfood2/">馬來筆記 Part4 再談馬來西亞飲食（中）</a></td>
+<td>2024-10-15</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
+<tr>
+<td><a href="/malaysianfood1/">馬來筆記 Part4 再談馬來西亞飲食（上）</a></td>
+<td>2024-10-14</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
+<tr>
+<td><a href="/penangtotainan/">馬來筆記 Part.3 從檳城看見台南的府城味</a></td>
+<td>2024-10-09</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
+<tr>
+<td><a href="/livingwisdom/">馬來筆記 Part.2 折衷的共存智慧</a></td>
+<td>2024-10-08</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
+<tr>
+<td><a href="/smoothtripml3/">馬來筆記 Part.1 行路不難(下)</a></td>
+<td>2024-10-07</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
+<tr>
+<td><a href="/smoothtripml2/">馬來筆記 Part.1 行路不難(中)</a></td>
+<td>2024-10-07</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
+<tr>
+<td><a href="/smoothtripml1/">馬來筆記 Part.1 行路不難(上)</a></td>
+<td>2024-10-07</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
+</tbody>
+</table>
+
+
+---
+
+# 馬來筆記 Part.3 從檳城看見台南的府城味
+
+- 發佈日期: 2024-10-09
+- 最後更新: 2025-04-30
+- 作者: Austin
+- 分類: Malaysia
+- 標籤: MY2024
+- 原文網址: https://flavorinsight.com/penangtotainan/
+
+> 檳城人都異常喜歡豬油、豬油渣與講求炒菜的生猛鑊氣，薄餅有豬油渣，粿條湯、福建麵也都有，檳城人對炒粿條的要求就如同台南人對待炒鱔魚意麵，沒鑊氣，料理就沒了靈魂，這點我感同身受
+
+下面音訊為本篇內容使用Notebook LLM的AI生成
+
+<figure class="wp-block-audio"><audio controls="" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2025/04/南島相遇：檳城與台南的飲食交流.mp3"></audio></figure>
+
+喜愛研究台菜與台灣小吃的人，都會去深掘台南，我年輕時就因此經常去台南吃吃喝喝，驚訝的是，檳城跟台南，相似處甚至遠多於相異處，對於思考台菜、研究台菜的人，去認識檳城飲食風貌與演變會是很好的拓展點，我未來幾年肯定會常常去檳城 ~~做飲食研究~~ 暴飲暴食
+
+1. 檳城會說福建話的人多，甚至非福建人如潮州、客家、粵，也都習慣了福建話，台南也是，很多客家人甚至都忘了怎麼講客家話，而是以福建話為母語了
+
+2. 都曾是殖民時代的重要港口，市中心高樓少，古房小巷保存很多，當然檳城因為列入世界文化遺產，保留與維護的更完善，尤其是所謂 shophouse、排屋、殖民時代的洋房…等等。
+3. 飲食的調味都很細緻，即使平民飲食也講究，高檔人家的飲食則有低調的炫富感 (檳城有娘惹菜，台南則是辦桌菜、酒家菜、阿舍菜)，窮有窮的講究富有富的寬裕
+4. 馬來海南人發明的 roti babi跟台南的棺材板不同源頭卻極為相似，都是西方餐點的華人式改良，吃的時候都是類似西餐使用刀叉，roti 是印度語的一種烤餅、馬來語借來指稱麵包，babi是豬肉。  
+     
+   食物味道姑且不論，我覺得值得玩味，海南人作為華人的一族裔，卻使用馬來語 roti babi 來命名這道料理，問題是馬來人不吃豬肉，這是一個伊斯蘭教徒看到會搖頭的料理，為何要借用馬來語呢？想到台南的棺材板，也是乍聽會讓人有些生畏的名字，除了因為外型，有沒有可能最早的料理發明人對於這種中西合併式餐點能否賣得出去，心裡也是存疑，畢竟所謂創意料理常常跟暗黑料理只有一線之隔呀🤣，最後抱著豁出去的想法，先用料理名稱博取注意吧，即便過客不敢吃，也容易再把這個料理名稱用口語傳播出名氣，以上純粹是個人旅途中的胡思亂想。
+
+<figure class="wp-block-image aligncenter size-large is-resized"><img alt="" class="wp-image-188" decoding="async" height="768" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/IMG_20240831_200515.jpg" style="width:788px;height:auto" width="1024"/><figcaption class="wp-element-caption">roti babi 或海南雞排、豬排，習慣搭配 李派林(<em>Lea</em> <em>and</em> <em>Perrins</em>)的伍斯特醬，你覺得看起來像不像台南棺材板呢</figcaption></figure>
+
+5. 天氣差不多，日照也充足，可能這是都很愛喝飲料口味偏甜的原因之一，檳城用椰糖、棕櫚糖，台南則是用冬瓜糖、紅糖，都各有獨特香氣
+6. 檳城的福建面跟台南的擔仔麵是兄弟! 都是原鄉福建蝦麵的變化! 甚至，檳城還有知名的”擔仔飯”，這是我自己稱呼的，實際的名稱是Nasi Kandar，也是檳城必吃的美食之一
+
+<figure class="wp-block-image aligncenter size-large is-resized"><img alt="" class="wp-image-189" decoding="async" height="1024" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/IMG_20240901_074803.jpg" style="width:504px;height:auto" width="768"/><figcaption class="wp-element-caption">店家彩繪舊時代擔仔飯Nasi Kandar樣貌當做行銷</figcaption></figure>
+
+7. 檳城/台南的福建話都保留得比其他地方完整道地（跟其他語言的借用詞較少），生活步調較慢講話較慢 (台南人講話慢走路慢是出名的)，語言是文化的傳播工具，語言越是穩定，既有文化的傳承更是穩定，這趟從北馬到中部，越往南，福建話越像馬來話，語速快且腔調重，跟馬來語的借用語非常多，與其說是像馬來語的福建話，在我耳中聽起來是更像福建話的馬來語。  
+     
+   當然福建話本身在原鄉福建，就因地域不同有非常多分支，即便在台灣，台語也有山線腔、海線腔、宜蘭腔…等的明顯差別，大馬福建話因南北距離差別大也是可想而知。我在檳城大概一句福建話能聽懂 7 成，到了巴生，只能聽懂 3成，瞬間感覺自己台語能力變好爛（但其實不是），移民的語言來自原鄉，卻並不歸屬原鄉，而是屬於遷移後的他鄉，以及屬於已落地生根的社群家鄉所有，大馬的福建話雖名為福建，曾被稱為閩南語的台灣台語，語言內涵的文化都已經是與原鄉福建八竿子打不著的事物了。
+8. 很多很多傳統廟宇跟佛道教慶典儀式像是盂蘭節（中元節），愛拜拜敬神酬神，台南也是，信仰是維繫當地華人社群傳統的重要媒介。在大馬，有蠻多台灣未見的神明，最常在路邊看到的小廟，起先以為是土地公，聽當地人說才知道是拿督公，這次去檳城適逢中元，見到很特殊的大士爺祭典，上網一查，台灣僅有嘉義民雄有信仰大士爺，歷史非常久，嘉義這間廟跟檳城是否有歷史聯繫頗讓人好奇。
+
+<figure class="wp-block-image aligncenter size-large is-resized"><img alt="" class="wp-image-191" decoding="async" height="768" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/IMG_20240830_083429.jpg" style="width:950px;height:auto" width="1024"/><figcaption class="wp-element-caption">建德堂(大伯公廟)內有一座金碧輝煌的酬神戲台</figcaption></figure>
+
+9. 異常多古老的糕點店，從傳統中式港式的糕點到現代一點的西式都有，也因為宗教祭典頻繁，部分老店會在祭典製作給神明的特殊供品糕點，例如下圖左上的 胡榮發餅舖 ( [影片](https://youtu.be/1IQpv3j2v5c?si=Z4mziJxn_nbdwYH9) ) 就有很多連我都沒看過的罕見閩南老式糕點。台南的九層糕跟檳城的娘惹糕出自同源，但往不同方向下功夫。
+
+<figure class="wp-block-image aligncenter size-large"><img alt="" class="wp-image-203" decoding="async" height="878" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/bake.jpg" width="1024"/><figcaption class="wp-element-caption">我實在很喜愛外皮酥脆、內餡清爽的咖央角，上右圖中有夾必糕（kuih kapit ），可惜我當下有眼無珠沒認出來</figcaption></figure>
+
+10. 檳城/台南都醬油成癮，檳城人喜愛的黑醬油（kicap manis 一種濃甜味的老抽醬油）、蝦醬，台南人則喜歡醬油膏、白醬油，甚至都會拿醬油來當水果的調味醬。檳城的羅惹Rojak（馬來語意思是大雜燴），就是用黃瓜、鳳梨等水果，加上炸油條、蝦餅、魚餅以及花生碎，然後淋上蝦膏混合黑醬油的醬汁去食用的一種沙拉，讓我吃起來很困惑，台南也有非常類似的鹹甜混合的飲食習慣（同樣讓我困惑）！台南當地水果行都會賣水果附上白糖紅糖、甘草粉、薑泥、醬油膏、薑之類的沾醬!! 檳城朋友來台南吃到，應該會有親切感。  
+      
+    這種飲食習慣，應該是同源的飲食習慣，台灣在荷治時代，引進了非常多東南亞與美洲的水果品種，不過在那個時代，植物育種來提升品質的技術還不普遍，水果的甜度並不如現代，通常會帶著酸味與蔬果的生澀味，因而加入鹽糖等調味料，來提升水果的風味，是古早閩粵移民面對異國水果的共同料理本能，不過 Rojak 這個詞彙在殖民時代前的印尼爪哇語中就有類似的食物，由此可見這個食物最早可能是原生南亞，隨著中國商人與華人移民到來後，帶來新的醬油調味料去調整口味，爾後才逐漸變成我們如今在新馬等地看到的模樣。
+
+<figure class="wp-block-image aligncenter size-large"><img alt="" class="wp-image-209" decoding="async" height="607" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/IMG_20240829_195934.jpg" width="1024"/></figure>
+
+<figure class="wp-block-image aligncenter size-large is-resized"><img alt="" class="wp-image-199" decoding="async" height="768" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/IMG_20240830_193419.jpg" style="width:732px;height:auto" width="1024"/><figcaption class="wp-element-caption">滷肉（lor bok）是不是很像香腸熟肉</figcaption></figure>
+
+10. 檳城的滷肉（lor bok） 就是一種以台灣的五香豬肉捲或叫雞捲 (沒雞肉) 為主的炸料拼盤，是的，不是只有現代人懂用炸物解憂，古人也知道，沒有什麼問題是炸物不能解決的對吧（大笑），吃lor bok的時候，還會配其他炸豆腐、炸粿等等的炸料，沾甜辣醬吃，跟台南的香腸熟肉，在料理手法跟醬料都非常相似。不過台灣豬肉品質實在太高，台灣料理對加五香粉的依賴就低很多，調味下的份量相對輕，我們更追求料理要能凸顯或不能遮掩食材的原味，以及油炸的技巧，這應該是受日本文化影響，而馬來炸料內餡，用更多功夫在精進辛香料去輔味，我在陳靜宜老師的書看到檳城博愛堂的五香粉是一絕，當地朋友送了我幾包回台，的確是我至今聞過香氣最強烈的五香粉！  
+      
+    既然說到檳城 lor bok，咱們台南知名的美玉炸料也很有特色，但讓我大開眼界的是怡保的忠記大樹頭炸料粉，攤子包含了至少六種族裔以上的食材，像是廣東人的炸雲吞、百花油條、客家人的釀豆腐、福州人的魚丸炸以及馬來在地的炸沙葛！是的，只要是好吃的，小孩才做選擇，大馬人全都要吃😂觀察大馬餐飲裡多元文化的碰撞是除了吃以外的莫大樂趣。此外下圖的炸料粉可注意看其中的(豆)芽菜，怡保的芽菜跟台灣的長相不同，短肥但多汁可口，據說是水質不同，所以大馬其他城市也吃不到這種芽菜。  
+      
+    另外如果你在大馬菜單看到油炸鬼這個詞，指的是油條，油炸鬼是油炸粿的諧音，是的，馬來華人也莫名其妙很迷諧音。
+
+<figure class="wp-block-image aligncenter size-large is-resized"><img alt="" class="wp-image-194" decoding="async" height="683" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/fry.jpg" style="width:966px;height:auto" width="1024"/><figcaption class="wp-element-caption">乾的炸料粉本體就是廣東梅州客家人的醃粉麵，但還可以點湯的 laksa 或其他族群的麵食來搭配炸料</figcaption></figure>
+
+12. 檳城人都異常喜歡豬油、豬油渣與講求炒菜的生猛鑊氣，薄餅有豬油渣，粿條湯、福建麵也都有，檳城人對炒粿條的要求就如同台南人對待炒鱔魚意麵，沒鑊氣，料理就沒了靈魂，這點我感同身受，幾年前為了吃稻糠跟灶去炒的鱔魚，特地跑了一趟台南新營，本身過往是不喜愛炒鱔魚，但沒想到用稻糠當柴火去炒的鱔魚，清脆並帶著些微煙燻味，好吃到我當場說不出話，完全顛覆從小所吃過的鱔魚、泥鰍、土虱這類土味魚的記憶，都說香火能增添神明的神力，這食物沾染的鑊氣就是濃縮的人間煙火，為你我凡夫俗子們增添為生活拼搏的動力。如果你至今尚未體驗過鑊氣撲面的料理，記得去檳城務必嚐嚐柴燒的炒粿條或是吉隆坡用黑醬油炒的福建麵。（台南新營的清香鱔魚麵好像已經歇業，甚憾）
+
+<figure class="wp-block-image aligncenter size-large is-resized"><img alt="" class="wp-image-196" decoding="async" height="1024" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/IMG_20240901_141449.jpg" style="width:536px;height:auto" width="768"/></figure>
+
+13. 檳城的薄餅（Popiah）在台灣叫春捲，台南人更常叫潤餅，原因可能是殖民時代與荷蘭人的接觸頻繁，其用語Loempia音同潤餅的台語，台南人吃潤餅的習俗比台灣其他縣市更悠久，發展出的與中國原鄉的更精細，而且內餡獨特，台南還會放一種皇帝豆（長相類似大馬的臭豆，但不臭），推薦讀者可試試台式春捲天花板的台南阿真潤餅。  
+      
+    馬來西亞的薄餅內餡放的是沙葛，一種類似馬鈴薯口感的根莖類，無論台式或馬來西亞的春捲，我都不喜愛，個人愛的是越南春捲，但這趟特別為了嘗試娘惹人的變型薄餅「金杯（Kueh Pie Tee 發音為粿派提）」，Kueh 就是米粿類食品，pie 則是類似派皮的意思，做法是用模具沾春捲皮的米漿後，去油炸定型，然後放入跟傳統薄餅相同的餡料，吃的時候就能優雅的一口吃，類似英式下午茶的一口甜點。  
+      
+    不過正好寫文當下，看到新加坡的一個美食研究者的影片，在他的考究中（[影片連結](https://youtu.be/yFO2cLUDagE?si=Iq6d2CaIok5NTNHe) / [報導連結](https://explore.airasia.com/assets/blt6744ea2e5ed5ef73/pie-tee-the-nyonya-treat-with-surprisingly-foreign-origins)），顛覆了過往認為金杯起源自娘惹人料理的說法，提出Pie tee 可能是源自 patty iron module ，這種最早是美國的瑞典移民開始使用的長柄杯狀料理模具，這種料理手法上世紀 50 年代流傳到新加坡，調整後的做法所用的米漿的原料、內餡與醬料，和薄餅太雷同，使得 Kueh Pie Tee 又被稱呼為新加坡薄餅，而被記載到新加坡人的食譜中，時間久了就被誤以為是娘惹人的傳統料理！  
+      
+    我想到所謂月亮蝦餅在台灣，也常被誤會是傳統泰國菜（其實是台菜），以及北美的左宗棠雞其實是台菜而非傳統中國菜，並且跟左宗棠一點關係都沒有，不過精緻典雅的炸金杯會被誤認為是娘惹人傳統料理，可見娘惹料理的細膩品味是多麼深入人心。  
+      
+    小巧的炸物更不能遺漏印度人的街頭美食Pani Puri，乍看像是台式地瓜球，吃法跟金杯一樣，是將餡料跟醬汁倒入其中，不過調味汁是完全的印度風味，一口吃下享受各種香料的爆漿快感，馬來西亞各城市的小印度區都有很多人賣。
+
+<figure class="wp-block-image aligncenter size-large is-resized"><img alt="" class="wp-image-197" decoding="async" height="1024" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/Kueh-Pie-Tee-.jpg" style="width:489px;height:auto" width="683"/><figcaption class="wp-element-caption">Popiah 與 Kueh Pie Tee </figcaption></figure>
+
+14. 檳城與台南都混合許多福州、潮汕的飲食，像是米粉、魯麵、粥、粿條、魚丸，因此都有各式各樣的粿、水粿、粿角、紅龜粿…. 台南最出名碗粿，還登上總統國宴菜
+
+15. 都有使用粉粿粉條的古老剉冰，例如檳城的煎蕊（cendol），調味使用椰奶、棕櫚糖，配料則是紅豆與斑斕葉製作出的粉條，是因在地材料而做出的調整，台南有很多剉冰老店，像是我很喜歡福興號蘇家冰店，台南的冰品特色是配料種類異常豐富，粉粿、粉條、粉圓、湯圓、芋圓、麵茶、仙草到各式豆類甚至現代點的布丁、水果，非把客人逼出選擇困難症不可的架勢，其實，若把檳城的煎蕊（cendol）拿來台南賣，肯定也會受歡迎，同樣，若是把台式剉冰那去檳城賣，也肯定受喜愛
+
+16. 荷蘭人的情書：荷蘭人在台南跟檳城都留下許多飲食痕跡，也都有紅毛這個指涉洋人的詞彙，像是檳城的紅毛路、紅毛樓，當然，航海時代的葡萄牙人也有，這一趟我有沒去麻六甲與麻坡，但據說當地是有不少土生葡萄牙人，之後會再安排時間去品嚐知名的葡式烤魚等料理。  
+      
+    夾必糕（kuih kapit ）是一種用鐵盤夾起來烤的椰漿味扁平蛋捲(下方有網路影片)，我在檳城看到好幾次，以為只是普通餅乾就沒品嚐（**所以在馬來西亞，真的不要有太多先入為主的想法，才不會錯過體驗新事物的機會**），kuih kapit 在新加坡則被稱為Kueh Belanda （馬來語意為「荷蘭蛋糕」），俗稱「情書」，是外型為圓筒狀的蛋捲，在印尼也有一樣的食物，不過蠻有趣的點是雖然被稱為荷蘭蛋糕，但新年吃蛋捲這個習慣卻是來自西班牙人。  
+      
+    我發現西語在馬來語詞彙中的影響頗低，英國、荷蘭、葡萄牙的比例卻是較高的，而這三個國家在歷史上都有殖民過馬來西亞，因此這種蛋捲被稱為荷蘭蛋糕，未必是荷蘭人引進，可能是荷蘭治理麻六甲的時期，有商人由西班牙人統治的馬尼拉引進，一如台南將碗豆稱為荷蘭豆，更多的是指稱治理者，未必真的就是原產地。若對上述殖民時代的語言流變感興趣，推薦中研院研究員[鄭維中的這篇訪問報導](https://smiletaiwan.cw.com.tw/article/2986)。  
+      
+    日本也同樣佔領過馬來西亞，只是在太平洋戰爭期間，掠奪財富重於建設發展，因此遺留的多數是歷史傷痕，沒有在大馬文化中留下顯著的融合遺產，台灣繼承很多日式飲食文化，但在大航海殖民時代沒有接收到西班牙蛋捲這個飲食傳承（或者曾有，卻失傳在歷史中），往好的看，台灣五花八門的現代蛋捲或蛋黃酥，卻是新馬等地所未見的商業熱潮，就像一個沒有父母遺產卻打拼出宏偉事業的勵志故事，**餐飲有所傳承未必保證能發揚光大，沒有傳承的創新餐飲也未必無法成功**（下一篇會談到飲食傳承），像是台南有間百年歷史的連德堂日式雞蛋煎餅，傳承自日治時代，別具風味，中間卻也曾經營慘淡，歇業數十年後才幸運地重新開業。
+
+> [@makanmana](https://www.tiktok.com/@makanmana?refer=embed "@makanmana") Eng Seng Kuih Kapit [#engseng](https://www.tiktok.com/tag/engseng?refer=embed "engseng") [#kuihkapit](https://www.tiktok.com/tag/kuihkapit?refer=embed "kuihkapit") [#baked](https://www.tiktok.com/tag/baked?refer=embed "baked") [#charcoalbaked](https://www.tiktok.com/tag/charcoalbaked?refer=embed "charcoalbaked") [#dessert](https://www.tiktok.com/tag/dessert?refer=embed "dessert") [#cookies](https://www.tiktok.com/tag/cookies?refer=embed "cookies") [#malaysianfood](https://www.tiktok.com/tag/malaysianfood?refer=embed "malaysianfood") [#chinesefood](https://www.tiktok.com/tag/chinesefood?refer=embed "chinesefood") [#peranakanfood](https://www.tiktok.com/tag/peranakanfood?refer=embed "peranakanfood") [#kulinermedan](https://www.tiktok.com/tag/kulinermedan?refer=embed "kulinermedan") [#kulinerpenang](https://www.tiktok.com/tag/kulinerpenang?refer=embed "kulinerpenang") [#kulinertiktok](https://www.tiktok.com/tag/kulinertiktok?refer=embed "kulinertiktok") [#kulinerindonesia](https://www.tiktok.com/tag/kulinerindonesia?refer=embed "kulinerindonesia") [#kulinerjakarta](https://www.tiktok.com/tag/kulinerjakarta?refer=embed "kulinerjakarta") [#kulinerbandung](https://www.tiktok.com/tag/kulinerbandung?refer=embed "kulinerbandung") [#kulinersurabaya](https://www.tiktok.com/tag/kulinersurabaya?refer=embed "kulinersurabaya") [#penangfood](https://www.tiktok.com/tag/penangfood?refer=embed "penangfood") [#penangfoodie](https://www.tiktok.com/tag/penangfoodie?refer=embed "penangfoodie") [#jajanantiktok](https://www.tiktok.com/tag/jajanantiktok?refer=embed "jajanantiktok") [#jajananmedan](https://www.tiktok.com/tag/jajananmedan?refer=embed "jajananmedan") [#streetfood](https://www.tiktok.com/tag/streetfood?refer=embed "streetfood") [♬ original sound – Makanmana – MakanMana](https://www.tiktok.com/music/original-sound-Makanmana-7186152202230205210?refer=embed "♬ original sound - Makanmana - MakanMana")
+
+17. 檳城與台南都有老一輩的傳統手工藝職人，木工、金工、鐵匠、裁縫、刺繡、編織甚至殯葬業的紙紮…等等，時代變遷，要原汁原味保留舊手藝是有些不現實，這些非物質文化如果能引導，就會是文創產業的底蘊，當然並不容易，我在檳城看到一些年輕經營者試圖這麼做，但明顯尚在摸索的階段，台南的文創產業是比檳城走的更快、更成熟些。
+
+檳城與台南，對我來說都是餐飲的博物館，很多跨越不同年代、不同族群的食物風味，除此也不斷在創新，我認為兩地若可以多些未來交流，會產生更多可能性。  
+現代餐飲的一面，礙於時間與心力有限，以後再分享。接下來的兩篇我繼續深談馬來飲食的各個面向、過去與未來。
+
+<table class="wpb-plt-table wpb-plt-table-hover">
+<thead>
+<tr>
+<th>Title</th>
+<th>Date</th> <th>Tag</th> </tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="/tobecontinued/">馬來筆記 Part5 未完待續</a></td>
+<td>2024-10-28</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
+<tr>
+<td><a href="/malaysianfood3/">馬來筆記 Part4 再談馬來西亞飲食（下）</a></td>
+<td>2024-10-17</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
+<tr>
+<td><a href="/malaysianfood2/">馬來筆記 Part4 再談馬來西亞飲食（中）</a></td>
+<td>2024-10-15</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
+<tr>
+<td><a href="/malaysianfood1/">馬來筆記 Part4 再談馬來西亞飲食（上）</a></td>
+<td>2024-10-14</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
+<tr>
+<td><a href="/penangtotainan/">馬來筆記 Part.3 從檳城看見台南的府城味</a></td>
+<td>2024-10-09</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
+<tr>
+<td><a href="/livingwisdom/">馬來筆記 Part.2 折衷的共存智慧</a></td>
+<td>2024-10-08</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
+<tr>
+<td><a href="/smoothtripml3/">馬來筆記 Part.1 行路不難(下)</a></td>
+<td>2024-10-07</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
+<tr>
+<td><a href="/smoothtripml2/">馬來筆記 Part.1 行路不難(中)</a></td>
+<td>2024-10-07</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
+<tr>
+<td><a href="/smoothtripml1/">馬來筆記 Part.1 行路不難(上)</a></td>
+<td>2024-10-07</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
+</tbody>
+</table>
+
+
+---
+
+# 馬來筆記 Part4 再談馬來西亞飲食（上）
+
+- 發佈日期: 2024-10-14
+- 最後更新: 2025-04-30
+- 作者: Austin
+- 分類: Malaysia
+- 標籤: MY2024
+- 原文網址: https://flavorinsight.com/malaysianfood1/
+
+> 許多看似不理性不科學的食物混搭，在移民社會是很務實的折衷做法，也許是為了應消費者提出的需要，也可能是店家為增加銷售的行銷手法，又或是一個將異鄉食材由（陌）生到熟（悉）的必然摸索過程，非移民社會也會有，只是移民社會的飲食混搭更頻繁、更見怪不怪
+
+### • 只要好吃就不奇怪
+
+文章篇幅很長，下面是AI生成的摘要聲音檔，可聽聽，有興趣再讀全文
+
+<figure class="wp-block-audio"><audio controls="" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/aicast.mp3"></audio></figure>
+
+混合是移民文化的特徵，檳城的福建麵就是如此，同樣是福建裔，蝦湯頭出現在靠海的福建縣，靠山的福建縣則較多滷麵，面對來自各處的福建移民，檳城小販想讓生意做大，都賣是種選擇，混著賣更是一種可嘗試的可能性，若沒特別要求，檳城的福建麵上桌就是（米）粉混合（黃）麵，甚至你還可點一碗麵蝦湯滷湯各半的 mixed 湯頭，就好像鴛鴦火鍋。吉隆坡一家友愛海鮮麵（Yu Ai），麵有咖哩湯頭也有東央湯頭，老闆還賣兩者混在一起的怪味湯頭，怪隨怪，但著實美味極了。檳城有一家三味雲吞麵，顧名思義就是一盤雲吞撈麵有三種口味，店家甚至還有七種口味的浮誇版本！
+
+米粉混合麵條，台灣很多小吃攤也有這種做法，什麼都摻一些、混看看，例如個人覺得台灣有個非常神奇的混合食物：蛋花貢丸味噌湯，三種都可獨立的湯品，卻被奇妙的統一，以簡單的味噌湯作為基準，蛋貢味噌湯是有點過於豐盛張揚，可是搭配簡樸的涼麵，一豐一簡似乎讓饕客的味蕾達成平衡。想起近年來在辱義之路越走越遠的必勝客披薩🤣
+
+**許多看似不理性不科學的食物混搭，在移民社會是很務實的折衷做法**，也許是為了應消費者提出的需要，也可能是店家為增加銷售的行銷手法，又或是一個將異鄉食材由（陌）生到熟（悉）的必然摸索過程，非移民社會也會有，只是移民社會的飲食混搭更頻繁、更見怪不怪，比起追求料理正宗與否，更著重因人時地。
+
+### • 傳統需要守護但不能僵固
+
+移民為了營生求變通，不僅是要面對陌生族裔客群，還有陌生食材與調料，多數食物必然容易與原鄉中國有所差異，然而，有心態是四海為家的移民，也有極重傳統認同的移民，在馬來西亞，講究正宗的也大有人在！
+
+以我本身來說，隨著中國對台人不友善的政策越來越多，如今根本無法去香港，對 1450 的我是一個高危險的雷區，時常遺憾再也吃不到許多懷念的香港美食，不過去年幾個熟識的香港饕客朋友紛紛跟我說在馬來西亞吃到正宗老港味的食物，這趟我是帶著幾分考校檢驗這種說法的心態去大馬。
+
+結果是好的，檳城、怡保與吉隆坡都遇到極滿意的港式食物，我完全不懷念香港了！以後嘴饞，去馬來西亞就可滿足對老港味食物的念想，無論是雲吞麵、叉燒撈麵、燒肉、煲仔飯、牛腩粉、老火煲湯、生蝦煨伊麵、生滾粥、點心、糕餅…等等，都有極出色保有老港味的老店。在吉隆坡也偶然吃了一家店名直白普通的港飲港食餐廳，可味道就像是香港那些半世紀老店，餐點品項也很傳統。
+
+<figure class="wp-block-image aligncenter size-large"><img alt="" class="wp-image-225" decoding="async" height="683" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/Xsao.jpg" width="1024"/></figure>
+
+前些時候一個香港人司機則跟我分享另一個老港味飲食所在，他這麼說：「現在香港食物又貴又走味，要吃最正宗的要去溫哥華，很多香港老師傅都移居國外了」，如果有熟悉溫哥華的朋友，可以告訴我是否如他所言。
+
+我看過一種說法，馬來西亞的中菜可以分成三種類型，第一種是大量使用當地香料的**娘惹式中菜**，裡面已經融合了印度菜、馬來菜、印尼菜甚至西方料理的各種手法，歷史古老，卻頗有當代 fusion 料理的精神，新意十足，娘惹料理由於有大量辛料香草需要預先且精細處理，一邊吃不禁一邊感嘆其料理都蠻費工，有些甚至可稱上手路菜的程度，也頻頻讓我聯想到古時台南富豪們才能享用的起的阿舍菜；第二種則是大馬**不同的華人族裔所共享或共創的料理**，例如原生在客家的豬腳醋、芋頭扣肉、釀豆腐，變成即便不是客家裔的其他馬來華人也都會料理來吃，當然細微處可能就有些變化，沒原生的客家菜正統，肉骨茶、海南雞也是這類；第三類才是各族裔**華人所堅守傳統的中式料理**。最後，我補充，這六、七年來，中國一些連鎖餐飲品牌，以及潤到東南亞創業的中國人，數量都在急劇增加，他們在馬來西亞所開的中式料理或許可稱為第四類。這四類以第二類最常見，希望這分法能給你一個馬來中菜的大致輪廓。
+
+<figure class="wp-block-image aligncenter size-large is-resized"><img alt="" class="wp-image-226" decoding="async" height="1024" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/Nyonya.jpg" style="width:834px;height:auto" width="1024"/><figcaption class="wp-element-caption">娘惹式中菜</figcaption></figure>
+
+除了許多粵人老店，堅守飲食傳統，大馬潮州人、客家人、福建人也都有各自對飲食傳統的重視，例如潮州粥或客家麵（又稱大埔麵），基本上整個東南亞，都有潮州人開的粥餐廳，雖然個人對粥品絲毫不愛（愛吃硬飯的客家 DNA 作祟呀）。
+
+這趟在巴生（Klang），特別去潮興飯粥吃到傳統潮州粥，可惜撲空，好在在潮鄉故事館吃到創新的炒粥。潮鄉餐廳的炒粥，味道乍聞像台北的肉粥，可是湯水又被炒的更少更乾，蝦米魷魚等乾料的鮮味，加上豬油渣、炸油蔥酥、芋頭粒的香味，瀰漫在濃綢的粥米中，直衝腦門，是非常特殊的料理，，有機會去巴生除了肉骨茶，也務必試試看。
+
+<figure class="wp-block-image aligncenter size-large is-resized"><img alt="" class="wp-image-228" decoding="async" height="868" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/IMG_20240904_103746-1.jpg" style="width:732px;height:auto" width="1024"/><figcaption class="wp-element-caption">香氣炸裂的炒粥</figcaption></figure>
+
+但講到粥，個人較喜歡檳城的李平記清粥([相關報導](https://www.kwongwah.com.my/20240321/%e6%9d%8e%e5%b9%b3%e8%ae%b0%e6%b8%85%e7%b2%a5-%e6%9c%80%e6%9a%96%e5%bf%83%e6%b8%a9%e9%a5%b1/#google_vignette))，據稱口味源自創辦人祖籍的福建泉州（想到五月天阿信😌），李平記的配菜調味都清淡，蕃薯白粥與配菜菜色都跟台灣清粥小菜相似，而且是對中低階層也誇張友善的銅板價（台北清粥小菜吃起來價格可以蠻驚人），這類食物絕大多數不是會讓你驚艷的美味，吃的是業主的兢兢業業和濃厚綿長的人情味。題外話，台北清粥小菜我首推中原街的小品雅廚。
+
+### • 巴生肉骨茶職人
+
+這次旅程還有幸吃到肉骨茶發明人李文地的長子開的德地肉骨茶（相關歷史可見[陳靜宜老師的書](https://www.books.com.tw/products/0010785203?sloc=main)），觀光客較少，網上吃過的評價也不高，但老實說，我這趟吃了許許多多食物，唯獨德地肉骨茶是我回台後仍不斷不斷地回憶那段用餐體驗。
+
+<figure class="wp-block-image aligncenter size-large is-resized"><img alt="" class="wp-image-234" decoding="async" height="768" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/IMG_20240904_100957.jpg" style="width:964px;height:auto" width="1024"/></figure>
+
+那是一個彷彿時間暫停又或是穿越時空的空間，店內褪色的桌椅、牆壁上殘破的手寫菜單與缺角的碗盤，端上來的肉骨茶與米飯也顯得有些暗沉，店內客人與老闆皆是褪去黑髮的白髮長者們，客人間歇的細語聲與熱水茶壺的沸騰聲，是德地店內唯二的聲音，有著一般中菜、小吃餐廳罕見的安靜，坦白說，唯獨我是唯一與整家店的氣氛格格不入的遊客，點餐到候餐，我像是考生在等成績，坐立不安，但第一口肉骨茶湯入口，立刻 hold住我的情緒，好厲害呀！
+
+<figure class="wp-block-image aligncenter size-large is-resized"><img alt="" class="wp-image-235" decoding="async" height="1024" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/IMG_20240904_094310.jpg" style="width:574px;height:auto" width="768"/><figcaption class="wp-element-caption">牆上很舊的手寫菜單，建議台灣朋友點五花骨或三層肉 會比較接近多數人喜好的豬肉口味</figcaption></figure>
+
+當代的飲食普遍重視強烈特色與直接的驚奇感，因此廚師會特別強化某一種味道或是對比感，可是德地的肉骨茶，醬味、藥味、肉味三者平衡到不可思議的穩定、無衝突，沒有任何一個味道超過另外兩者一絲一毫，是不分主次的三重奏，這要本身會做料理而且舌頭很敏銳的人，才吃得出他驚人的功夫。
+
+難怪德地老闆絕不給辣椒、大蒜等佐料讓客人沾，再多其他味道會破壞平衡，真的為它的網路低評價抱屈！這時代餐飲業者調整配方比政客翻臉還快，德地老闆守著古老平凡的配方，竟用日復一日積累的烹調精準度，讓我見識到把簡樸的配方做到極致的手藝，用電玩遊戲的術語來說，就是把熟練度練到封頂了，如果德地老闆是在日本社會，就會像壽司之神、蛋包飯之神、炸天婦羅之神這樣，被封為肉骨茶之神，但在大馬社會，料理人的地位普遍並不高。
+
+<figure class="wp-block-image aligncenter size-large is-resized"><img alt="" class="wp-image-236" decoding="async" height="768" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/IMG_20240904_094540.jpg" style="width:806px;height:auto" width="1024"/><figcaption class="wp-element-caption">慢慢吃肉骨湯 一邊喝著茶 偷聽鄰桌長輩的對話，發現他們也在偷偷打量我</figcaption></figure>
+
+若是平常都吃重口味的人，早上要去吃之前，建議不要吃其他食物（上一次被人這麼提醒是要做健康檢查前😂），多喝水讓你的味覺恢復靈敏，吃的時候細嚼慢嚥、小口品嚐，這是一家很考驗客戶味覺敏銳度的店。
+
+檳城的蠔煎也是福建沿海的古老食物，但就沒遇到手藝震撼到我的蠔煎料理人了，畢竟其料理方式極為原始，以現代人口味的標準，台灣發展出來的蚵仔煎絕對更細膩、美味、端的上檯面，作為飲食研究者，檳城的蠔煎就僅是體驗當代食物的古老原型罷了，兩者沒太多可比性。
+
+<figure class="wp-block-image aligncenter size-large is-resized"><img alt="" class="wp-image-233" decoding="async" height="1024" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/BKT-.jpg" style="width:796px;height:auto" width="1024"/><figcaption class="wp-element-caption">五月花肉骨茶</figcaption></figure>
+
+此外，我還去了肉骨茶發明人李文地的第五子開的五月花，特地品嚐了乾式瓦煲肉骨茶，店內熱熱鬧鬧的氣氛與口味又是截然不同，五月花的配料多，並且有辣椒沾醬，更討現代大眾消費者的口味喜好，好在**乾式肉骨茶通常還會給一小碗無調味的原湯讓客人品嚐**，喝了一口，果然出自同源，創新的背後依舊有守著傳統的底子，但本身覺得乾式瓦煲多吃幾口就覺得無聊，還是湯式的好。
+
+許多在地人也推薦毛山稿肉骨茶總行與三美肉骨茶，經常看到台灣超市賣印著毛山稿肉骨茶的湯底包，只是借用名字，並非店家推出的。說真的喜歡吃哪一家肉骨茶很看個人口味，整個巴生市（Klang）約略是台北松山區加上信義區，塞滿了超過 300 家肉骨茶店，即使經過幾個當地人的推薦解說，也是讓我聽到眼花撩亂，如同每個台南人都有自己喜歡的牛肉湯店。
+
+我覺得肉骨茶最好的品嚐時間是上午 9 點到 10 點間，剛開店時的湯頭，味道還不夠融合濃郁，而假如 11 點後才去，有些熱門店家肉最好吃的部位可能都賣完了，視店家營業時間，找中間時間去是最穩妥的選擇，若跟我一樣不吃內臟跟腸子，記得交代店家。吃完厚重口味的肉骨茶，正好散步去鄰近的搖搖冰（ Yao Yao Ping Restaurant），點個兩到三種綜合的搖搖冰（就是基隆的泡泡冰）換換口味，務必別忘記嚐嚐他們的炸雞。
+
+<figure class="wp-block-image aligncenter size-large is-resized"><img alt="" class="wp-image-232" decoding="async" height="1024" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/IMG_20240904_184238.jpg" style="width:398px;height:auto" width="768"/></figure>
+
+巴生好吃的東西著實不少，在地人還推薦了六嬸面粉糕、巴生菜包、偆園海南咖啡 1956、伸波士頓餐室、平香客家排骨飯店…等特色美食，食量有限就留待下回探索了，若有巴生的朋友，也歡迎推薦我
+
+### • 答應我，來馬來西亞別挑食
+
+回到前面提到對市井小民友善的食物，馬來西亞有一種稱為經濟飯 Economy Rice（第一次聽到以為是經濟犯）的飯館，有些地方又稱為雜菜 mixed rice，就是與台式自助餐一樣，許多菜色客人自選、自己打菜，價格平實，兩肉兩菜要價不用 6 馬幣（大約不到台幣 50 元），經濟飯我就只吃過一次，不過路途上有經過時，我都會進去看看有什麼菜色，從菜色可以看出主要客群的族群與區域特色，例如在檳城，閩粵菜明顯比較多，巴生市鄰近馬來西亞最大的巴生港，勞工多，當地潮汕與客家華人都比其他地區活躍，菜色就偏向這菜系，調味厚實，炸物的比例也較高。
+
+<figure class="wp-block-image aligncenter size-large is-resized"><img alt="" class="wp-image-231" decoding="async" height="1024" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/IMG_20240904_125247.jpg" style="width:674px;height:auto" width="774"/><figcaption class="wp-element-caption">正開往巴生港方向的長榮貨櫃車  看到莫名感動</figcaption></figure>
+
+此外也不僅以餐廳方式呈現，我在旅途經過城市外圍或偏僻的街區，看過就在公園或路邊搭個鐵皮屋頂，一張摺疊長桌擺上幾個塑料桶的大鍋菜，就這樣賣經濟飯的也是大有人在，不過這類通常更偏向馬來人與印度人的菜系為主（客群也是），laksa、asam 或咖哩這類料理的湯水多，所以放大鍋或大塑料桶，小販拿個大勺幫你淋在飯上，可選擇蔬菜跟主菜或不選，旁邊立著的烤架上，不斷冒出烤雞腿、烤魚的香氣，我第一次注意到就是被香氣吸引，當然了，想吃這類食物，大熱天在戶外吃太煎熬了！同樣的食物大可找前幾篇有寫到的 nasi kandar、nasi lemak這類餐館來吃，環境較好，種類選擇多，價格也只比路邊的高少許。
+
+怕大家誤解，並不是說路邊的馬來經濟飯不衛生，只是環境克難，台灣人普遍有種文化潔癖，覺得東南亞食物都不太衛生的刻板印象，事實上，馬來西亞有大量的美味街邊食物 street food，這也不敢吃那也不敢吃，我是覺得蠻可惜，**答應我，來大馬不要挑食好嗎**
+
+衛生方面，如果小販是穆斯林，除了受清真飲食戒律繁瑣規範，巧合地成為一道隱形的食安防護，馬來西亞的 Hala清真認證也相當的嚴格，到世界各地，只要是穆斯林賣的食物，如果又是普遍的清真族群食物，我完全不擔心其料理是否衛生，更不用怕他們添加有的沒的，儘管大口吃。
+
+回想起曾在中國待過一段時日，也格外喜歡買回民賣的街邊烤串、蘭州拉麵館，回館餐廳是中國外食少數不必擔心食安的地方，西安回民街的水盆羊肉更是我會懷念的美味，當今蘭州牛肉拉麵館在馬來西亞大量出現，除了近幾年大量中國人移民馬來，想必清真飲食文化的親近性也是讓蘭州拉麵在大馬紮根的主因吧
+
+### • 不得不加倍努力
+
+最後來聊個小趣事，我在找國泰茶室的地址時，猛然發現全馬來西亞不只一家，有的還掛上“新”國泰茶室之名。同樣的狀況還發生在找尋發記叉燒雲吞麵，全馬來西亞也到處各種發記、銘記、明記、祿記的餐廳，各個賣的都不同。
+
+抱著這個困惑來到檳城，又遇到[青屋蝦麵](https://maps.app.goo.gl/BUTp116xDCeddY8dA) 與 [老青屋茶室裡的蝦麵](https://maps.app.goo.gl/BvCZXAegrDaNq51g7)，兩家是本店跟分店嗎？哪一家是必比登推薦？在地人又覺得哪一家好吃？問了很多當地人，也是眾說紛紜。
+
+意外有個計程車司機，從另一個角度跟我分享他的觀點，原來馬來的商標專利法跟公司法，是以馬來語優先，因此，假如你新開一家雲吞麵，你可以用與知名的店一樣的中文名，只要你在註冊時的馬來文名稱有差別即可，難怪大馬這麼多中文名稱相同的館子。
+
+其次，馬來西亞餐廳的招牌是需要額外執照申請，招牌的法規也是偏向馬來文（如下圖，我查詢了相關規定，確實跟他講的差不多，台灣政府敢搞這樣傾斜式的規定絕對被罵爆）。
+
+<figure class="wp-block-image aligncenter size-large"><img alt="" class="wp-image-223" decoding="async" height="1024" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/271572.jpg" width="652"/><figcaption class="wp-element-caption">這些律法帶給我更深刻的culture shock</figcaption></figure>
+
+司機用著福建話，不帶情緒、平靜地講述這件事，生活在台灣齊頭式平等社會的你我，大多數人的第一反應會覺得這樣很不平等，但轉念想想，大馬華人之所以是大馬華人，就是因為他們祖輩就選擇了落地生根，而非落葉歸根，適應、順應環境早就是族群的習慣與本能了，既然這是家庭的大家長訂的家規，也只能適應然後更加努力，司機後一句話印證我的想法，他意思是說：「不管青屋蝦麵與老青屋茶室裡的蝦麵誰先誰後，做的更好吃的，生意還是會最多」。
+
+<figure class="wp-block-image aligncenter size-large"><img alt="" class="wp-image-243" decoding="async" height="672" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/kapi.jpg" width="1024"/><figcaption class="wp-element-caption">左圖符合法規標準 馬來字比中文字的級數大   右圖很微妙，但伊斯蘭信仰者不會吃肉骨茶，所以字體打擦邊球也不會強硬糾正</figcaption></figure>
+
+<table class="wpb-plt-table wpb-plt-table-hover">
+<thead>
+<tr>
+<th>Title</th>
+<th>Date</th> <th>Tag</th> </tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="/tobecontinued/">馬來筆記 Part5 未完待續</a></td>
+<td>2024-10-28</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
+<tr>
+<td><a href="/malaysianfood3/">馬來筆記 Part4 再談馬來西亞飲食（下）</a></td>
+<td>2024-10-17</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
+<tr>
+<td><a href="/malaysianfood2/">馬來筆記 Part4 再談馬來西亞飲食（中）</a></td>
+<td>2024-10-15</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
+<tr>
+<td><a href="/malaysianfood1/">馬來筆記 Part4 再談馬來西亞飲食（上）</a></td>
+<td>2024-10-14</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
+<tr>
+<td><a href="/penangtotainan/">馬來筆記 Part.3 從檳城看見台南的府城味</a></td>
+<td>2024-10-09</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
+<tr>
+<td><a href="/livingwisdom/">馬來筆記 Part.2 折衷的共存智慧</a></td>
+<td>2024-10-08</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
+<tr>
+<td><a href="/smoothtripml3/">馬來筆記 Part.1 行路不難(下)</a></td>
+<td>2024-10-07</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
+<tr>
+<td><a href="/smoothtripml2/">馬來筆記 Part.1 行路不難(中)</a></td>
+<td>2024-10-07</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
+<tr>
+<td><a href="/smoothtripml1/">馬來筆記 Part.1 行路不難(上)</a></td>
+<td>2024-10-07</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
+</tbody>
+</table>
+
+
+---
+
+# 馬來筆記 Part4 再談馬來西亞飲食（中）
+
+- 發佈日期: 2024-10-15
+- 最後更新: 2025-04-30
+- 作者: Austin
+- 分類: Malaysia
+- 標籤: MY2024
+- 原文網址: https://flavorinsight.com/malaysianfood2/
+
+> 檳城不成文的規定是知名的特色食物，是禁止交給外籍勞工掌廚，這展現了檳城人對傳統風味的自豪與保護，而在吉隆坡這樣國際化的現代城市，選擇將餐飲交予商業自由主義
+
+### • 中國好味道？
+
+前一篇講到中國蘭州拉麵，不只馬來西亞城市大量出現中國餐館品牌與小吃，全東南亞都會區都如此。台灣近年也湧現螺蛳粉、酸菜魚，會有這種現象，除了與中國政府從政策面去推廣具中國風味的特色飲食，尤其針對推向國際，社群媒體、短影音的推波助瀾也是主因，消費端的味蕾喜好有時只是跟風，我不多做評析，我真正想了解的還是大馬本地的餐飲從業者面對的問題。
+
+在中國近幾年的這一波餐飲品牌海外創業潮，平價連鎖餐飲與街邊小吃的界線是被模糊的，像是五谷魚粉、楊銘宇黃燜雞飯、蜜雪冰城、擼串、酸奶…等。  
+將傳統街邊的單品小吃拉入餐飲店的連鎖加盟與產銷模式下，對創業者有什麼好處？品牌的形象能更清晰，行銷與店內服務能做的更有區隔性，規模採購除了食材品質好掌控，最重要是成本再降低，可以做到更極致的薄利多銷，最鮮明的變化則是科技導入，長期降低了人力成本。這些以往可能在海底撈這種中高檔次的中國餐飲連鎖才玩得動，如今，即便只是普通中國餐館，都能玩轉，簡單講，開店要成功的三要素「品質、客流、成本」的難度都降低，彷彿中國電商一條龍的模式被移植來到餐飲業了。
+
+<figure class="wp-block-image aligncenter size-large is-resized"><img alt="" class="wp-image-261" decoding="async" height="768" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/IMG_20240831_205932.jpg" style="width:766px;height:auto" width="1024"/><figcaption class="wp-element-caption">乳業產能過剩的中國酸奶輸出到海外，問了許多人，安慕希在大馬賣得並不好</figcaption></figure>
+
+模式之所以能有效，我認為還在於餐點品項的選擇與設計，皆是製作過程簡易的低難度料理，甚至適合以預製菜再重新復熱，也不會走味太多的類型，烹煮快、上菜快，又增加了翻桌率，像臭豆腐好了，台式炸臭豆腐就沒辦法用預製菜的方式，必須現炸，可湘式湯臭豆腐就很適合。
+
+乍看之下，面臨全球食品成本與人力成本的通膨，中國模式好像很行得通，但實際上體驗幾家後，發覺有致命的缺陷：「體驗感很貧乏」、「料理沒靈魂」。這些餐館的菜單看得出全力追求爆款，實際上是在透支日後的回購率，口味上也產生影響，一味迎合大眾，好吃的標準無意識被降低了，因為要讓位於快速的產銷流程，因此餐點便宜、口味尚可卻沒有靈魂，其次，再多網紅打卡式的裝潢，都掩蓋不了人群拉低的品味與體驗，試想今天你一家店沒幾個人是真正要坐下來品嚐食物，那氛圍就跟去大賣場是一樣的，熱鬧但淺薄。
+
+<figure class="wp-block-image aligncenter size-large is-resized"><img alt="" class="wp-image-262" decoding="async" height="1024" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/IMG_20240901_224114.jpg" style="width:656px;height:auto" width="768"/><figcaption class="wp-element-caption">中國自熱鍋擺在架上很好的位置但沒人買，盲目的產品輸出只是讓產能更加過剩，而不會真正解決問題</figcaption></figure>
+
+這樣講可能有人不贊同，若你有去過賣冰飲品的蜜雪冰城 MIXUE ，應該了解它的人流是非常高的，價格也低廉到驚人，它具備了這波中國餐飲的海外連鎖的所有強項，然而你只需要去 google map，搜尋越南或是馬來西亞的蜜雪冰城，你會發現整體評分普通就算了，評價數異常的少，瑞幸咖啡也有同樣現象，有興趣的朋友可以嘗試開 google map，在新加坡搜尋luckin coffee ，從所有分店去一一觀察每一家評論的量化數據與內容分析（我在美股投資中也會以這類方式做調查），就應該能體會我要表達的，不知道是幸還不幸，馬來西亞就是瑞幸咖啡即將要大舉拓點的市場。
+
+<figure class="wp-block-image aligncenter size-large is-resized"><img alt="" class="wp-image-264" decoding="async" height="1024" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/275265.jpg" style="width:658px;height:auto" width="673"/><figcaption class="wp-element-caption">4分以上的多是新開，4.8的則是極少數不用app即可購買的店(瑞幸咖啡必須註冊app才能你買)</figcaption></figure>
+
+這就是體驗薄弱造成口碑行銷降低，選擇依賴短影音的社群行銷，就必須讓自己品牌的實體可見度夠，才能讓短影音的記憶被啟動而消費，因此，對於人流高的熱門地段需求反而高於傳統餐廳！否則變現率會較低，薄利多銷的模式也就崩解了。
+
+仔細一想，這種只顧現在、透支未來的經營，還蠻扭曲與病態，可能中國人就是愛卷吧，諸位有沒有過特地跑去很偏僻偏遠的地方，只為了吃某個美食的經驗？或是即使排了一小時的隊只為吃某個美食，也覺得超值的經驗？許多時候，一家店裡，都是來吃熱鬧還是來品嚐美食，會是截然不同的氛圍，所以營造吸引回頭客的情境，我認為才是能走長遠的關鍵。
+
+傳奇餐飲經理人 Danny Meyer 在[他的書中](https://www.books.com.tw/products/0010827097?gclid=Cj0KCQjw753rBRCVARIsANe3o45cfU9Nl11xHpQUHEVtXQzaofpjz-GsHbMfoX8Uj4xmK5XYTy1KcAwaAo9ZEALw_wcB)的這段話或許更精確點出中國連鎖餐飲的盲點：
+
+> 一般人外出用餐不只是為了吃，也會為社群經驗而選擇餐廳。星巴克（Starbucks）就運用喝好咖啡（和排隊買好咖啡）的概念，設法營造出與其他同好一起享用咖啡的經驗，這才是真正的賣點。**企業若不了解促進社群形成是它存在的理由，注定不會有好表現**。
+
+這些是這幾年在東南亞以及這次在吉隆坡知名的茨廠街所見的感觸，**馬來本地的餐飲創業者可能對加盟這些中國連鎖是要多深思熟慮，不宜照單全收**。另外這些中國餐廳的卷，如果排擠掉低價的本地餐飲業者，也會讓商圈攤商的多樣性降低，失去特色；更甚至讓當地人生計受影響，進一步感受主權焦慮與文化入侵，而對中國印象更差，飲食象徵了一個民族，假如你都是在 Garbage Out，那可能也只會得到 Garbage In。
+
+但也是有令我驚訝的中國連鎖，茶仙子與霸王茶姬CHAGEE算是成功地扎根大馬了，雖然說茶仙子還不斷”致敬”台灣手搖茶(避免被告用詞謹慎 但讀者應該懂我意思)，霸王茶姬CHAGEE則在整體體驗與口味上，已經走出自己的路，實話實說這個品牌有點厲害了。
+
+<figure class="wp-block-image aligncenter size-large is-resized"><img alt="" class="wp-image-272" decoding="async" height="768" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/IMG_20240829_231214-1.jpg" style="width:936px;height:auto" width="1024"/><figcaption class="wp-element-caption">看到珍奶與阿里山，是否以為是台灣品牌呢？茶仙子是中國八馬茶業所創，很用力挪用各種台灣特色食材與手搖飲風味，在大馬頗受年輕人歡迎</figcaption></figure>
+
+題外話，去馬來西亞，記得吃看看鼎泰豐為伊斯蘭消費者推出的雞肉小籠包，是一種面對異國市場更謙遜的態度。
+
+### • 料理有無國界
+
+許多傳統飲食都面臨兩個難題，一是餐飲業的傳承困難，二是勞動力缺乏與昂貴，相對便宜的移工就成了多數餐飲業會選擇的方式。值得好奇的是移工掌廚，味道會變調嗎？
+
+來分享我的親身體驗，先說這趟從檳城開始，我沒有吃到任何一家難吃的店（包括用Grab點的外賣），後續的城市也都吃的滿意極了，唯獨我到吉隆坡，由於很晚了，旅館 check-in 後就急忙往茨廠街去覓食，就此嘗到我來大馬吃到的唯二地雷食物（另一個雷在離境機場內），這是一家港式牛腩麵店，尊重店家我還是不說店名，總之剛入座，嗅覺靈敏的我聞到廚房飄過來的牛肉湯味就覺得慘了！可是外籍店員已經在桌邊準備幫我點餐，只好硬著頭皮點下去，有多難吃我就不描述了，總之後來我索性回飯店用 grab叫外賣沙嗲（satay）來療內傷，是的，這家牛腩麵是由外籍員工掌廚…
+
+<figure class="wp-block-image aligncenter size-large is-resized"><img alt="" class="wp-image-267" decoding="async" height="768" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/IMG_20240830_195055.jpg" style="width:787px;height:auto" width="1024"/><figcaption class="wp-element-caption">沙嗲也是不能錯過的美食，個人喜歡找沒賣豬肉沙爹的馬來人攤子，醬汁較醇厚</figcaption></figure>
+
+事後吉隆坡朋友告訴我現在很多餐廳是給孟加拉或尼泊爾人掌廚，回憶牛腩麵員工們對話的語言，應該就是了，說真的，先前嚐過大馬各族裔做的菜，各有風味，讓我忽略了某些菜系是否仍應由最熟悉其風味特徵的族群製作？像是牛腩麵、雲吞麵這類港式食物是否在烹煮上，還是由味蕾偏好相近的華人來料理較好？
+
+我仍相信食物是跨國界，料理能在不同族群的手藝下產生新的風味，例如曾在一個新北越南小吃攤，吃到不輸正統名店的台式炸排骨，店家附上魚露沾醬，與越南風味的配菜，是一份讓我很驚喜的排骨飯，但如果是渴望一份正統台味排骨飯的消費者，想必會是極失望吧。
+
+所以馬來西亞很多餐廳，試著找尋其間的平衡，例如位於八打靈再也的名店陳明記燒臘，在疫情結束後，開始聘用緬甸籍員工，在客戶中就引發兩極的爭論，有些 googlemap留言甚至我覺得跟料理無關，而是赤裸裸種族歧視😅，到後來老闆都多次出來回應澄清（下圖），廚師跟經理都是華人，緬甸員工只是擔任外場與外送包裝，但我相信這種質疑依舊會有。
+
+<figure class="wp-block-image aligncenter size-large is-resized"><img alt="" class="wp-image-268" decoding="async" height="935" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/ming1.jpg" style="width:835px;height:auto" width="1024"/></figure>
+
+<figure class="wp-block-image aligncenter size-large is-resized"><img alt="" class="wp-image-269" decoding="async" height="666" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/ming2.jpg" style="width:870px;height:auto" width="1024"/></figure>
+
+那麼檳城為什麼能讓我不踩雷？當地朋友告訴我，原來檳城餐飲界有不成文的公約，檳城知名的特色食物，是禁止交給外籍勞工掌廚（下圖），這展現了檳城人對傳統風味的自豪與保護，而在吉隆坡這樣國際化的現代城市，選擇將餐飲交予商業自由主義，在這個找尋平衡的過程，可能有些店失去舊味道與舊客戶，還尚未找尋到新味道與新客戶前就被市場淘汰了，運氣好的，也許就成為某種創新料理的開拓者。**下一篇我會提到上個世紀初，馬來西亞海南移民作為外籍勞工掌廚，用廚藝贏得肯定並開創出一個新菜系的故事**。
+
+<figure class="wp-block-image aligncenter size-large has-custom-border"><img alt="" class="has-border-color has-black-border-color wp-image-265" decoding="async" height="93" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/275256_0.png" style="border-width:5px" width="1024"/></figure>
+
+如果你渴望嘗試新奇、創新的飲食，吉隆坡很不錯，如同新加坡，有大量國際化的風味激盪，追求成熟雋永的老味道，你得往不那麼熱鬧的城市去。
+
+<table class="wpb-plt-table wpb-plt-table-hover">
+<thead>
+<tr>
+<th>Title</th>
+<th>Date</th> <th>Tag</th> </tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="/tobecontinued/">馬來筆記 Part5 未完待續</a></td>
+<td>2024-10-28</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
+<tr>
+<td><a href="/malaysianfood3/">馬來筆記 Part4 再談馬來西亞飲食（下）</a></td>
+<td>2024-10-17</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
+<tr>
+<td><a href="/malaysianfood2/">馬來筆記 Part4 再談馬來西亞飲食（中）</a></td>
+<td>2024-10-15</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
+<tr>
+<td><a href="/malaysianfood1/">馬來筆記 Part4 再談馬來西亞飲食（上）</a></td>
+<td>2024-10-14</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
+<tr>
+<td><a href="/penangtotainan/">馬來筆記 Part.3 從檳城看見台南的府城味</a></td>
+<td>2024-10-09</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
+<tr>
+<td><a href="/livingwisdom/">馬來筆記 Part.2 折衷的共存智慧</a></td>
+<td>2024-10-08</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
+<tr>
+<td><a href="/smoothtripml3/">馬來筆記 Part.1 行路不難(下)</a></td>
+<td>2024-10-07</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
+<tr>
+<td><a href="/smoothtripml2/">馬來筆記 Part.1 行路不難(中)</a></td>
+<td>2024-10-07</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
+<tr>
+<td><a href="/smoothtripml1/">馬來筆記 Part.1 行路不難(上)</a></td>
+<td>2024-10-07</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
+</tbody>
+</table>
+
+
+---
+
+# 馬來筆記 Part4 再談馬來西亞飲食（下）
+
+- 發佈日期: 2024-10-17
+- 最後更新: 2025-04-30
+- 作者: Austin
+- 分類: Malaysia
+- 標籤: MY2024
+- 原文網址: https://flavorinsight.com/malaysianfood3/
+
+> 馬來海南菜系的創新成果已經深深地融入了馬來西亞的飲食文化中。例如，在茶餐廳中常見的海南蒸麵包、海南咖啡、海南雞扒等，已經成為了跨越族裔界限的受歡迎美食。這些菜品不再僅僅代表海南族群，而是成為連結不同族群的紐帶。
+
+Table of Contents
+
+[Toggle](#)
+
+- [• 被低估的料理之一：海南菜](/smoothtripml1/#%E2%80%A2_%E8%A2%AB%E4%BD%8E%E4%BC%B0%E7%9A%84%E6%96%99%E7%90%86%E4%B9%8B%E4%B8%80%EF%BC%9A%E6%B5%B7%E5%8D%97%E8%8F%9C)
+- [• 被低估的料理之二：Ramly burger](/smoothtripml1/#%E2%80%A2_%E8%A2%AB%E4%BD%8E%E4%BC%B0%E7%9A%84%E6%96%99%E7%90%86%E4%B9%8B%E4%BA%8C%EF%BC%9ARamly_burger)
+- [• 童年comfort food的記憶](/smoothtripml1/#%E2%80%A2_%E7%AB%A5%E5%B9%B4comfort_food%E7%9A%84%E8%A8%98%E6%86%B6)
+
+### • 被低估的料理之一：海南菜
+
+文章篇幅很長，下面是AI生成的摘要聲音檔，可聽聽，有興趣再讀全文
+
+<figure class="wp-block-audio"><audio controls="" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/7y1rubm2cxvian.mp3"></audio></figure>
+
+作為一名餐飲產業和餐飲文化研究者，我總是喜歡探索各種菜系的起源與演變。這種追溯 culinary lineage 的過程，每每讓我聯想到生物學家研究古人類族群如何遷徙與期間迸發的基因多樣性。每當接觸一個新的菜系，就像生物學家發現了一個新的物種一樣興奮。這一趟旅行遇到的新菜系就是馬來海南菜！
+
+海南人在 19 世紀末 80 年代開始大量移民，高峰則是 20 世紀初，跟英國殖民統治馬來亞的時期重疊（1824-1957 年），相較於閩粵客家等華人的移民高峰期，海南人將近晚了一百年，沒太多出人頭地機會的他們，只好在英國殖民者的家庭、俱樂部和酒店中擔任傭人、廚師或服務生。
+
+回顧典籍，我察覺這些海南移民的烹飪天賦實在很高，藉著觀察英國人的飲食與烹飪，他們不僅能模仿出道地的料理來換取殖民者的信任，後期還從當地食材加上家鄉的烹飪技巧，創造出新的馬來海南菜系。最令人驚艷的是，這個菜系不僅保留了海南菜的精髓，還吸收了馬來飲食、英國口味，甚至是西方飲食文化的元素，形成了一種獨特的、混合文化式的料理菜系（fusion cuisine）。
+
+<figure class="wp-block-image aligncenter size-large is-resized"><img alt="" class="wp-image-282" decoding="async" height="601" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/lor-mee.jpg" style="width:976px;height:auto" width="1024"/><figcaption class="wp-element-caption">海南人在普遍認知中廚藝很強，就像檳城觀音廟旁的海南滷麵，號稱海南，但福建滷麵的味道極純粹正統，絲毫嚐不出海南混合菜系的味道，那為何取名海南呢？將海南人廚師的招牌亮出來就能讓其他族裔信服好吃</figcaption></figure>
+
+瞭解到這個背景讓我聯想到，17-18 世紀時的美國路易斯安那州仍由法國人統治，非洲黑人在當農奴與傭人時，學會了法餐與西班牙菜的料理手法，融入了非洲料理，就產生了美國紐奧良的克里奧爾菜（Creole Cuisine）與卡津菜（Cajun Cuisine），甚至是後來更廣為人知的美國南方靈魂食物（Soul Food）
+
+<figure class="wp-block-image aligncenter size-large"><img alt="" class="wp-image-283" decoding="async" height="768" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/IMG_20240829_182851.jpg" width="1024"/><figcaption class="wp-element-caption">lighthouse餐廳的海南雞排</figcaption></figure>
+
+馬來海南菜系的特點之一是其對西式料理的創新詮釋。「海南式西餐」就是這種創新的絕佳例證，它融合了英國殖民時期的影響，創造出如海南雞排、海南豬排、海南咖啡、咖央醬、蒸麵包、炸魚薯條…等新式料理，以及[前面介紹過的 roti babi](/penangtotainan/)。這些菜品常常搭配紅毛醬油（伍斯特醬）、褐醬（ HP 醬）。題外話，說一個上海菜，**在上個世紀初歐美各國租借時期，也曾出現過一道可稱為「上海式西餐」的上海豬排**，跟海南豬排相似，都是將西式的豬排用中式烹調方法重新詮釋，對烹飪有興趣的朋友可去查查兩者食譜的異同。
+
+<figure class="wp-block-image aligncenter size-large is-resized"><img alt="" class="wp-image-284" decoding="async" height="1024" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/IMG_20240829_182736.jpg" style="width:548px;height:auto" width="768"/><figcaption class="wp-element-caption">海南麵</figcaption></figure>
+
+馬來海南菜系的另一個特點是中菜的馬來化，其代表食物許多人都知道，就是海南雞飯，看似簡單的菜餚，實則蘊含深厚的烹飪技藝，其根源可以追溯到海南島的名菜文昌雞，[陳靜宜老師的書中](https://www.books.com.tw/products/0010785203?sloc=main)有詳盡的介紹，加上個人很不喜歡吃海南雞飯，我就不贅述了，其他還有海南麵、海南豆腐…等。
+
+馬來海南菜系正面臨著傳承的危機。許多傳統的馬來海南菜色可能在未來逐漸消失。馬來海南菜系並沒有像美國紐奧良的克里奧爾菜（Creole Cuisine）與卡津菜（Cajun Cuisine）那樣，有足夠多且凝聚的非裔美國人社群當基底，連傳承都困難，就更遑論新一代的創新接棒。
+
+馬來西亞觀光政策與文化推廣上，也忽視這個菜系的獨特性與觀光潛力，個人覺得頗可惜，大馬政府應更有意識地給予這個族群文化發展的資源，將馬來海南菜拉高到美國南方靈魂食物的層次去重視，新加坡尚未意識到這個菜系的整體脈絡，才有機會在與新加坡不斷競爭同名稱的食物歸屬中勝出，Hainanese Soul Food 對於觀光客來說會是個好故事。
+
+> 飲食小知識分享：南美洲的秘魯在地有一道秘魯牛柳（lomo saltado），是用醬油炒製的牛柳配上炸薯條，有沒有像是馬來海南菜的熟悉感呢？同樣也是 19 世紀中後的中國移民在當地創造的融合菜，而這些秘魯中菜如今是當地特色文化。
+
+<figure class="wp-block-image aligncenter size-large"><img alt="海南雞排" class="wp-image-286" decoding="async" height="690" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/Hainanese-Soul-Food.jpg" title="海南雞排" width="1024"/></figure>
+
+至少令人欣慰的是，馬來海南菜系的創新成果已經深深地融入了馬來西亞的飲食文化中。即使未來馬來西亞的正統海南餐館可能變得稀少，但他們所創造的許多菜色依舊存在於其他族裔的餐桌上，繼續被人們所喜愛和享用。例如，在茶餐廳中常見的海南蒸麵包、海南咖啡、海南雞扒等，已經成為了跨越族裔界限的受歡迎美食。這些菜品不再僅僅代表海南族群，而是成為連結不同族群的紐帶。
+
+**也許，文化的傳承並非只有一種模式。有時，看似是消逝，實則是以另一種形式的存在和延續。**
+
+<figure class="wp-block-image aligncenter size-large is-resized"><img alt="" class="wp-image-305" decoding="async" height="1024" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/FotoJet-2.jpg" style="width:816px;height:auto" width="1024"/><figcaption class="wp-element-caption">鎰記茶餐館</figcaption></figure>
+
+最後推薦幾家海南餐廳及茶餐室，個人實在蠻喜愛巴生港地區，此地的海南族群明顯較有活力，老店的傳承看起來也較沒問題，可能有海南人群聚村落有助於認同鞏固、文化維繫，此地海南餐館刻意提供大馬三大族群都能吃的餐點則是生存的秘訣；檳城的海南族群較散居，相比其他華人族裔的文化，海南似乎消融中；吉隆坡的鎰記茶餐館，營運模式與環境就像現代餐廳，吸引許多國際觀光客，口味精緻，未來一定會再訪。
+
+巴生：新國泰海南茶餐室、偆園海南咖啡 1956  
+吉隆坡：鎰記茶餐館、新記餐室、安邦中西茶餐室  
+檳城：海安飯店、The Lighthouse Cafe
+
+### • 被低估的料理之二：Ramly burger
+
+特地去馬來西亞吃漢堡聽起來是件很奇怪的事對吧？幾年前我也曾這麼想，首先從漢堡發源地的美國開始談起吧，紐約時報在前幾個月有篇引發熱門討論的專題報導「**漢堡是美國的肖像（The Burger Is a Portrait of America）**」（[點此閱讀](https://archive.is/ZmnMA)），作為美國象徵性與獨創性的食物，漢堡充滿了造就美國的文化成分：地區傳統、移民靈感、深厚的歷史，該報導列舉了 11 家美國各地餐廳的漢堡，來反映當前這種美式食物的現況與未來的可能性，其中幾家蠻顛覆一般大眾對美式漢堡的想像。如紐約市的奈及利亞餐廳Akara House 的素食漢堡、西雅圖 Ox Burger 餐廳的寮國風味漢堡，以及費城金寶餐廳的馬來西亞 Ramly burger，馬來西亞 Ramly burger赫然在其中。
+
+然而如果你問馬來西亞人，就會知道這是他們從小吃到大的食物，Ramly burger 在大馬已經發展了將近半世紀，已成為獨樹一幟的街頭飲食成員。
+
+Ramly burger的故事可以追溯到1979年，當時的創始人Ramly bin Mokni 還是一個超市切肉工人，發覺市面上沒有符合穆斯林食用標準的漢堡肉，於是他與妻子在吉隆坡開設了第一個漢堡攤。他們獨特的烹飪方法和口味，很快就贏得了顧客的青睞，逐漸發展成為一個成功的品牌。隨著時間的推移，Ramly burger不僅成為了街頭小吃，更發展成為一個大型冷凍食品公司與馬來西亞最大的肉類加工商之一。Ramly burger 雖然發展成為了一個大型食品加工品牌，但每一個使用其漢堡肉餅的街頭漢堡攤商，都有自己獨特的秘方。與美國的漢堡文化較重視標準化不同，相比之下，馬來西亞的漢堡文化則更加強調個性化和區域特色，所以即便發展至今這麼多年，比起發展成連鎖快餐店，Ramly burger 依舊維持著 Street Food 食物的本色，在夜市攤子與夜晚的街頭攤車，更為活躍！
+
+<figure class="wp-block-image aligncenter size-large is-resized"><img alt="" class="wp-image-290" decoding="async" height="1024" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/IMG_20240901_131909.jpg" style="width:698px;height:auto" width="768"/><figcaption class="wp-element-caption">脆雞漢堡</figcaption></figure>
+
+這也是帶給我最大的喜悅與痛苦，喜悅是每一家街頭 Ramly burger 都有特色鮮明，牛肉、羊肉、脆皮雞腿肉、蛋包、起司與獨特的辣醬，痛苦的是 Ramly burger 絕大多數都在晚間或深夜營業，我連續好幾天在晚上十點後滿懷罪惡感吃高熱量的漢堡😅
+
+<figure class="wp-block-image aligncenter size-large is-resized"><img alt="" class="wp-image-292" decoding="async" height="768" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/IMG_20240831_222340.jpg" style="width:652px;height:auto" width="1024"/><figcaption class="wp-element-caption">羊肉漢堡</figcaption></figure>
+
+多數的Ramly burger 廚師會將漢堡肉餅裹在一層薄薄的煎蛋中，這不僅鎖住了肉汁，還增添了一層口感。對我來說還有一個優點，因為多數 Ramly burger 都在較偏僻的路邊，我都選擇直接叫 Grab外送，省得深夜大老遠去排隊等候，蛋包包覆漢堡肉能讓我在拿到漢堡時，與現做現吃的差異較少。另外不管你點何種肉，記得都要選擇 double special （肉蛋加倍），反正都這麼晚吃宵夜了，就吃好吃滿最重要（狀態顯示為自暴自棄）。
+
+<figure class="wp-block-image aligncenter size-large is-resized"><img alt="" class="wp-image-291" decoding="async" height="642" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/Ramly-burger.jpg" style="width:1061px;height:auto" width="1024"/></figure>
+
+近年來，隨著全球興起街頭食品文化和餐車創業潮，Ramly burger 再次迎來了新的發展。加上馬來政府對小販與餐車創業的法令限制放寬。許多年輕人開始投入 Ramly burger 創業，新一代大馬創業者的漢堡，就朝向更精緻，並提高較多美式正統風味的優點元素，例如焦化洋蔥。
+
+這些發展變遷蠻有意思，假如回頭看台灣本土的漢堡文化，使自於中美斷交後，1979 年創立的台北天母的茉莉漢堡或 1980 年的女王漢堡，是第一波本土漢堡興起，Ramly burger 的創始也是源自 1979 年，然而其後台灣的漢堡創業，很長一段時間都被國際連鎖快餐業者壓制，本土漢堡藏在早餐店中緩步發展，Ramly burger 則沒受到國際連鎖餐飲的擠壓（因美式連鎖餐廳上世紀在馬來西亞受到的文化猜忌比較多，阻礙其展店傳播速度），才成功的在本地紮根，形成了獨特的飲食文化。  
+真正重新打出台灣本土漢堡創業潮的是 2008 年的發福廚房，作為第二波，但漢堡仍沒有獨立意識，而是與義大利麵麵等輕食一起呈現，但口味上已開始嘗試橋接台味風格與美式風格。
+
+2010 後隨著經濟景氣持續低迷與社群網絡興起，開始第三波浪潮至今（包括餐車創業風），台灣創業者很迅速跟上 Shakeshake 這些美國漢堡的新浪潮，更多漢堡專賣店興起，從各式各樣的口味需求切入，迸發出許多本土創意之餘，像是對麵包與漢堡肉有更精緻化的提升，漢堡在台灣也終於被認真視為一道料理了。
+
+我很期望未來也能有一款台灣風味的漢堡，能像馬來西亞的Ramly burger 去嘗試在美國消費市場立足，相信以台灣人對食物的熱情，這一天應該不會太久遠。  
+從美國到大馬，又講到台灣，說了這麼多，只需知道：Ramly burger 絕對是你去馬來西亞不可錯過的街頭食物，記得 double special 更美味。
+
+### • 童年comfort food的記憶
+
+你我一生嚐過各種食物的味道，如果你嘗試盡可能回憶童年時期的味覺記憶，多數人食物記憶的基礎都會是各種甜味，酸、苦、辣、鹹等味覺並不在其中，除了因為孩童的味覺發展尚未成熟，甜味本身還連結到舒適、安全和溫暖等感受，當然，如果你是六歲就吃大蒜配香腸、七歲愛吃泡菜與臭豆腐、八歲無辣不歡的神童，就不在此論述。
+
+我的童年味覺記憶也是帶著八、九分甜，為日本人幫傭過的外婆煎的玉子燒或荷包蛋，總是糖加比鹽多，祖父母做的年夜飯，我每年都還沒吃完飯，就去偷舀一碗客家紅白湯圓甜湯，各家長輩來串門時，總會帶著的各種吃食，像是熱呼呼的米香、茯苓糕、狀元糕、雞蛋糕、車輪餅、日治時代營業至今的天天饅頭，我最期待的則是蓬鬆帶著花生香氣的麵粉粿（麵粉粿是我中部家鄉台語的稱呼，又被稱為大麥煎、麥仔煎、麵粉煎）。
+
+還未出發到馬來西亞前，網路搜尋怡保資訊時，就注意到他們稱為大塊麵的食物，外觀看起來就是我小時候很喜歡的麵粉粿，以為是台灣人過去賣的，但認真一看發現不對呀，怎麼好像是當地行之有年的食物？搜尋檳城時，再度看到同一種食物，只是被稱為曼煎糕，勾起我的好奇心。
+
+查了維基百科，上面寫曼煎糕是來自福建的食物，我腦海浮現大大的蛤？ 孩童時，曾問過長輩，麵粉粿是哪裡來的食物？因為除了花生跟糖粉是中國元素，它的餅咀嚼起來充滿西方感，跟中式糕點不同，年幼的我沒想的那麼深，只是本能的覺得不一樣，比狀元糕這類中式糕點好吃，長輩回答我：「以前麵粉很貴，是美軍援台時代進口大量麵粉，台灣就有人把麵粉拿來變出麵粉粿」，我就這麼相信了三十年，現在你維基百科跟我說麵粉粿“自古以來“屬於福建不可分割的一部分！？坦白說，當下我真的質疑這條目的真實性，是不是中國小粉紅編寫的？😂
+
+在大馬的旅途中，抱持著這個疑問，實際品嚐與觀察曼煎粿以及當前大馬較流行的薄片式曼煎粿，兩者就像是西式鬆餅變化到可麗餅，薄片式曼煎粿就只有一層極薄且酥脆的餅皮，稍微彎曲摺疊，放入較有顆粒感的碎花生、糖粉的內餡，有些還會加上玉米粒等配料增加豐富程度，完全顛覆我習以為常的傳統曼煎粿，由一大塊厚實的餅皮去分切食用，題外話我覺得怡保大塊麵的稱呼很貼切，我從小常幻想獨自吃完整的、沒切開的麵粉粿，可對孩子來說那份量太大塊了！
+
+<figure class="wp-block-image aligncenter size-large is-resized"><img alt="" class="wp-image-293" decoding="async" height="1024" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/ban-han-kuih.jpg" style="width:792px;height:auto" width="1024"/><figcaption class="wp-element-caption">薄片式曼煎粿</figcaption></figure>
+
+麵粉粿、曼煎粿，無論你所在的地區如何稱呼它，在大馬親身吃過，並親眼看到它的眾多變化後，我相信它確實源自福建，而且是百年以上的的舊年代，而非半世紀內的現代產物，原因就在於傳統做法與口味的曼煎粿，如果是新食物，不太可能在半世紀擴散到港、澳、台、新、馬、印尼等地，甚至馬來西亞偏僻的鄉間也有，並且味道沒有改變，假如是半世紀內流行而擴散到這麼大範圍，那報導與文獻記載會很多，可實際上沒有，此外薄片式曼煎粿也明顯不是新近幾年才出現的創新，調理的成熟度與攤販的普及，都顯示這個食物已落地大馬非常久遠！
+
+那為何我（歷經日治時期）的長輩會認為麵粉粿是美援時代才開始有的食物呢？看到陳玉箴教授對日治時期臺灣烘焙產業的精彩研究 [（文章連結）](https://talk.ltn.com.tw/article/breakingnews/3804799)，隱約給了我些想法。
+
+無論日治前後，小麥在台灣栽種都不流行，種稻還是主流，此外品質問題，麵粉都傾向進口。日治前，以節慶用的漢餅為主，西式麵包罕見且貴，日治後，日本帶來了和果子與西式麵包的文化，然麵包依舊並非日常食物，而是非庶民的特定情境式消費，不過日治中期到中日開戰前的富庶，民眾消費力顯著提高，給了許多台灣飲食發展創新的土壤，一些知名的精緻台菜也在這階段出現，此時台灣可能已經有些地方的福建移民，有製作麵粉粿，不過這種食物在日治時代很難流行，因為麵粉粿較粗曠的口味與外觀，不具備當時日本明治或大正時代所推崇的西洋化文明飲食的特徵，有消費力的不願意吃，願意吃的可能沒消費力，且跟漢餅的消費族群的習慣口味差別太大，所以我的長輩非常有可能根本沒看過麵粉粿（但她在日治時代就嚐過雞蛋糕、銅鑼燒）。
+
+爾後戰爭開始直到國民黨來台初期，台灣經濟一直是處於被高度壓榨的狀況，社會普遍更難有餘裕去消費甜點，此處台灣大眾飲食有 20 多年的紀錄是支離破碎甚至消費倒退，所以**能夠從 1937 年以前存活至今的台灣糕餅品牌都非常了不起，值得我們多珍惜**。
+
+直到1960年前後美國開始大量援助麵粉給台灣，加上許多經濟扶持，許多外省人飲食、麵點、西式麵包蛋糕也是在此時開始迸發，甚至政府更鼓勵多吃麵少吃飯，讓更多的米能外銷賺取外匯，麵粉粿就是在此時，由福建移民重拾爐灶，開始製作並販售，並以很快的速度擴散到全台灣各地，讓許多台灣人第一次認識與品嚐，我的長輩可能就是因此以為這是美援時期產生的台灣本土新食物。
+
+雖然只是個人推敲，但我嘗試搜尋目前台灣的麵粉粿老店或攤子，最早開業的確實就是五十多年、不超過六十年，再更之前是找尋不到痕跡的，麵粉粿在台灣的發展歷史是呈現不連續的樣態，但這個食物絕對存在更早，因為麵粉粿在澳門稱之為冷糕，最老的店是創業自1949年，若當時冷糕沒有在民間有一定的認知度與消費需求，當時的創辦人也不會想藉此創業，若有達賢知曉麵粉粿在更早期台灣或他國歷史中的記載，煩請與我分享。
+
+回頭來說馬來西亞的曼煎粿，除了維持傳統做法，還跟馬來族裔、印度族裔的文化交匯，產生新的風貌。
+
+印度移民帶來一種稱為 Apom 的煎餅，受到曼煎粿許多影響，多數看到都是甜的 Apom manis（甜煎餅），還會配上香蕉等水果，一些路邊的嘛嘛檔（mamak）有賣原味 Apom 加蛋再抹上辣醬，風味很類似我們的早餐蛋餅，傳統的 Apom 尺寸都很迷你，要碼一口大小或是蛋餅皮大小，不同於與曼煎粿/麵粉粿那種大鍋尺寸，但有趣的點也在此，Apom 有稱為 Apom Balik（摺疊煎餅）的大鍋製作版本，可印度人傳統製作時並未使用大鍋，而曼煎粿的馬來語稱為Apam Balik，Apom Balik 明顯是習自 Apam Balik（曼煎粿）的後來產物。
+
+曼煎粿對 Apom 的影響還包括同樣使用白糖粉與花生碎的配方，兩者最大的差別點在於麵糊的成分，曼煎粿是麵粉、雞蛋、牛奶（就像蛋糕），Apom 則是米粉、椰漿、椰絲，此外曼煎粿的麵糊有經過發酵，所以煎烤時會膨脹膨鬆，Apom 則沒有經過發酵，會更酥脆，常邊吃邊掉碎屑。
+
+如果你還記得文章開始我提到不同於福建傳統的薄片式的曼煎粿，就我吃到的口感，麵糊的成分是正統的曼煎粿，可並未經過發酵，且煎烤時抹的麵糊極薄，使用小型鐵鑄模具，追求酥脆口感，試圖把曼煎粿做的如同Apom！
+
+這就是馬來西亞複雜又有趣的又一個例子，福建移民從原鄉帶來曼煎粿，受馬來、印度影響，產生薄脆小巧版本；而印度移民從原鄉帶來 Apom，被馬來化同時也學了華人的烹煮方式與調味，學會華人用大鍋做大餅，多元移民社會下，這些創新自然而然地就發生了。當然，你我熟悉的傳統曼煎粿也依舊存在於街頭、夜市與茶餐室，馬來西亞也仍然有人販售印度傳統的 Apom。
+
+<figure class="wp-block-image aligncenter size-large"><img alt="" class="wp-image-294" decoding="async" height="1024" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/FotoJet-1.jpg" width="1024"/><figcaption class="wp-element-caption">檳城傳統糕餅店內販售的零食，不禁想到我們習慣的蝦味先該不會也是歷史悠久且傳播地域很廣的食物吧？</figcaption></figure>
+
+行筆至此，深感味覺的形成遠比你我想的更複雜，不僅是個人偏好，也帶著家庭環境的塑造，更還有社會變遷脈絡與大時代國族的傳承；也恍然明白，隨著自己年歲增長，明明是刻意越來越少吃糕點甜點，可偏偏每當看到台灣路邊販售傳統糕點的小攤子，總是抱著莫名的情緒買下（像是基隆的名古屋日式甜點，每次在台北市區看到攤車都爆買），並非味蕾渴望其滋味，而是一種希望飲食傳承能延續下去、不捨其凋零的支持，年幼時帶著這些食物來串門的長輩們，除了對我的關愛，也許也是類似的心境吧。
+
+<table class="wpb-plt-table wpb-plt-table-hover">
+<thead>
+<tr>
+<th>Title</th>
+<th>Date</th> <th>Tag</th> </tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="/tobecontinued/">馬來筆記 Part5 未完待續</a></td>
+<td>2024-10-28</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
+<tr>
+<td><a href="/malaysianfood3/">馬來筆記 Part4 再談馬來西亞飲食（下）</a></td>
+<td>2024-10-17</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
+<tr>
+<td><a href="/malaysianfood2/">馬來筆記 Part4 再談馬來西亞飲食（中）</a></td>
+<td>2024-10-15</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
+<tr>
+<td><a href="/malaysianfood1/">馬來筆記 Part4 再談馬來西亞飲食（上）</a></td>
+<td>2024-10-14</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
+<tr>
+<td><a href="/penangtotainan/">馬來筆記 Part.3 從檳城看見台南的府城味</a></td>
+<td>2024-10-09</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
+<tr>
+<td><a href="/livingwisdom/">馬來筆記 Part.2 折衷的共存智慧</a></td>
+<td>2024-10-08</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
+<tr>
+<td><a href="/smoothtripml3/">馬來筆記 Part.1 行路不難(下)</a></td>
+<td>2024-10-07</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
+<tr>
+<td><a href="/smoothtripml2/">馬來筆記 Part.1 行路不難(中)</a></td>
+<td>2024-10-07</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
+<tr>
+<td><a href="/smoothtripml1/">馬來筆記 Part.1 行路不難(上)</a></td>
+<td>2024-10-07</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
+</tbody>
+</table>
+
+
+---
+
+# 馬來筆記 Part5 未完待續
+
+- 發佈日期: 2024-10-28
+- 最後更新: 2025-04-30
+- 作者: Austin
+- 分類: Malaysia
+- 標籤: MY2024
+- 原文網址: https://flavorinsight.com/tobecontinued/
+
+> 想像一下，你要對一家遠在美國的陌生公司做投資決策，跟台灣企業想去開拓相對陌生的東南亞市場，又或是與 100 ~400 年前主動或被動去南洋找生計的明清先民相比，其實要面對的問題情境都是極為相似
+
+馬來西亞系列，寫到這裡已經遠超我最起初的預期，我算過大概三萬多字，起初只是隨口答應檳城的朋友們分享這趟旅行紀錄，他們希望我跟更多台灣人宣傳馬來西亞觀光，最後，內容也跳脫了當下的旅遊記錄，而是凝聚這些年我的所見所聞所思所想，希望8篇深度書寫的成果，能回報自 2020 年疫情開始到這趟旅行期間，大馬友人們對我的諸多照顧。
+
+- [馬來筆記 Part.1 行路不難(上)](/smoothtripml1/)
+- [馬來筆記 Part.1 行路不難(中)](/smoothtripml2/)
+- [馬來筆記 Part.1 行路不難(下)](/smoothtripml3/)
+- [馬來筆記 Part.2 折衷的共存智慧](/livingwisdom/)
+- [馬來筆記 Part.3 從檳城看見台南的府城味](/penangtotainan/)
+- [馬來筆記 Part4 再談馬來西亞飲食（上）](/malaysianfood1/)
+- [馬來筆記 Part4 再談馬來西亞飲食（中）](/malaysianfood2/)
+- [馬來筆記 Part4 再談馬來西亞飲食（下）](/malaysianfood3/)
+
+這系列文章不像遊記、食記，也不像分析報告，更多的是一個文化研究者&長期投資者，企圖在旅途中去更深度認知大馬社會的消費與文化脈絡，因為馬來西亞的飲食文化資本異常高，無論在文化研究或商業探查，都有很高的價值與潛力，不僅是為了旅遊，若你本身是想去創業或投資，這系列文應能給你些許文化 insights。當然，如果是想去旅遊，相信也能讓你對大馬社會有事前的深刻認識。
+
+傳統商業分析習慣把人當消費者，忽視消費習慣背後的行程脈絡，下意識就以商業目標為導向，過於急切的定出結論，許多投資人在做股票研究時，也把商業分析的諸多壞毛病學起來，但在人類學或其他社會學科重視觀察，梳理社群發展脈絡、洞察社群關係與族群的行為價值觀，勝過於下結論。
+
+想像一下，你要對一家遠在美國的陌生公司做投資決策，跟台灣企業想去開拓相對陌生的東南亞市場，又或是與 100 ~400 年前主動或被動去南洋找生計的明清先民相比，其實要面對的問題情境都是極為相似，想成功的關鍵點都在於讓自己能更精確的認知並洞察當地社群脈絡的真實模樣，才能找出最具潛力的機會，忽視脈絡思考的人，可能僥倖短暫成功，卻不可能長期獲勝。
+
+想寫的還很多，甚至有些篇草稿尚待完成，例如**台灣餐飲在大馬的發展現況、馬來西亞的現代餐飲風貌、零售業特色、博物館**之類，不過我本職還有許多投資課題要處理，暫時不再花時間接續書寫了，明年還會去大馬走走，屆時再考慮再提筆繼續寫，希望這系列對各位有幫助，也別忘了把馬來西亞列入你的旅遊清單。有興趣交流的朋友，也可[連繫我](https://x.com/intent/follow?screen_name=austinsayhi)。
+
+下面整理一些個人有在追蹤的馬來西亞資訊與過往相關的閱讀，供各位參考。
+
+### FB 粉專
+
+[日本人妻的無限創作](https://www.facebook.com/kaznozokazuki)  
+很神奇的緣分，我疫情時偶然追蹤到小希的臉書，只是當成一個旅居馬來西亞的親子美食分享帳在看，直到她要在馬來西亞出書【貓咪帶我闖入迷霧森林-只為了和你們相遇】，才在相關介紹中發現原來她在台灣也出過一本書【日本人妻的無限料理】，正巧我當年就有買！沒想到過了六、七年，竟然追到同一個人，在這美食當道的年代，誇口自己愛美食的人居多，而無論什麼食物都能嚐出樂趣的人不多，大推她粉專。  
+[陳靜宜老師的臉書](https://www.facebook.com/profile.php?id=100070196771972&locale=zh_TW)  
+深耕大馬飲食文化的台灣第一人，在馬來媒體也有專欄，要怎麼提高飲食消費品味與文化涵養？跟懂吃的人學著吃出門道！  
+[劲在槟城 / Exploring Penang](https://www.facebook.com/Everything.About.Penang)  
+非常在地的檳城美食分享  
+[Penang Foodie](https://www.facebook.com/penangfoodie)  
+巨量的檳城美食情報  
+[馬拉妹出閘](https://www.facebook.com/malaimui1977/)  
+馬來西亞的知名飲食文化工作者
+
+### YT 頻道
+
+[跟着阿宏找Lobang](https://www.youtube.com/@lobang)  
+宛如大馬版的搶救貧窮大作戰的《[六叔來幫忙](https://youtube.com/playlist?list=PLKnLmlBXcOSSBYSwoaOH_lWcN2Zg3bTwX&si=ciB-NJ7irgoo0y_k)》系列，讓我第一次認識這位認真的大馬網紅。  
+[迷鹿与高羊](https://www.youtube.com/@higoatohdeer/playlists)
+
+### 媒體
+
+<https://penangfoodie.com/>
+
+[星洲日報副刊](https://www.sinchew.com.my/category/%E5%89%AF%E5%88%8A/%E4%B8%93%E6%A0%8F-%E5%89%AF%E5%88%8A/%E6%96%87%E5%8C%96%E7%A9%BA%E9%97%B4)
+
+### 書籍太多了就不放

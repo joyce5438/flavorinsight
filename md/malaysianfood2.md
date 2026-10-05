@@ -1,0 +1,106 @@
+# 馬來筆記 Part4 再談馬來西亞飲食（中）
+
+- 發佈日期: 2024-10-15
+- 最後更新: 2025-04-30
+- 作者: Austin
+- 分類: Malaysia
+- 標籤: MY2024
+- 原文網址: https://flavorinsight.com/malaysianfood2/
+
+> 檳城不成文的規定是知名的特色食物，是禁止交給外籍勞工掌廚，這展現了檳城人對傳統風味的自豪與保護，而在吉隆坡這樣國際化的現代城市，選擇將餐飲交予商業自由主義
+
+### • 中國好味道？
+
+前一篇講到中國蘭州拉麵，不只馬來西亞城市大量出現中國餐館品牌與小吃，全東南亞都會區都如此。台灣近年也湧現螺蛳粉、酸菜魚，會有這種現象，除了與中國政府從政策面去推廣具中國風味的特色飲食，尤其針對推向國際，社群媒體、短影音的推波助瀾也是主因，消費端的味蕾喜好有時只是跟風，我不多做評析，我真正想了解的還是大馬本地的餐飲從業者面對的問題。
+
+在中國近幾年的這一波餐飲品牌海外創業潮，平價連鎖餐飲與街邊小吃的界線是被模糊的，像是五谷魚粉、楊銘宇黃燜雞飯、蜜雪冰城、擼串、酸奶…等。  
+將傳統街邊的單品小吃拉入餐飲店的連鎖加盟與產銷模式下，對創業者有什麼好處？品牌的形象能更清晰，行銷與店內服務能做的更有區隔性，規模採購除了食材品質好掌控，最重要是成本再降低，可以做到更極致的薄利多銷，最鮮明的變化則是科技導入，長期降低了人力成本。這些以往可能在海底撈這種中高檔次的中國餐飲連鎖才玩得動，如今，即便只是普通中國餐館，都能玩轉，簡單講，開店要成功的三要素「品質、客流、成本」的難度都降低，彷彿中國電商一條龍的模式被移植來到餐飲業了。
+
+<figure class="wp-block-image aligncenter size-large is-resized"><img alt="" class="wp-image-261" decoding="async" height="768" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/IMG_20240831_205932.jpg" style="width:766px;height:auto" width="1024"/><figcaption class="wp-element-caption">乳業產能過剩的中國酸奶輸出到海外，問了許多人，安慕希在大馬賣得並不好</figcaption></figure>
+
+模式之所以能有效，我認為還在於餐點品項的選擇與設計，皆是製作過程簡易的低難度料理，甚至適合以預製菜再重新復熱，也不會走味太多的類型，烹煮快、上菜快，又增加了翻桌率，像臭豆腐好了，台式炸臭豆腐就沒辦法用預製菜的方式，必須現炸，可湘式湯臭豆腐就很適合。
+
+乍看之下，面臨全球食品成本與人力成本的通膨，中國模式好像很行得通，但實際上體驗幾家後，發覺有致命的缺陷：「體驗感很貧乏」、「料理沒靈魂」。這些餐館的菜單看得出全力追求爆款，實際上是在透支日後的回購率，口味上也產生影響，一味迎合大眾，好吃的標準無意識被降低了，因為要讓位於快速的產銷流程，因此餐點便宜、口味尚可卻沒有靈魂，其次，再多網紅打卡式的裝潢，都掩蓋不了人群拉低的品味與體驗，試想今天你一家店沒幾個人是真正要坐下來品嚐食物，那氛圍就跟去大賣場是一樣的，熱鬧但淺薄。
+
+<figure class="wp-block-image aligncenter size-large is-resized"><img alt="" class="wp-image-262" decoding="async" height="1024" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/IMG_20240901_224114.jpg" style="width:656px;height:auto" width="768"/><figcaption class="wp-element-caption">中國自熱鍋擺在架上很好的位置但沒人買，盲目的產品輸出只是讓產能更加過剩，而不會真正解決問題</figcaption></figure>
+
+這樣講可能有人不贊同，若你有去過賣冰飲品的蜜雪冰城 MIXUE ，應該了解它的人流是非常高的，價格也低廉到驚人，它具備了這波中國餐飲的海外連鎖的所有強項，然而你只需要去 google map，搜尋越南或是馬來西亞的蜜雪冰城，你會發現整體評分普通就算了，評價數異常的少，瑞幸咖啡也有同樣現象，有興趣的朋友可以嘗試開 google map，在新加坡搜尋luckin coffee ，從所有分店去一一觀察每一家評論的量化數據與內容分析（我在美股投資中也會以這類方式做調查），就應該能體會我要表達的，不知道是幸還不幸，馬來西亞就是瑞幸咖啡即將要大舉拓點的市場。
+
+<figure class="wp-block-image aligncenter size-large is-resized"><img alt="" class="wp-image-264" decoding="async" height="1024" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/275265.jpg" style="width:658px;height:auto" width="673"/><figcaption class="wp-element-caption">4分以上的多是新開，4.8的則是極少數不用app即可購買的店(瑞幸咖啡必須註冊app才能你買)</figcaption></figure>
+
+這就是體驗薄弱造成口碑行銷降低，選擇依賴短影音的社群行銷，就必須讓自己品牌的實體可見度夠，才能讓短影音的記憶被啟動而消費，因此，對於人流高的熱門地段需求反而高於傳統餐廳！否則變現率會較低，薄利多銷的模式也就崩解了。
+
+仔細一想，這種只顧現在、透支未來的經營，還蠻扭曲與病態，可能中國人就是愛卷吧，諸位有沒有過特地跑去很偏僻偏遠的地方，只為了吃某個美食的經驗？或是即使排了一小時的隊只為吃某個美食，也覺得超值的經驗？許多時候，一家店裡，都是來吃熱鬧還是來品嚐美食，會是截然不同的氛圍，所以營造吸引回頭客的情境，我認為才是能走長遠的關鍵。
+
+傳奇餐飲經理人 Danny Meyer 在[他的書中](https://www.books.com.tw/products/0010827097?gclid=Cj0KCQjw753rBRCVARIsANe3o45cfU9Nl11xHpQUHEVtXQzaofpjz-GsHbMfoX8Uj4xmK5XYTy1KcAwaAo9ZEALw_wcB)的這段話或許更精確點出中國連鎖餐飲的盲點：
+
+> 一般人外出用餐不只是為了吃，也會為社群經驗而選擇餐廳。星巴克（Starbucks）就運用喝好咖啡（和排隊買好咖啡）的概念，設法營造出與其他同好一起享用咖啡的經驗，這才是真正的賣點。**企業若不了解促進社群形成是它存在的理由，注定不會有好表現**。
+
+這些是這幾年在東南亞以及這次在吉隆坡知名的茨廠街所見的感觸，**馬來本地的餐飲創業者可能對加盟這些中國連鎖是要多深思熟慮，不宜照單全收**。另外這些中國餐廳的卷，如果排擠掉低價的本地餐飲業者，也會讓商圈攤商的多樣性降低，失去特色；更甚至讓當地人生計受影響，進一步感受主權焦慮與文化入侵，而對中國印象更差，飲食象徵了一個民族，假如你都是在 Garbage Out，那可能也只會得到 Garbage In。
+
+但也是有令我驚訝的中國連鎖，茶仙子與霸王茶姬CHAGEE算是成功地扎根大馬了，雖然說茶仙子還不斷”致敬”台灣手搖茶(避免被告用詞謹慎 但讀者應該懂我意思)，霸王茶姬CHAGEE則在整體體驗與口味上，已經走出自己的路，實話實說這個品牌有點厲害了。
+
+<figure class="wp-block-image aligncenter size-large is-resized"><img alt="" class="wp-image-272" decoding="async" height="768" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/IMG_20240829_231214-1.jpg" style="width:936px;height:auto" width="1024"/><figcaption class="wp-element-caption">看到珍奶與阿里山，是否以為是台灣品牌呢？茶仙子是中國八馬茶業所創，很用力挪用各種台灣特色食材與手搖飲風味，在大馬頗受年輕人歡迎</figcaption></figure>
+
+題外話，去馬來西亞，記得吃看看鼎泰豐為伊斯蘭消費者推出的雞肉小籠包，是一種面對異國市場更謙遜的態度。
+
+### • 料理有無國界
+
+許多傳統飲食都面臨兩個難題，一是餐飲業的傳承困難，二是勞動力缺乏與昂貴，相對便宜的移工就成了多數餐飲業會選擇的方式。值得好奇的是移工掌廚，味道會變調嗎？
+
+來分享我的親身體驗，先說這趟從檳城開始，我沒有吃到任何一家難吃的店（包括用Grab點的外賣），後續的城市也都吃的滿意極了，唯獨我到吉隆坡，由於很晚了，旅館 check-in 後就急忙往茨廠街去覓食，就此嘗到我來大馬吃到的唯二地雷食物（另一個雷在離境機場內），這是一家港式牛腩麵店，尊重店家我還是不說店名，總之剛入座，嗅覺靈敏的我聞到廚房飄過來的牛肉湯味就覺得慘了！可是外籍店員已經在桌邊準備幫我點餐，只好硬著頭皮點下去，有多難吃我就不描述了，總之後來我索性回飯店用 grab叫外賣沙嗲（satay）來療內傷，是的，這家牛腩麵是由外籍員工掌廚…
+
+<figure class="wp-block-image aligncenter size-large is-resized"><img alt="" class="wp-image-267" decoding="async" height="768" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/IMG_20240830_195055.jpg" style="width:787px;height:auto" width="1024"/><figcaption class="wp-element-caption">沙嗲也是不能錯過的美食，個人喜歡找沒賣豬肉沙爹的馬來人攤子，醬汁較醇厚</figcaption></figure>
+
+事後吉隆坡朋友告訴我現在很多餐廳是給孟加拉或尼泊爾人掌廚，回憶牛腩麵員工們對話的語言，應該就是了，說真的，先前嚐過大馬各族裔做的菜，各有風味，讓我忽略了某些菜系是否仍應由最熟悉其風味特徵的族群製作？像是牛腩麵、雲吞麵這類港式食物是否在烹煮上，還是由味蕾偏好相近的華人來料理較好？
+
+我仍相信食物是跨國界，料理能在不同族群的手藝下產生新的風味，例如曾在一個新北越南小吃攤，吃到不輸正統名店的台式炸排骨，店家附上魚露沾醬，與越南風味的配菜，是一份讓我很驚喜的排骨飯，但如果是渴望一份正統台味排骨飯的消費者，想必會是極失望吧。
+
+所以馬來西亞很多餐廳，試著找尋其間的平衡，例如位於八打靈再也的名店陳明記燒臘，在疫情結束後，開始聘用緬甸籍員工，在客戶中就引發兩極的爭論，有些 googlemap留言甚至我覺得跟料理無關，而是赤裸裸種族歧視😅，到後來老闆都多次出來回應澄清（下圖），廚師跟經理都是華人，緬甸員工只是擔任外場與外送包裝，但我相信這種質疑依舊會有。
+
+<figure class="wp-block-image aligncenter size-large is-resized"><img alt="" class="wp-image-268" decoding="async" height="935" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/ming1.jpg" style="width:835px;height:auto" width="1024"/></figure>
+
+<figure class="wp-block-image aligncenter size-large is-resized"><img alt="" class="wp-image-269" decoding="async" height="666" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/ming2.jpg" style="width:870px;height:auto" width="1024"/></figure>
+
+那麼檳城為什麼能讓我不踩雷？當地朋友告訴我，原來檳城餐飲界有不成文的公約，檳城知名的特色食物，是禁止交給外籍勞工掌廚（下圖），這展現了檳城人對傳統風味的自豪與保護，而在吉隆坡這樣國際化的現代城市，選擇將餐飲交予商業自由主義，在這個找尋平衡的過程，可能有些店失去舊味道與舊客戶，還尚未找尋到新味道與新客戶前就被市場淘汰了，運氣好的，也許就成為某種創新料理的開拓者。**下一篇我會提到上個世紀初，馬來西亞海南移民作為外籍勞工掌廚，用廚藝贏得肯定並開創出一個新菜系的故事**。
+
+<figure class="wp-block-image aligncenter size-large has-custom-border"><img alt="" class="has-border-color has-black-border-color wp-image-265" decoding="async" height="93" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/275256_0.png" style="border-width:5px" width="1024"/></figure>
+
+如果你渴望嘗試新奇、創新的飲食，吉隆坡很不錯，如同新加坡，有大量國際化的風味激盪，追求成熟雋永的老味道，你得往不那麼熱鬧的城市去。
+
+<table class="wpb-plt-table wpb-plt-table-hover">
+<thead>
+<tr>
+<th>Title</th>
+<th>Date</th> <th>Tag</th> </tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="/tobecontinued/">馬來筆記 Part5 未完待續</a></td>
+<td>2024-10-28</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
+<tr>
+<td><a href="/malaysianfood3/">馬來筆記 Part4 再談馬來西亞飲食（下）</a></td>
+<td>2024-10-17</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
+<tr>
+<td><a href="/malaysianfood2/">馬來筆記 Part4 再談馬來西亞飲食（中）</a></td>
+<td>2024-10-15</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
+<tr>
+<td><a href="/malaysianfood1/">馬來筆記 Part4 再談馬來西亞飲食（上）</a></td>
+<td>2024-10-14</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
+<tr>
+<td><a href="/penangtotainan/">馬來筆記 Part.3 從檳城看見台南的府城味</a></td>
+<td>2024-10-09</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
+<tr>
+<td><a href="/livingwisdom/">馬來筆記 Part.2 折衷的共存智慧</a></td>
+<td>2024-10-08</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
+<tr>
+<td><a href="/smoothtripml3/">馬來筆記 Part.1 行路不難(下)</a></td>
+<td>2024-10-07</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
+<tr>
+<td><a href="/smoothtripml2/">馬來筆記 Part.1 行路不難(中)</a></td>
+<td>2024-10-07</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
+<tr>
+<td><a href="/smoothtripml1/">馬來筆記 Part.1 行路不難(上)</a></td>
+<td>2024-10-07</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
+</tbody>
+</table>

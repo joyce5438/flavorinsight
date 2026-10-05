@@ -1,22 +1,25 @@
 <!doctype html>
-<html lang="{{ site.lang }}">
+<html lang="zh-Hant-TW">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
-  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | strip_newlines | truncate: 160 }}">
-  {% if page.image %}<meta property="og:image" content="{{ page.image | absolute_url }}">{% endif %}
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  {% seo %}
+  {% if page.last_modified_at %}<meta property="article:modified_time" content="{{ page.last_modified_at | date_to_xmlschema }}">{% endif %}
+  {% for t in page.tags %}<meta property="article:tag" content="{{ t }}">{% endfor %}
+  {% if page.layout == "post" %}<link rel="alternate" type="text/markdown" title="Markdown" href="{{ '/md/' | append: page.slug | append: '.md' | relative_url }}">{% endif %}
+  <link rel="alternate" type="text/plain" title="llms.txt" href="{{ '/llms.txt' | relative_url }}">
+  {% feed_meta %}
   <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
-  <link rel="alternate" type="application/atom+xml" href="{{ '/feed.xml' | relative_url }}">
 </head>
 <body>
   <header class="site-header">
     <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
-    <nav><a href="{{ '/' | relative_url }}">文章</a> <a href="{{ '/tags/' | relative_url }}">分類 / 標籤</a></nav>
+    <nav aria-label="主選單"><a href="{{ '/' | relative_url }}">文章</a> <a href="{{ '/tags/' | relative_url }}">分類 / 標籤</a></nav>
   </header>
   <main class="container">
     {{ content }}
   </main>
-  <footer class="site-footer">© {{ site.time | date: '%Y' }} {{ site.title }}</footer>
+  <footer class="site-footer">© {{ site.time | date: '%Y' }} {{ site.title }} · <a href="{{ '/llms.txt' | relative_url }}">llms.txt</a> · <a href="{{ '/feed.xml' | relative_url }}">RSS</a></footer>
 </body>
 </html>

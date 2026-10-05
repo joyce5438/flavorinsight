@@ -1,16 +1,41 @@
 title: "Flavor Insight"
-description: ""
+tagline: "飲食、消費與文化脈絡的深度觀察"
+description: "以文化研究者與長期投資者的視角，書寫飲食、消費與社會文化脈絡。馬來筆記系列：馬來西亞交通、族群共存、檳城與台南飲食交流、馬來西亞飲食觀察。"
 url: "https://joyce5438.github.io"   # 之後若綁 flavorinsight.com，改成 https://flavorinsight.com 並把 baseurl 設為 ""
 baseurl: "/flavorinsight"
-lang: zh-Hant
+lang: zh_TW
+locale: zh_TW
 timezone: Asia/Taipei
 permalink: /:title/
 markdown: kramdown
 kramdown:
   input: GFM
+
+author:
+  name: Austin
+  url: https://x.com/austinsayhi
+twitter:
+  username: austinsayhi
+  card: summary_large_image
+social:
+  name: Austin
+  links:
+    - https://x.com/austinsayhi
+    - https://flavorinsight.com
+logo: /wp-content/uploads/2024/10/IMG_20240830_085054-scaled.jpg
+
+defaults:
+  - scope: { path: "", type: posts }
+    values: { layout: post, seo: { type: BlogPosting } }
+
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-seo-tag
+
+feed:
+  excerpt_only: false
+
 exclude:
   - README.md
   - Gemfile

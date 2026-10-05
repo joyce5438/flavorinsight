@@ -1,0 +1,23 @@
+# Flavor Insight
+
+> 以文化研究者與長期投資者的視角，書寫飲食、消費與社會文化脈絡的深度文章。目前主要為「馬來筆記」系列：馬來西亞的交通、族群共存、檳城與台南飲食文化交流、馬來西亞飲食觀察。
+
+作者：Austin（X: @austinsayhi）。內容語言：繁體中文（台灣）。
+
+## 文章（馬來筆記系列，依發表順序）
+
+- [馬來筆記 Part.1 行路不難(上)](https://joyce5438.github.io/flavorinsight/md/smoothtripml1.md): 2024-10-07｜檳城朋友拜託我回台後把旅途體驗分享出來，讓更多台灣人去大馬旅遊，個人討厭走觀光客行程，也不想用旅遊部落客老套的時序類寫法，加上本身有史地、文化研究、飲食消費…的知識存量，所以打算用
+- [馬來筆記 Part.1 行路不難(中)](https://joyce5438.github.io/flavorinsight/md/smoothtripml2.md): 2024-10-07｜Platinum 列車 A 車廂的金座椅，整體設計是採用飛機座艙的概念，每個座位都有服務鈴，並有兩位服務員隨侍在這個車廂內，Platinum 只停靠大站，大站之間車程都有一個半小時
+- [馬來筆記 Part.1 行路不難(下)](https://joyce5438.github.io/flavorinsight/md/smoothtripml3.md): 2024-10-07｜被陌生人餵食的經驗實在很特別，讓我想起怕你餓的台灣阿嬤，與台灣擔心怠慢客人的熱情周到不同，當你表露對大馬食物的由衷喜愛，大馬人就會把你當朋友般分享，而不僅僅是一個外國人、觀光客或過
+- [馬來筆記 Part.2 折衷的共存智慧](https://joyce5438.github.io/flavorinsight/md/livingwisdom.md): 2024-10-08｜同一道菜，不同族裔有不同的側重，華人在意米的烹煮，馬來人首重辣醬的層次感，印度人則更希望能在其中吃到熟悉的傳統風味，多樣性的交融就是馬來西亞食物最有趣之處
+- [馬來筆記 Part.3 從檳城看見台南的府城味](https://joyce5438.github.io/flavorinsight/md/penangtotainan.md): 2024-10-09｜檳城人都異常喜歡豬油、豬油渣與講求炒菜的生猛鑊氣，薄餅有豬油渣，粿條湯、福建麵也都有，檳城人對炒粿條的要求就如同台南人對待炒鱔魚意麵，沒鑊氣，料理就沒了靈魂，這點我感同身受
+- [馬來筆記 Part4 再談馬來西亞飲食（上）](https://joyce5438.github.io/flavorinsight/md/malaysianfood1.md): 2024-10-14｜許多看似不理性不科學的食物混搭，在移民社會是很務實的折衷做法，也許是為了應消費者提出的需要，也可能是店家為增加銷售的行銷手法，又或是一個將異鄉食材由（陌）生到熟（悉）的必然摸索過程
+- [馬來筆記 Part4 再談馬來西亞飲食（中）](https://joyce5438.github.io/flavorinsight/md/malaysianfood2.md): 2024-10-15｜檳城不成文的規定是知名的特色食物，是禁止交給外籍勞工掌廚，這展現了檳城人對傳統風味的自豪與保護，而在吉隆坡這樣國際化的現代城市，選擇將餐飲交予商業自由主義
+- [馬來筆記 Part4 再談馬來西亞飲食（下）](https://joyce5438.github.io/flavorinsight/md/malaysianfood3.md): 2024-10-17｜馬來海南菜系的創新成果已經深深地融入了馬來西亞的飲食文化中。例如，在茶餐廳中常見的海南蒸麵包、海南咖啡、海南雞扒等，已經成為了跨越族裔界限的受歡迎美食。這些菜品不再僅僅代表海南族群
+- [馬來筆記 Part5 未完待續](https://joyce5438.github.io/flavorinsight/md/tobecontinued.md): 2024-10-28｜想像一下，你要對一家遠在美國的陌生公司做投資決策，跟台灣企業想去開拓相對陌生的東南亞市場，又或是與 100 ~400 年前主動或被動去南洋找生計的明清先民相比，其實要面對的問題情境
+
+## 其他
+
+- [全文合輯 llms-full.txt](https://joyce5438.github.io/flavorinsight/llms-full.txt)
+- [Sitemap](https://joyce5438.github.io/flavorinsight/sitemap.xml)
+- [RSS/Atom Feed](https://joyce5438.github.io/flavorinsight/feed.xml)
