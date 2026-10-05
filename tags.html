@@ -1,0 +1,15 @@
+---
+layout: default
+title: 分類 / 標籤
+permalink: /tags/
+---
+<h1>分類</h1>
+{% for c in site.categories %}
+<h3 id="cat-{{ c[0] | slugify }}">{{ c[0] }}（{{ c[1].size }}）</h3>
+<ul>{% for p in c[1] %}<li><a href="{{ p.url | relative_url }}">{{ p.title }}</a> <small>{{ p.date | date: "%Y-%m-%d" }}</small></li>{% endfor %}</ul>
+{% endfor %}
+<h1>標籤</h1>
+{% for t in site.tags %}
+<h3 id="tag-{{ t[0] | slugify }}">#{{ t[0] }}（{{ t[1].size }}）</h3>
+<ul>{% for p in t[1] %}<li><a href="{{ p.url | relative_url }}">{{ p.title }}</a> <small>{{ p.date | date: "%Y-%m-%d" }}</small></li>{% endfor %}</ul>
+{% endfor %}

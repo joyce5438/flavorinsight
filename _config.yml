@@ -1,0 +1,17 @@
+title: "Flavor Insight"
+description: ""
+url: "https://joyce5438.github.io"   # 之後若綁 flavorinsight.com，改成 https://flavorinsight.com 並把 baseurl 設為 ""
+baseurl: "/flavorinsight"
+lang: zh-Hant
+timezone: Asia/Taipei
+permalink: /:title/
+markdown: kramdown
+kramdown:
+  input: GFM
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
