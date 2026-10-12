@@ -1,25 +1,26 @@
 <!doctype html>
-<html lang="zh-Hant-TW">
+<html lang="zh-TW" data-save-color-scheme="yes" data-yuki-theme="light">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
-  {% seo %}
-  {% if page.last_modified_at %}<meta property="article:modified_time" content="{{ page.last_modified_at | date_to_xmlschema }}">{% endif %}
-  {% for t in page.tags %}<meta property="article:tag" content="{{ t }}">{% endfor %}
-  {% if page.layout == "post" %}<link rel="alternate" type="text/markdown" title="Markdown" href="{{ '/md/' | append: page.slug | append: '.md' | relative_url }}">{% endif %}
-  <link rel="alternate" type="text/plain" title="llms.txt" href="{{ '/llms.txt' | relative_url }}">
-  {% feed_meta %}
-  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+{% seo %}
+{% if page.last_modified_at %}<meta property="article:modified_time" content="{{ page.last_modified_at | date_to_xmlschema }}">{% endif %}
+{% for t in page.tags %}<meta property="article:tag" content="{{ t }}">{% endfor %}
+{% if page.layout == "post" %}<link rel="alternate" type="text/markdown" title="Markdown" href="{{ '/md/' | append: page.slug | append: '.md' | relative_url }}">{% endif %}
+<link rel="alternate" type="text/plain" title="llms.txt" href="{{ '/llms.txt' | relative_url }}">
+{% feed_meta %}
+<link rel="icon" href="{{ '/assets/wp/flavorinsight.com/wp-content/uploads/2024/10/cropped-foodlogofavicon7.jpg' | relative_url }}" sizes="192x192">
+<link rel="apple-touch-icon" href="{{ '/assets/wp/flavorinsight.com/wp-content/uploads/2024/10/cropped-foodlogofavicon7.jpg' | relative_url }}">
+{% include wp/stylesheets.html %}
+{% if page.layout == "post" %}{% include wp/styles-post.html %}{% else %}{% include wp/styles-home.html %}{% endif %}
+{% include wp/head-scripts.html %}
 </head>
-<body>
-  <header class="site-header">
-    <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
-    <nav aria-label="主選單"><a href="{{ '/' | relative_url }}">文章</a> <a href="{{ '/tags/' | relative_url }}">分類 / 標籤</a></nav>
-  </header>
-  <main class="container">
-    {{ content }}
-  </main>
-  <footer class="site-footer">© {{ site.time | date: '%Y' }} {{ site.title }} · <a href="{{ '/llms.txt' | relative_url }}">llms.txt</a> · <a href="{{ '/feed.xml' | relative_url }}">RSS</a></footer>
+<body class="{{ page.body_class | default: 'home blog' }} wp-embed-responsive yuki-body overflow-x-hidden yuki-form-modern{% if page.layout == 'post' %} yuki-post{% else %} hfeed{% endif %}" data-yuki-scroll-reveal="{&quot;delay&quot;:200,&quot;duration&quot;:600,&quot;interval&quot;:200,&quot;opacity&quot;:0,&quot;scale&quot;:1,&quot;origin&quot;:&quot;bottom&quot;,&quot;distance&quot;:&quot;200px&quot;}">
+{% include wp/header.html %}
+{{ content }}
+{% include wp/footer.html %}
+{% if page.layout == "post" %}{% include wp/footer-scripts-post.html %}{% else %}{% include wp/footer-scripts-home.html %}{% endif %}
 </body>
 </html>

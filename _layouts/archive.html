@@ -1,0 +1,7 @@
+---
+layout: default
+---
+{% if page.filter_category %}{% assign posts = site.categories[page.filter_category] %}{% elsif page.filter_tag %}{% assign posts = site.tags[page.filter_tag] %}{% else %}{% assign posts = site.posts %}{% endif %}
+<main class="yuki-posts-container yuki-container lg:flex flex-grow container mx-auto px-gutter yuki-no-sidebar"> <div class="yuki-posts flex-grow mx-auto yuki-max-w-content" id="content"> <div class="flex flex-wrap card-list">
+{% for p in posts %}{% include wp/card.html p=p first=forloop.first %}{% endfor %}
+</div> </div> </main>
