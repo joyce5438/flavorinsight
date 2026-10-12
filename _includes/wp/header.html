@@ -5,7 +5,7 @@
 <div class="yuki-search-modal yuki-modal yuki_header_el_search_modal" data-toggle-behaviour="toggle" id="yuki-search-modal">
 <div class="yuki-modal-content">
 <div class="max-w-screen-md mx-auto mt-60 yuki-search-modal-form form-controls form-underline relative" data-redirect-focus="#yuki-close-search-modal-button">
-<form action="https://www.google.com/search" class="search-form" method="get" role="search"><input type="hidden" name="as_sitesearch" value="{{ site.url | remove: \'https://\' }}{{ site.baseurl }}">
+<form action="https://www.google.com/search" class="search-form" method="get" role="search"><input type="hidden" name="as_sitesearch" value="{{ site.url | remove: 'https://' }}{{ site.baseurl }}">
 <div class="relative">
 <label class="flex items-center flex-grow mb-0" for="search-form-6acc99630cbea">
 <span class="screen-reader-text">Search for:</span>
@@ -32,11 +32,18 @@
 </button>
 </div>
 <div class="yuki-modal-content" data-redirect-focus="#yuki-close-off-canvas-modal">
-<div class="yuki-builder-column yuki-builder-column-0 yuki-builder-column-desktop yuki-builder-column-desktop-dir-column yuki-builder-column-tablet-dir-column yuki-builder-column-mobile-dir-column yuki_header_builder_col_modal_0_desktop"><div class="yuki-menu-wrap h-full yuki_header_el_menu_1_wrap" data-builder-element="menu-1"><ul class="sf-menu clearfix yuki-menu yuki_header_el_menu_1 yuki-menu-has-arrow"></ul>
+<div class="yuki-builder-column yuki-builder-column-0 yuki-builder-column-desktop yuki-builder-column-desktop-dir-column yuki-builder-column-tablet-dir-column yuki-builder-column-mobile-dir-column yuki_header_builder_col_modal_0_desktop"><div class="yuki-menu-wrap h-full yuki_header_el_menu_1_wrap" data-builder-element="menu-1"><ul class="sf-menu clearfix yuki-menu yuki_header_el_menu_1 yuki-menu-has-arrow">
+<li class="menu-item"><a href="{{ '/' | relative_url }}">首頁</a></li>
+<li class="menu-item"><a href="{{ '/category/malaysia/' | relative_url }}">分類：Malaysia</a></li>
+<li class="menu-item"><a href="{{ '/tag/my2024/' | relative_url }}">標籤：MY2024</a></li>
+<li class="menu-item"><a href="{{ '/author/joycewu703gmail-com/' | relative_url }}">作者：Austin</a></li>
+<li class="menu-item"><a href="{{ '/feed.xml' | relative_url }}">RSS 訂閱</a></li>
+<li class="menu-item"><a href="{{ '/llms.txt' | relative_url }}">llms.txt</a></li>
+</ul>
 </div></div></div></div></div><div class="yuki-header-row yuki-header-row-primary_navbar" data-row="primary_navbar"><div class="container mx-auto text-xs px-gutter flex flex-wrap items-stretch"><div class="yuki-builder-column yuki-builder-column-0 yuki-builder-column-desktop yuki-builder-column-desktop-dir-row yuki-builder-column-tablet-dir-row yuki-builder-column-mobile-dir-row yuki_header_builder_col_primary_navbar_0_desktop"> <div class="yuki-site-branding yuki_header_el_logo" data-builder-element="logo" data-logo="top">
 <div class="site-identity">
 <span class="site-title">
-<a href="{{ \'/\' | relative_url }}">風味洞察 From Flavor to Insight</a>
+<a href="{{ '/' | relative_url }}">風味洞察 From Flavor to Insight</a>
 </span>
 <span class="site-tagline">
                         personal flavors,personal Insights                    </span>
@@ -45,7 +52,7 @@
 </div><div class="yuki-builder-column yuki-builder-column-0 yuki-builder-column-mobile yuki-builder-column-desktop-dir-row yuki-builder-column-tablet-dir-row yuki-builder-column-mobile-dir-row yuki_header_builder_col_primary_navbar_0_mobile"> <div class="yuki-site-branding yuki_header_el_logo" data-builder-element="logo" data-logo="top">
 <div class="site-identity">
 <span class="site-title">
-<a href="{{ \'/\' | relative_url }}">風味洞察 From Flavor to Insight</a>
+<a href="{{ '/' | relative_url }}">風味洞察 From Flavor to Insight</a>
 </span>
 <span class="site-tagline">
                         personal flavors,personal Insights                    </span>
