@@ -4,7 +4,7 @@ layout: default
 <main class="yuki-container lg:flex flex-grow container mx-auto px-gutter yuki-no-sidebar"> <div class="flex-grow max-w-full" id="content">
 <article class="post-{{ page.wp_id }} post type-post status-publish format-standard has-post-thumbnail hentry{% for c in page.categories %} category-{{ c | slugify }}{% endfor %}{% for t in page.tags %} tag-{{ t | slugify }}{% endfor %}" id="post-{{ page.wp_id }}">
 {% if page.image %}<div class="article-featured-image prose prose-yuki mx-auto"><img alt="{{ page.title | escape }}" class="h-full object-center object-cover alignwide wp-post-image" decoding="async" fetchpriority="high" src="{{ page.image | relative_url }}"></div>{% endif %}
-<header class="yuki-article-header yuki-max-w-content mx-auto relative z-[1]"> <div class="card-content"> <div class="entry-title mb-gutter last:mb-0"> <h1>{{ page.title }}</h1> </div>
+<header class="yuki-article-header yuki-max-w-content mx-auto relative z-[1]"> <div class="card-content"> <div class="entry-title mb-gutter last:mb-0"> <h1>{{ page.display_title | default: page.title }}</h1> </div>
 {% include wp/meta.html p=page %}
 </div></header>
 <div class="yuki-article-content yuki-entry-content clearfix mx-auto prose prose-yuki">
@@ -13,7 +13,7 @@ layout: default
 </div>
 </article>
 <div class="yuki-max-w-content mx-auto"> <nav aria-label="Page" class="navigation yuki-post-navigation"> <h2 class="screen-reader-text">Page</h2> <div class="nav-links">
-{% if page.previous %}<div class="nav-previous"><a href="{{ page.previous.url | relative_url }}" rel="prev"><div class="prev-post-thumbnail post-thumbnail">{% if page.previous.image %}<img alt="" class="attachment-medium size-medium wp-post-image" decoding="async" loading="lazy" src="{{ page.previous.image | relative_url }}">{% endif %}<i class="fas fa-arrow-left-long"></i></div><div class="item-wrap pl-gutter lg:pr-2"><span class="item-label">Previous Post</span><span class="item-title">{{ page.previous.title }}</span></div></a></div>{% endif %}
-{% if page.next %}<div class="nav-next"><a href="{{ page.next.url | relative_url }}" rel="next"><div class="next-post-thumbnail post-thumbnail">{% if page.next.image %}<img alt="" class="attachment-medium size-medium wp-post-image" decoding="async" loading="lazy" src="{{ page.next.image | relative_url }}">{% endif %}<i class="fas fa-arrow-right-long"></i></div><div class="item-wrap pr-gutter lg:pl-2"><span class="item-label">Next Post</span><span class="item-title">{{ page.next.title }}</span></div></a></div>{% endif %}
+{% if page.previous %}<div class="nav-previous"><a href="{{ page.previous.url | relative_url }}" rel="prev"><div class="prev-post-thumbnail post-thumbnail">{% if page.previous.image %}<img alt="" class="attachment-medium size-medium wp-post-image" decoding="async" loading="lazy" src="{{ page.previous.image | relative_url }}">{% endif %}<i class="fas fa-arrow-left-long"></i></div><div class="item-wrap pl-gutter lg:pr-2"><span class="item-label">Previous Post</span><span class="item-title">{{ page.previous.display_title | default: page.previous.title }}</span></div></a></div>{% endif %}
+{% if page.next %}<div class="nav-next"><a href="{{ page.next.url | relative_url }}" rel="next"><div class="next-post-thumbnail post-thumbnail">{% if page.next.image %}<img alt="" class="attachment-medium size-medium wp-post-image" decoding="async" loading="lazy" src="{{ page.next.image | relative_url }}">{% endif %}<i class="fas fa-arrow-right-long"></i></div><div class="item-wrap pr-gutter lg:pl-2"><span class="item-label">Next Post</span><span class="item-title">{{ page.next.display_title | default: page.next.title }}</span></div></a></div>{% endif %}
 </div> </nav></div>
 </div> </main>
