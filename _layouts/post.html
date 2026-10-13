@@ -5,6 +5,7 @@ layout: default
 <article class="post-{{ page.wp_id }} post type-post status-publish format-standard has-post-thumbnail hentry{% for c in page.categories %} category-{{ c | slugify }}{% endfor %}{% for t in page.tags %} tag-{{ t | slugify }}{% endfor %}" id="post-{{ page.wp_id }}">
 {% if page.image %}<div class="article-featured-image prose prose-yuki mx-auto"><img alt="{{ page.title | escape }}" class="h-full object-center object-cover alignwide wp-post-image rounded-xl shadow-md" decoding="async" fetchpriority="high" src="{{ page.image | relative_url }}"></div>{% endif %}
 <header class="yuki-article-header yuki-max-w-content mx-auto relative z-[1]"> <div class="card-content">
+<div class="entry-title mb-3 last:mb-0"> <h1>{{ page.display_title | default: page.title }}</h1> </div>
 <nav class="taste-breadcrumbs" aria-label="導覽路徑">
   <a href="{{ '/' | relative_url }}"><i class="fas fa-house text-xs mr-1"></i>首頁</a>
   <span class="separator">/</span>
@@ -14,7 +15,6 @@ layout: default
   {% endif %}
   <span class="current">{{ page.title }}</span>
 </nav>
-<div class="entry-title mb-gutter last:mb-0"> <h1>{{ page.display_title | default: page.title }}</h1> </div>
 {% include wp/meta.html p=page %}
 </div></header>
 <div class="yuki-article-content yuki-entry-content clearfix mx-auto prose prose-yuki">
