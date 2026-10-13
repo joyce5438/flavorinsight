@@ -2,61 +2,65 @@
 {% assign est_mins = content_size | divided_by: 350 | at_least: 2 %}
 
 {% if include.first and page.url == "/" or include.first and page.url == "/index.html" or include.first and page.filter_category == nil and page.filter_tag == nil and page.layout == "archive" %}
-<!-- FEATURED LEAD STORY CARD -->
+<!-- FEATURED LEAD STORY CARD (Editorial Split Card) -->
 <div class="card-wrapper card-wrapper-featured w-full">
-  <article class="card overflow-hidden post-{{ include.p.wp_id }} post status-publish format-standard has-post-thumbnail hentry{% for c in include.p.categories %} category-{{ c | slugify }}{% endfor %}{% for t in include.p.tags %} tag-{{ t | slugify }}{% endfor %}" id="post-{{ include.p.wp_id }}">
-    <div class="featured-inner flex flex-col md:flex-row">
+  <article class="featured-card post-{{ include.p.wp_id }} post" id="post-{{ include.p.wp_id }}">
+    <div class="featured-inner">
       {% if include.p.image %}
-      <div class="featured-thumb-wrap entry-thumbnail w-full md:w-[52%]">
-        <a aria-label="{{ include.p.display_title | default: include.p.title | escape }}" class="block w-full h-full" href="{{ include.p.url | relative_url }}">
-          <img alt="{{ include.p.title | escape }}" class="w-full h-full object-cover wp-post-image" decoding="async" fetchpriority="high" src="{{ include.p.image | relative_url }}">
+      <div class="featured-media-col">
+        <a aria-label="{{ include.p.display_title | default: include.p.title | escape }}" class="featured-media-link" href="{{ include.p.url | relative_url }}">
+          <img alt="{{ include.p.title | escape }}" class="featured-media-img" decoding="async" fetchpriority="high" src="{{ include.p.image | relative_url }}">
         </a>
       </div>
       {% endif %}
-      <div class="featured-content-wrap w-full md:w-[48%] p-6 md:p-8 flex flex-col justify-center">
-        <div class="flex items-center gap-2 mb-3">
-          <span class="featured-badge"><i class="fas fa-compass text-xs"></i> 核心篇章 / 最新發布</span>
+      <div class="featured-content-col">
+        <div class="taste-badge-group">
+          <span class="taste-badge taste-badge-primary">
+            <i class="fas fa-compass"></i> 核心篇章 / 最新發布
+          </span>
           {% for c in include.p.categories %}
             {% assign c_slug = c | slugify %}
-            <div class="entry-categories cat-taxonomies"><a class="entry-tax-item" href="{{ '/category/' | append: c_slug | append: '/' | relative_url }}">{{ c }}</a></div>
+            <a class="taste-badge taste-badge-secondary" href="{{ '/category/' | append: c_slug | append: '/' | relative_url }}">{{ c }}</a>
           {% endfor %}
         </div>
-        <h2 class="entry-title mb-3">
-          <a class="link hover:text-primary transition-colors" href="{{ include.p.url | relative_url }}">{{ include.p.display_title | default: include.p.title }}</a>
+        <h2 class="featured-title">
+          <a href="{{ include.p.url | relative_url }}">{{ include.p.display_title | default: include.p.title }}</a>
         </h2>
-        <div class="entry-excerpt mb-4">
+        <p class="featured-excerpt">
           {{ include.p.excerpt | strip_html | strip }}
+        </p>
+        <div class="featured-footer">
+          {% include wp/meta.html p=include.p %}
         </div>
-        {% include wp/meta.html p=include.p %}
       </div>
     </div>
   </article>
 </div>
 {% else %}
-<!-- STANDARD CARD -->
+<!-- STANDARD CARD (Grid Item) -->
 <div class="card-wrapper w-full">
-  <article class="card-thumb-motion yuki-scroll-reveal card overflow-hidden h-full post-{{ include.p.wp_id }} post type-post status-publish format-standard has-post-thumbnail hentry{% for c in include.p.categories %} category-{{ c | slugify }}{% endfor %}{% for t in include.p.tags %} tag-{{ t | slugify }}{% endfor %}" data-card-layout="archive-grid" id="post-{{ include.p.wp_id }}">
+  <article class="card standard-card post-{{ include.p.wp_id }} post" id="post-{{ include.p.wp_id }}">
     {% if include.p.image %}
-    <a aria-label="{{ include.p.display_title | default: include.p.title | escape }}" class="card-thumbnail entry-thumbnail" href="{{ include.p.url | relative_url }}">
-      <img alt="" class="w-full h-full object-cover wp-post-image" decoding="async" {% if include.first %}fetchpriority="high"{% else %}loading="lazy"{% endif %} src="{{ include.p.image | relative_url }}">
-    </a>
+    <div class="standard-media-wrap">
+      <a aria-label="{{ include.p.display_title | default: include.p.title | escape }}" class="block w-full h-full" href="{{ include.p.url | relative_url }}">
+        <img alt="{{ include.p.title | escape }}" class="standard-media-img" decoding="async" {% if include.first %}fetchpriority="high"{% else %}loading="lazy"{% endif %} src="{{ include.p.image | relative_url }}">
+      </a>
+    </div>
     {% endif %}
-    <div class="card-content p-5 flex flex-col flex-grow justify-between">
-      <div>
-        <div class="entry-categories cat-taxonomies break-words mb-2" data-tax-type="default">
-          {% for c in include.p.categories %}
-            {% assign c_slug = c | slugify %}
-            <a class="entry-tax-item mr-2" href="{{ '/category/' | append: c_slug | append: '/' | relative_url }}" rel="category tag">{{ c }}</a>
-          {% endfor %}
-        </div>
-        <h2 class="entry-title mb-2">
-          <a class="link hover:text-primary transition-colors" href="{{ include.p.url | relative_url }}" rel="bookmark">{{ include.p.display_title | default: include.p.title }}</a>
-        </h2>
-        <div class="entry-excerpt yuki-raw-html mb-4">
-          {{ include.p.excerpt | strip_html | strip }}
-        </div>
+    <div class="standard-content-wrap">
+      <div class="taste-badge-group">
+        {% for c in include.p.categories %}
+          {% assign c_slug = c | slugify %}
+          <a class="taste-badge taste-badge-secondary" href="{{ '/category/' | append: c_slug | append: '/' | relative_url }}">{{ c }}</a>
+        {% endfor %}
       </div>
-      <div>
+      <h2 class="standard-title">
+        <a href="{{ include.p.url | relative_url }}">{{ include.p.display_title | default: include.p.title }}</a>
+      </h2>
+      <p class="standard-excerpt">
+        {{ include.p.excerpt | strip_html | strip }}
+      </p>
+      <div class="standard-footer">
         {% include wp/meta.html p=include.p %}
       </div>
     </div>

@@ -4,7 +4,7 @@
    風味洞察 (From Flavor to Insight)
    ========================================================================== */
 
-/* 1. Typography & Smoothing */
+/* 1. Global Typography & Smoothing */
 body, .yuki-body, .yuki-article-content, .card .entry-title, .site-title, .site-tagline {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang TC", "Hiragino Sans GB", "Noto Sans TC", "Microsoft JhengHei", sans-serif !important;
   text-rendering: optimizeLegibility;
@@ -32,200 +32,334 @@ html {
   transition: width 0.08s ease-out;
 }
 
-/* 3. Desktop Horizontal Navigation */
+/* 3. Header Action Buttons & Navigation (Harmonized 36px) */
+.taste-header-actions {
+  display: flex !important;
+  align-items: center !important;
+  gap: 0.5rem !important;
+}
+
+.taste-action-btn,
+.taste-header-actions .taste-action-btn,
+.taste-mobile-trigger .taste-action-btn,
+.yuki_header_row_bottom_row .taste-action-btn {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 36px !important;
+  height: 36px !important;
+  min-width: 36px !important;
+  min-height: 36px !important;
+  max-width: 36px !important;
+  max-height: 36px !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  border-radius: 8px !important;
+  border: 1px solid var(--yuki-base-200) !important;
+  background-color: var(--yuki-base-100) !important;
+  color: var(--yuki-accent-color) !important;
+  font-size: 15px !important;
+  line-height: 1 !important;
+  cursor: pointer !important;
+  text-decoration: none !important;
+  box-sizing: border-box !important;
+  transition: all 0.2s ease !important;
+}
+
+.taste-action-btn:hover,
+.taste-header-actions .taste-action-btn:hover,
+.taste-mobile-trigger .taste-action-btn:hover {
+  background-color: var(--yuki-base-color) !important;
+  border-color: var(--yuki-primary-color) !important;
+  color: var(--yuki-primary-color) !important;
+  transform: translateY(-1px) !important;
+  text-decoration: none !important;
+}
+
+.taste-action-btn i,
+.taste-action-btn svg,
+.taste-action-btn span {
+  font-size: 15px !important;
+  width: 15px !important;
+  height: 15px !important;
+  line-height: 15px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+/* Desktop Horizontal Navigation */
 .taste-desktop-nav {
   display: none;
 }
 @media (min-width: 992px) {
   .taste-desktop-nav {
-    display: flex;
-    align-items: center;
-    gap: 1.5rem;
-    height: 100%;
+    display: flex !important;
+    align-items: center !important;
+    gap: 1.5rem !important;
   }
   .taste-nav-item {
-    font-size: 0.95rem;
-    font-weight: 500;
-    color: var(--yuki-accent-color);
-    padding: 0.35rem 0.5rem;
-    border-radius: 4px;
-    transition: color 0.2s ease, background-color 0.2s ease;
-    text-decoration: none;
+    font-size: 0.95rem !important;
+    font-weight: 500 !important;
+    color: var(--yuki-accent-color) !important;
+    padding: 0.35rem 0.55rem !important;
+    border-radius: 6px !important;
+    transition: color 0.2s ease, background-color 0.2s ease !important;
+    text-decoration: none !important;
   }
   .taste-nav-item:hover {
-    color: var(--yuki-primary-color);
-    background-color: rgba(196, 64, 59, 0.06);
-    text-decoration: none;
+    color: var(--yuki-primary-color) !important;
+    background-color: rgba(196, 64, 59, 0.06) !important;
+    text-decoration: none !important;
   }
 }
 
-/* 4. Breadcrumb Navigation */
-.taste-breadcrumbs {
-  font-size: 0.85rem;
-  color: var(--yuki-accent-color);
-  opacity: 0.8;
-  margin-bottom: 1rem;
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-}
-.taste-breadcrumbs a {
-  color: var(--yuki-accent-color);
-  transition: color 0.2s ease;
-  text-decoration: none;
-}
-.taste-breadcrumbs a:hover {
-  color: var(--yuki-primary-color);
-  text-decoration: none;
-}
-.taste-breadcrumbs .separator {
-  opacity: 0.4;
-  font-size: 0.75rem;
-}
-.taste-breadcrumbs .current {
-  color: var(--yuki-headings-color);
-  font-weight: 500;
-}
-
-/* 5. Featured Lead Story Card on Archive / Home */
-.card-wrapper-featured {
-  width: 100% !important;
-  max-width: 100% !important;
-  margin-bottom: 2.25rem !important;
-}
-
-.card-wrapper-featured .card {
-  border-radius: 14px !important;
-  overflow: hidden;
-  border: 1px solid var(--yuki-base-200);
-  background: var(--yuki-base-color);
-  box-shadow: 0 6px 20px -4px rgba(0, 0, 0, 0.07);
-  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.35s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.35s ease;
-}
-
-.card-wrapper-featured .card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 18px 36px -8px rgba(0, 0, 0, 0.13);
-  border-color: rgba(196, 64, 59, 0.35);
-}
-
-@media (min-width: 768px) {
-  .card-wrapper-featured .featured-inner {
-    display: flex;
-    flex-direction: row;
-    align-items: stretch;
-  }
-  .card-wrapper-featured .featured-thumb-wrap {
-    width: 52%;
-    flex-shrink: 0;
-    min-height: 380px;
-  }
-  .card-wrapper-featured .featured-content-wrap {
-    width: 48%;
-    padding: 2.5rem 2.25rem !important;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-}
-
-.featured-badge {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  padding: 4px 12px;
-  background: rgba(196, 64, 59, 0.08);
-  color: var(--yuki-primary-color);
-  border-radius: 9999px;
-  font-size: 0.75rem;
-  font-weight: 600;
-  letter-spacing: 0.04em;
-  width: fit-content;
-  margin-bottom: 0.85rem;
-}
-
-.featured-content-wrap .entry-title {
-  font-size: 1.75rem !important;
-  line-height: 1.35 !important;
+/* 4. Unified Badge System */
+.taste-badge-group {
+  display: flex !important;
+  align-items: center !important;
+  flex-wrap: wrap !important;
+  gap: 0.5rem !important;
   margin-bottom: 0.85rem !important;
 }
 
-.featured-content-wrap .entry-excerpt {
-  font-size: 1.02rem !important;
-  line-height: 1.75 !important;
+.taste-badge {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 0.35rem !important;
+  height: 26px !important;
+  padding: 0 10px !important;
+  border-radius: 9999px !important;
+  font-size: 0.75rem !important;
+  font-weight: 600 !important;
+  line-height: 1 !important;
+  white-space: nowrap !important;
+  box-sizing: border-box !important;
+  text-decoration: none !important;
+}
+
+.taste-badge-primary {
+  background-color: rgba(196, 64, 59, 0.08) !important;
+  color: var(--yuki-primary-color) !important;
+  border: 1px solid rgba(196, 64, 59, 0.25) !important;
+}
+
+.taste-badge-secondary {
+  background-color: var(--yuki-base-200) !important;
   color: var(--yuki-accent-color) !important;
-  opacity: 0.9;
+  border: 1px solid transparent !important;
+  transition: all 0.2s ease !important;
+}
+
+.taste-badge-secondary:hover {
+  background-color: var(--yuki-primary-color) !important;
+  color: #ffffff !important;
+  text-decoration: none !important;
+}
+
+/* 5. Featured Lead Story Card (Editorial Split) */
+.card-wrapper-featured {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin-bottom: 2.5rem !important;
+}
+
+.featured-card {
+  border-radius: 14px !important;
+  overflow: hidden !important;
+  border: 1px solid var(--yuki-base-200) !important;
+  background: var(--yuki-base-color) !important;
+  box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.06) !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.35s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.35s ease !important;
+}
+
+.featured-card:hover {
+  transform: translateY(-3px) !important;
+  box-shadow: 0 16px 36px -8px rgba(0, 0, 0, 0.12) !important;
+  border-color: rgba(196, 64, 59, 0.3) !important;
+}
+
+.featured-inner {
+  display: flex !important;
+  flex-direction: column !important;
+  width: 100% !important;
+}
+
+@media (min-width: 860px) {
+  .featured-inner {
+    flex-direction: row !important;
+    align-items: stretch !important;
+    min-height: 420px !important;
+  }
+  .featured-media-col {
+    width: 48% !important;
+    flex-shrink: 0 !important;
+    position: relative !important;
+    min-height: 420px !important;
+    overflow: hidden !important;
+  }
+  .featured-content-col {
+    width: 52% !important;
+    padding: 2.75rem 2.5rem !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+  }
+}
+
+@media (max-width: 859px) {
+  .featured-media-col {
+    width: 100% !important;
+    height: 260px !important;
+    position: relative !important;
+    overflow: hidden !important;
+  }
+  .featured-content-col {
+    padding: 1.5rem !important;
+    display: flex !important;
+    flex-direction: column !important;
+  }
+}
+
+.featured-media-link {
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important;
+  position: absolute !important;
+  inset: 0 !important;
+  overflow: hidden !important;
+}
+
+.featured-media-img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  object-position: center !important;
+  border-radius: 0 !important;
+  margin: 0 !important;
+  transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+.featured-card:hover .featured-media-img {
+  transform: scale(1.03) !important;
+}
+
+.featured-title {
+  font-size: 1.7rem !important;
+  font-weight: 700 !important;
+  line-height: 1.35 !important;
+  margin: 0 0 0.85rem 0 !important;
+}
+
+.featured-title a {
+  color: var(--yuki-headings-color) !important;
+  text-decoration: none !important;
+  transition: color 0.2s ease !important;
+}
+
+.featured-title a:hover {
+  color: var(--yuki-primary-color) !important;
+}
+
+.featured-excerpt {
+  font-size: 0.98rem !important;
+  line-height: 1.72 !important;
+  color: var(--yuki-accent-color) !important;
+  opacity: 0.88 !important;
   margin-bottom: 1.25rem !important;
+  display: -webkit-box !important;
+  -webkit-line-clamp: 4 !important;
+  -webkit-box-orient: vertical !important;
+  overflow: hidden !important;
+}
+
+.featured-footer {
+  margin-top: auto !important;
 }
 
 /* 6. Standard Card Craft */
 .card-wrapper:not(.card-wrapper-featured) .card {
   border-radius: 12px !important;
-  overflow: hidden;
-  border: 1px solid var(--yuki-base-200);
-  background: var(--yuki-base-color);
-  box-shadow: 0 4px 14px -2px rgba(0, 0, 0, 0.05);
-  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.35s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.35s ease;
-  display: flex;
-  flex-direction: column;
+  overflow: hidden !important;
+  border: 1px solid var(--yuki-base-200) !important;
+  background: var(--yuki-base-color) !important;
+  box-shadow: 0 4px 14px -2px rgba(0, 0, 0, 0.05) !important;
+  display: flex !important;
+  flex-direction: column !important;
+  height: 100% !important;
+  padding: 0 !important;
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.35s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.35s ease !important;
 }
 
 .card-wrapper:not(.card-wrapper-featured) .card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 16px 32px -8px rgba(0, 0, 0, 0.12);
-  border-color: rgba(196, 64, 59, 0.3);
+  transform: translateY(-4px) !important;
+  box-shadow: 0 16px 32px -8px rgba(0, 0, 0, 0.12) !important;
+  border-color: rgba(196, 64, 59, 0.3) !important;
 }
 
-.card .entry-thumbnail {
-  overflow: hidden;
-  position: relative;
-  height: 220px !important;
+.standard-media-wrap {
+  width: 100% !important;
+  height: 210px !important;
+  overflow: hidden !important;
+  position: relative !important;
 }
 
-.card .entry-thumbnail img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+.standard-media-img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  border-radius: 0 !important;
+  margin: 0 !important;
+  transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1) !important;
 }
 
-.card:hover .entry-thumbnail img {
-  transform: scale(1.05);
+.standard-card:hover .standard-media-img {
+  transform: scale(1.04) !important;
 }
 
-.card .entry-categories a {
-  display: inline-block;
-  padding: 2px 10px;
-  background: rgba(196, 64, 59, 0.08);
+.standard-content-wrap {
+  padding: 1.35rem 1.4rem !important;
+  display: flex !important;
+  flex-direction: column !important;
+  flex-grow: 1 !important;
+}
+
+.standard-title {
+  font-size: 1.15rem !important;
+  font-weight: 700 !important;
+  line-height: 1.45 !important;
+  margin: 0 0 0.65rem 0 !important;
+}
+
+.standard-title a {
+  color: var(--yuki-headings-color) !important;
+  text-decoration: none !important;
+  transition: color 0.2s ease !important;
+}
+
+.standard-title a:hover {
   color: var(--yuki-primary-color) !important;
-  border-radius: 9999px;
-  font-size: 0.72rem;
-  font-weight: 600;
-  text-decoration: none;
-  transition: background-color 0.2s ease, color 0.2s ease;
 }
 
-.card .entry-categories a:hover {
-  background: var(--yuki-primary-color);
-  color: #fff !important;
-  text-decoration: none;
+.standard-excerpt {
+  font-size: 0.92rem !important;
+  line-height: 1.65 !important;
+  color: var(--yuki-accent-color) !important;
+  opacity: 0.85 !important;
+  margin-bottom: 1.25rem !important;
+  display: -webkit-box !important;
+  -webkit-line-clamp: 3 !important;
+  -webkit-box-orient: vertical !important;
+  overflow: hidden !important;
 }
 
-.card .entry-title a {
-  transition: color 0.2s ease;
-  text-decoration: none;
-}
-
-.card .entry-title a:hover {
-  color: var(--yuki-primary-color) !important;
-}
-
-.card .entry-excerpt {
-  color: var(--yuki-accent-color);
-  opacity: 0.88;
-  line-height: 1.65;
-  font-size: 0.95rem;
+.standard-footer {
+  margin-top: auto !important;
+  padding-top: 0.85rem !important;
+  border-top: 1px solid var(--yuki-base-200) !important;
 }
 
 /* Remove legacy dashed line */
@@ -285,6 +419,34 @@ html {
   .yuki-article-header .entry-title h1 {
     font-size: 1.7rem !important;
   }
+}
+
+.taste-breadcrumbs {
+  font-size: 0.85rem;
+  color: var(--yuki-accent-color);
+  opacity: 0.8;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.taste-breadcrumbs a {
+  color: var(--yuki-accent-color);
+  transition: color 0.2s ease;
+  text-decoration: none;
+}
+.taste-breadcrumbs a:hover {
+  color: var(--yuki-primary-color);
+  text-decoration: none;
+}
+.taste-breadcrumbs .separator {
+  opacity: 0.4;
+  font-size: 0.75rem;
+}
+.taste-breadcrumbs .current {
+  color: var(--yuki-headings-color);
+  font-weight: 500;
 }
 
 .yuki-article-content h2 {
@@ -424,9 +586,9 @@ html {
 
 /* 10. Footer Refinements */
 .taste-footer-wrap {
-  padding: 2.5rem 0 2rem;
-  border-top: 1px solid var(--yuki-base-200);
-  background-color: var(--yuki-base-color);
+  padding: 2.5rem 0 2rem !important;
+  border-top: 1px solid var(--yuki-base-200) !important;
+  background-color: var(--yuki-base-color) !important;
 }
 
 .taste-footer-content {
@@ -463,31 +625,36 @@ html {
 }
 
 /* 11. Dark Mode Specific Overrides */
-html[data-yuki-theme="dark"] .featured-badge {
-  background: rgba(196, 64, 59, 0.18) !important;
+html[data-yuki-theme="dark"] .taste-badge-primary {
+  background-color: rgba(196, 64, 59, 0.18) !important;
+}
+
+html[data-yuki-theme="dark"] .taste-action-btn {
+  background-color: var(--yuki-dark-base-100) !important;
+  border-color: rgba(255, 255, 255, 0.1) !important;
 }
 
 html[data-yuki-theme="dark"] .yuki-article-content blockquote {
   background: rgba(196, 64, 59, 0.08) !important;
 }
 
-html[data-yuki-theme="dark"] .card-wrapper-featured .card,
-html[data-yuki-theme="dark"] .card-wrapper .card,
+html[data-yuki-theme="dark"] .card-wrapper-featured .featured-card,
+html[data-yuki-theme="dark"] .card-wrapper:not(.card-wrapper-featured) .card,
 html[data-yuki-theme="dark"] #ez-toc-container,
 html[data-yuki-theme="dark"] .yuki-post-navigation .nav-links a {
   box-shadow: 0 4px 16px -2px rgba(0, 0, 0, 0.3) !important;
   border-color: rgba(255, 255, 255, 0.08) !important;
 }
 
-html[data-yuki-theme="dark"] .card-wrapper-featured .card:hover,
-html[data-yuki-theme="dark"] .card-wrapper .card:hover,
+html[data-yuki-theme="dark"] .card-wrapper-featured .featured-card:hover,
+html[data-yuki-theme="dark"] .card-wrapper:not(.card-wrapper-featured) .card:hover,
 html[data-yuki-theme="dark"] .yuki-post-navigation .nav-links a:hover {
   box-shadow: 0 12px 28px -4px rgba(0, 0, 0, 0.45) !important;
   border-color: var(--yuki-primary-color) !important;
 }
 
 html[data-yuki-theme="dark"] .taste-nav-item:hover {
-  background-color: rgba(196, 64, 59, 0.15);
+  background-color: rgba(196, 64, 59, 0.15) !important;
 }
 </style>
 
