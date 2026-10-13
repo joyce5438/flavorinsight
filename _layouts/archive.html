@@ -2,6 +2,21 @@
 layout: default
 ---
 {% if page.filter_category %}{% assign posts = site.categories[page.filter_category] %}{% elsif page.filter_tag %}{% assign posts = site.tags[page.filter_tag] %}{% else %}{% assign posts = site.posts %}{% endif %}
-<main class="yuki-posts-container yuki-container lg:flex flex-grow container mx-auto px-gutter yuki-no-sidebar"> <div class="yuki-posts flex-grow mx-auto yuki-max-w-content" id="content"> <div class="flex flex-wrap card-list">
-{% for p in posts %}{% include wp/card.html p=p first=forloop.first %}{% endfor %}
-</div> </div> </main>
+<main class="yuki-posts-container yuki-container lg:flex flex-grow container mx-auto px-gutter yuki-no-sidebar">
+  <div class="yuki-posts flex-grow mx-auto yuki-max-w-content" id="content">
+    {% if page.filter_category %}
+      <header class="yuki-archive-header mb-6 pb-4 border-b border-gray-200 dark:border-gray-800">
+        <div class="text-xs uppercase tracking-wider text-gray-500 mb-1"><i class="fas fa-folder-open text-xs mr-1"></i>文章分類</div>
+        <h1 class="archive-title text-2xl font-bold">{{ page.title }}</h1>
+      </header>
+    {% elsif page.filter_tag %}
+      <header class="yuki-archive-header mb-6 pb-4 border-b border-gray-200 dark:border-gray-800">
+        <div class="text-xs uppercase tracking-wider text-gray-500 mb-1"><i class="fas fa-tag text-xs mr-1"></i>文章標籤</div>
+        <h1 class="archive-title text-2xl font-bold">#{{ page.title }}</h1>
+      </header>
+    {% endif %}
+    <div class="flex flex-wrap card-list">
+      {% for p in posts %}{% include wp/card.html p=p first=forloop.first %}{% endfor %}
+    </div>
+  </div>
+</main>

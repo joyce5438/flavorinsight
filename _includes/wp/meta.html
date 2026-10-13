@@ -1,1 +1,18 @@
-<div class="entry-metas mb-half-gutter last:mb-0"> <span class="byline meta-item"> <i class="fas fa-feather"></i><a class="entry-meta-link" href="{{ '/author/joycewu703gmail-com/' | relative_url }}">{{ include.p.author | default: 'Austin' }}</a></span><span class="meta-divider"><svg height="16" viewBox="0 0 20 20" width="16" xmlns="http://www.w3.org/2000/svg"><path d="M7.8 10c0 1.215 0.986 2.2 2.201 2.2s2.199-0.986 2.199-2.2c0-1.215-0.984-2.199-2.199-2.199s-2.201 0.984-2.201 2.199z"></path></svg></span><span class="meta-item posted-on"><i class="far fa-calendar"></i><a class="entry-meta-link" href="{{ include.p.url | relative_url }}" rel="bookmark"><span class="entry-date"><time class="published" datetime="{{ include.p.date | date_to_xmlschema }}">{{ include.p.date | date: "%-m" }} 月 {{ include.p.date | date: "%-d, %Y" }}</time>{% if include.p.last_modified_at %}<time class="updated hidden" datetime="{{ include.p.last_modified_at | date_to_xmlschema }}">{{ include.p.last_modified_at | date: "%-m" }} 月 {{ include.p.last_modified_at | date: "%-d, %Y" }}</time>{% endif %}</span></a></span><span class="meta-divider"><svg height="16" viewBox="0 0 20 20" width="16" xmlns="http://www.w3.org/2000/svg"><path d="M7.8 10c0 1.215 0.986 2.2 2.201 2.2s2.199-0.986 2.199-2.2c0-1.215-0.984-2.199-2.199-2.199s-2.201 0.984-2.201 2.199z"></path></svg></span> </div>
+{% assign content_size = include.p.content | strip_html | size %}
+{% assign est_mins = content_size | divided_by: 350 | at_least: 2 %}
+<div class="entry-metas mb-half-gutter last:mb-0">
+  <span class="byline meta-item">
+    <i class="fas fa-feather-pointed text-xs"></i>
+    <a class="entry-meta-link hover:text-primary transition-colors" href="{{ '/author/joycewu703gmail-com/' | relative_url }}">{{ include.p.author | default: 'Austin' }}</a>
+  </span>
+  <span class="meta-item posted-on">
+    <i class="far fa-calendar text-xs"></i>
+    <a class="entry-meta-link" href="{{ include.p.url | relative_url }}" rel="bookmark">
+      <time class="published" datetime="{{ include.p.date | date_to_xmlschema }}">{{ include.p.date | date: "%Y 年 %-m 月 %-d 日" }}</time>
+    </a>
+  </span>
+  <span class="meta-item reading-time">
+    <i class="far fa-clock text-xs"></i>
+    <span>約 {{ est_mins }} 分鐘閱讀</span>
+  </span>
+</div>

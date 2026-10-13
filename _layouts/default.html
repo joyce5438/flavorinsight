@@ -15,9 +15,11 @@
 <link rel="apple-touch-icon" href="{{ '/assets/wp/flavorinsight.com/wp-content/uploads/2024/10/cropped-foodlogofavicon7.jpg' | relative_url }}">
 {% include wp/stylesheets.html %}
 {% if page.layout == "post" %}{% include wp/styles-post.html %}{% else %}{% include wp/styles-home.html %}{% endif %}
+{% include wp/custom-taste.html %}
 {% include wp/head-scripts.html %}
 </head>
 <body class="{{ page.body_class | default: 'home blog' }} wp-embed-responsive yuki-body overflow-x-hidden yuki-form-modern{% if page.layout == 'post' %} yuki-post{% else %} hfeed{% endif %}" data-yuki-scroll-reveal="{&quot;delay&quot;:200,&quot;duration&quot;:600,&quot;interval&quot;:200,&quot;opacity&quot;:0,&quot;scale&quot;:1,&quot;origin&quot;:&quot;bottom&quot;,&quot;distance&quot;:&quot;200px&quot;}">
+<div id="reading-progress-bar"></div>
 {% include wp/header.html %}
 {{ content }}
 {% include wp/footer.html %}
