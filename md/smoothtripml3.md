@@ -61,43 +61,6 @@
   
 所有內容純粹為個人旅途的觀察、對談後的體悟，若有良性的見解歡迎指教，若要政治意見筆戰，恕不奉陪。
 
-<table class="wpb-plt-table wpb-plt-table-hover">
-<thead>
-<tr>
-<th>Title</th>
-<th>Date</th> <th>Tag</th> </tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="/tobecontinued/">馬來筆記 Part5 未完待續</a></td>
-<td>2024-10-28</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-<tr>
-<td><a href="/malaysianfood3/">馬來筆記 Part4 再談馬來西亞飲食（下）</a></td>
-<td>2024-10-17</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-<tr>
-<td><a href="/malaysianfood2/">馬來筆記 Part4 再談馬來西亞飲食（中）</a></td>
-<td>2024-10-15</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-<tr>
-<td><a href="/malaysianfood1/">馬來筆記 Part4 再談馬來西亞飲食（上）</a></td>
-<td>2024-10-14</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-<tr>
-<td><a href="/penangtotainan/">馬來筆記 Part.3 從檳城看見台南的府城味</a></td>
-<td>2024-10-09</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-<tr>
-<td><a href="/livingwisdom/">馬來筆記 Part.2 折衷的共存智慧</a></td>
-<td>2024-10-08</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-<tr>
-<td><a href="/smoothtripml3/">馬來筆記 Part.1 行路不難(下)</a></td>
-<td>2024-10-07</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-<tr>
-<td><a href="/smoothtripml2/">馬來筆記 Part.1 行路不難(中)</a></td>
-<td>2024-10-07</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-<tr>
-<td><a href="/smoothtripml1/">馬來筆記 Part.1 行路不難(上)</a></td>
-<td>2024-10-07</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-</tbody>
-</table>
-
 ## 本篇重點導覽問答（FAQ）
 
 ### Q1: 在馬來西亞偏遠城鎮徒步移動，如何應對高溫炎熱天氣？
@@ -112,5 +75,3 @@
 
 ---
 **【馬來筆記】深度觀察全系列**：[點此查看全系列 9 篇導覽地圖](/tobecontinued/)
-- 上一篇：[Part.1 行路不難(中)：火車與大眾運輸](/smoothtripml2/)
-- 下一篇：[Part.2 折衷的共存智慧](/livingwisdom/)

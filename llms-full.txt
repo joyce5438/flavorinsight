@@ -73,43 +73,6 @@
 
 <figure class="wp-block-image size-large"><img alt="" class="wp-image-103" decoding="async" height="1024" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/IMG_20240901_135734.jpg" width="768"/></figure>
 
-<table class="wpb-plt-table wpb-plt-table-hover">
-<thead>
-<tr>
-<th>Title</th>
-<th>Date</th> <th>Tag</th> </tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="/tobecontinued/">馬來筆記 Part5 未完待續</a></td>
-<td>2024-10-28</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-<tr>
-<td><a href="/malaysianfood3/">馬來筆記 Part4 再談馬來西亞飲食（下）</a></td>
-<td>2024-10-17</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-<tr>
-<td><a href="/malaysianfood2/">馬來筆記 Part4 再談馬來西亞飲食（中）</a></td>
-<td>2024-10-15</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-<tr>
-<td><a href="/malaysianfood1/">馬來筆記 Part4 再談馬來西亞飲食（上）</a></td>
-<td>2024-10-14</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-<tr>
-<td><a href="/penangtotainan/">馬來筆記 Part.3 從檳城看見台南的府城味</a></td>
-<td>2024-10-09</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-<tr>
-<td><a href="/livingwisdom/">馬來筆記 Part.2 折衷的共存智慧</a></td>
-<td>2024-10-08</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-<tr>
-<td><a href="/smoothtripml3/">馬來筆記 Part.1 行路不難(下)</a></td>
-<td>2024-10-07</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-<tr>
-<td><a href="/smoothtripml2/">馬來筆記 Part.1 行路不難(中)</a></td>
-<td>2024-10-07</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-<tr>
-<td><a href="/smoothtripml1/">馬來筆記 Part.1 行路不難(上)</a></td>
-<td>2024-10-07</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-</tbody>
-</table>
-
 ## 本篇重點導覽問答（FAQ）
 
 ### Q1: 馬來西亞適合徒步旅行（Citywalk）嗎？有什麼必備建議？
@@ -124,7 +87,6 @@
 
 ---
 **【馬來筆記】深度觀察全系列**：[點此查看全系列 9 篇導覽地圖](/tobecontinued/)
-- 下一篇：[Part.1 行路不難(中)：火車與大眾運輸](/smoothtripml2/)
 
 
 ---
@@ -211,43 +173,6 @@ Platinum 跟另外三種最大的差別就是第一個車廂 Coach A，座椅類
   
 P.S.金座椅是我開玩笑的稱呼，別當真
 
-<table class="wpb-plt-table wpb-plt-table-hover">
-<thead>
-<tr>
-<th>Title</th>
-<th>Date</th> <th>Tag</th> </tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="/tobecontinued/">馬來筆記 Part5 未完待續</a></td>
-<td>2024-10-28</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-<tr>
-<td><a href="/malaysianfood3/">馬來筆記 Part4 再談馬來西亞飲食（下）</a></td>
-<td>2024-10-17</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-<tr>
-<td><a href="/malaysianfood2/">馬來筆記 Part4 再談馬來西亞飲食（中）</a></td>
-<td>2024-10-15</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-<tr>
-<td><a href="/malaysianfood1/">馬來筆記 Part4 再談馬來西亞飲食（上）</a></td>
-<td>2024-10-14</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-<tr>
-<td><a href="/penangtotainan/">馬來筆記 Part.3 從檳城看見台南的府城味</a></td>
-<td>2024-10-09</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-<tr>
-<td><a href="/livingwisdom/">馬來筆記 Part.2 折衷的共存智慧</a></td>
-<td>2024-10-08</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-<tr>
-<td><a href="/smoothtripml3/">馬來筆記 Part.1 行路不難(下)</a></td>
-<td>2024-10-07</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-<tr>
-<td><a href="/smoothtripml2/">馬來筆記 Part.1 行路不難(中)</a></td>
-<td>2024-10-07</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-<tr>
-<td><a href="/smoothtripml1/">馬來筆記 Part.1 行路不難(上)</a></td>
-<td>2024-10-07</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-</tbody>
-</table>
-
 ## 本篇重點導覽問答（FAQ）
 
 ### Q1: 馬來西亞火車等級（Platinum/Gold/Silver）有何差異？最推薦哪種？
@@ -262,8 +187,6 @@ KTM ETS 城際列車分為 Platinum、Gold 與 Silver 等級。Platinum 停靠�
 
 ---
 **【馬來筆記】深度觀察全系列**：[點此查看全系列 9 篇導覽地圖](/tobecontinued/)
-- 上一篇：[Part.1 行路不難(上)：步行與街區觀察](/smoothtripml1/)
-- 下一篇：[Part.1 行路不難(下)：在地人情與生存](/smoothtripml3/)
 
 
 ---
@@ -331,43 +254,6 @@ KTM ETS 城際列車分為 Platinum、Gold 與 Silver 等級。Platinum 停靠�
   
 所有內容純粹為個人旅途的觀察、對談後的體悟，若有良性的見解歡迎指教，若要政治意見筆戰，恕不奉陪。
 
-<table class="wpb-plt-table wpb-plt-table-hover">
-<thead>
-<tr>
-<th>Title</th>
-<th>Date</th> <th>Tag</th> </tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="/tobecontinued/">馬來筆記 Part5 未完待續</a></td>
-<td>2024-10-28</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-<tr>
-<td><a href="/malaysianfood3/">馬來筆記 Part4 再談馬來西亞飲食（下）</a></td>
-<td>2024-10-17</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-<tr>
-<td><a href="/malaysianfood2/">馬來筆記 Part4 再談馬來西亞飲食（中）</a></td>
-<td>2024-10-15</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-<tr>
-<td><a href="/malaysianfood1/">馬來筆記 Part4 再談馬來西亞飲食（上）</a></td>
-<td>2024-10-14</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-<tr>
-<td><a href="/penangtotainan/">馬來筆記 Part.3 從檳城看見台南的府城味</a></td>
-<td>2024-10-09</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-<tr>
-<td><a href="/livingwisdom/">馬來筆記 Part.2 折衷的共存智慧</a></td>
-<td>2024-10-08</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-<tr>
-<td><a href="/smoothtripml3/">馬來筆記 Part.1 行路不難(下)</a></td>
-<td>2024-10-07</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-<tr>
-<td><a href="/smoothtripml2/">馬來筆記 Part.1 行路不難(中)</a></td>
-<td>2024-10-07</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-<tr>
-<td><a href="/smoothtripml1/">馬來筆記 Part.1 行路不難(上)</a></td>
-<td>2024-10-07</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-</tbody>
-</table>
-
 ## 本篇重點導覽問答（FAQ）
 
 ### Q1: 在馬來西亞偏遠城鎮徒步移動，如何應對高溫炎熱天氣？
@@ -382,8 +268,6 @@ KTM ETS 城際列車分為 Platinum、Gold 與 Silver 等級。Platinum 停靠�
 
 ---
 **【馬來筆記】深度觀察全系列**：[點此查看全系列 9 篇導覽地圖](/tobecontinued/)
-- 上一篇：[Part.1 行路不難(中)：火車與大眾運輸](/smoothtripml2/)
-- 下一篇：[Part.2 折衷的共存智慧](/livingwisdom/)
 
 
 ---
@@ -467,43 +351,6 @@ KTM ETS 城際列車分為 Platinum、Gold 與 Silver 等級。Platinum 停靠�
 
 無論如何，馬來西亞就是這麼複雜又迷人。
 
-<table class="wpb-plt-table wpb-plt-table-hover">
-<thead>
-<tr>
-<th>Title</th>
-<th>Date</th> <th>Tag</th> </tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="/tobecontinued/">馬來筆記 Part5 未完待續</a></td>
-<td>2024-10-28</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-<tr>
-<td><a href="/malaysianfood3/">馬來筆記 Part4 再談馬來西亞飲食（下）</a></td>
-<td>2024-10-17</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-<tr>
-<td><a href="/malaysianfood2/">馬來筆記 Part4 再談馬來西亞飲食（中）</a></td>
-<td>2024-10-15</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-<tr>
-<td><a href="/malaysianfood1/">馬來筆記 Part4 再談馬來西亞飲食（上）</a></td>
-<td>2024-10-14</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-<tr>
-<td><a href="/penangtotainan/">馬來筆記 Part.3 從檳城看見台南的府城味</a></td>
-<td>2024-10-09</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-<tr>
-<td><a href="/livingwisdom/">馬來筆記 Part.2 折衷的共存智慧</a></td>
-<td>2024-10-08</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-<tr>
-<td><a href="/smoothtripml3/">馬來筆記 Part.1 行路不難(下)</a></td>
-<td>2024-10-07</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-<tr>
-<td><a href="/smoothtripml2/">馬來筆記 Part.1 行路不難(中)</a></td>
-<td>2024-10-07</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-<tr>
-<td><a href="/smoothtripml1/">馬來筆記 Part.1 行路不難(上)</a></td>
-<td>2024-10-07</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-</tbody>
-</table>
-
 ## 本篇重點導覽問答（FAQ）
 
 ### Q1: 什麼是馬來西亞社會的「折衷共存智慧」？
@@ -518,8 +365,6 @@ KTM ETS 城際列車分為 Platinum、Gold 與 Silver 等級。Platinum 停靠�
 
 ---
 **【馬來筆記】深度觀察全系列**：[點此查看全系列 9 篇導覽地圖](/tobecontinued/)
-- 上一篇：[Part.1 行路不難(下)：在地人情與生存](/smoothtripml3/)
-- 下一篇：[Part.3 從檳城看見台南的府城味](/penangtotainan/)
 
 
 ---
@@ -618,43 +463,6 @@ KTM ETS 城際列車分為 Platinum、Gold 與 Silver 等級。Platinum 停靠�
 檳城與台南，對我來說都是餐飲的博物館，很多跨越不同年代、不同族群的食物風味，除此也不斷在創新，我認為兩地若可以多些未來交流，會產生更多可能性。  
 現代餐飲的一面，礙於時間與心力有限，以後再分享。接下來的兩篇我繼續深談馬來飲食的各個面向、過去與未來。
 
-<table class="wpb-plt-table wpb-plt-table-hover">
-<thead>
-<tr>
-<th>Title</th>
-<th>Date</th> <th>Tag</th> </tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="/tobecontinued/">馬來筆記 Part5 未完待續</a></td>
-<td>2024-10-28</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-<tr>
-<td><a href="/malaysianfood3/">馬來筆記 Part4 再談馬來西亞飲食（下）</a></td>
-<td>2024-10-17</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-<tr>
-<td><a href="/malaysianfood2/">馬來筆記 Part4 再談馬來西亞飲食（中）</a></td>
-<td>2024-10-15</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-<tr>
-<td><a href="/malaysianfood1/">馬來筆記 Part4 再談馬來西亞飲食（上）</a></td>
-<td>2024-10-14</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-<tr>
-<td><a href="/penangtotainan/">馬來筆記 Part.3 從檳城看見台南的府城味</a></td>
-<td>2024-10-09</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-<tr>
-<td><a href="/livingwisdom/">馬來筆記 Part.2 折衷的共存智慧</a></td>
-<td>2024-10-08</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-<tr>
-<td><a href="/smoothtripml3/">馬來筆記 Part.1 行路不難(下)</a></td>
-<td>2024-10-07</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-<tr>
-<td><a href="/smoothtripml2/">馬來筆記 Part.1 行路不難(中)</a></td>
-<td>2024-10-07</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-<tr>
-<td><a href="/smoothtripml1/">馬來筆記 Part.1 行路不難(上)</a></td>
-<td>2024-10-07</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-</tbody>
-</table>
-
 ## 本篇重點導覽問答（FAQ）
 
 ### Q1: 為什麼說馬來西亞檳城與台灣台南的城市肌理與常民文化高度相似？
@@ -669,8 +477,6 @@ KTM ETS 城際列車分為 Platinum、Gold 與 Silver 等級。Platinum 停靠�
 
 ---
 **【馬來筆記】深度觀察全系列**：[點此查看全系列 9 篇導覽地圖](/tobecontinued/)
-- 上一篇：[Part.2 折衷的共存智慧](/livingwisdom/)
-- 下一篇：[Part4 再談馬來西亞飲食（上）：巴生肉骨茶與混合麵食](/malaysianfood1/)
 
 
 ---
@@ -784,43 +590,6 @@ KTM ETS 城際列車分為 Platinum、Gold 與 Silver 等級。Platinum 停靠�
 
 <figure class="wp-block-image aligncenter size-large"><img alt="" class="wp-image-243" decoding="async" height="672" loading="lazy" src="https://joyce5438.github.io/flavorinsight/wp-content/uploads/2024/10/kapi.jpg" width="1024"/><figcaption class="wp-element-caption">左圖符合法規標準 馬來字比中文字的級數大   右圖很微妙，但伊斯蘭信仰者不會吃肉骨茶，所以字體打擦邊球也不會強硬糾正</figcaption></figure>
 
-<table class="wpb-plt-table wpb-plt-table-hover">
-<thead>
-<tr>
-<th>Title</th>
-<th>Date</th> <th>Tag</th> </tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="/tobecontinued/">馬來筆記 Part5 未完待續</a></td>
-<td>2024-10-28</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-<tr>
-<td><a href="/malaysianfood3/">馬來筆記 Part4 再談馬來西亞飲食（下）</a></td>
-<td>2024-10-17</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-<tr>
-<td><a href="/malaysianfood2/">馬來筆記 Part4 再談馬來西亞飲食（中）</a></td>
-<td>2024-10-15</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-<tr>
-<td><a href="/malaysianfood1/">馬來筆記 Part4 再談馬來西亞飲食（上）</a></td>
-<td>2024-10-14</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-<tr>
-<td><a href="/penangtotainan/">馬來筆記 Part.3 從檳城看見台南的府城味</a></td>
-<td>2024-10-09</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-<tr>
-<td><a href="/livingwisdom/">馬來筆記 Part.2 折衷的共存智慧</a></td>
-<td>2024-10-08</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-<tr>
-<td><a href="/smoothtripml3/">馬來筆記 Part.1 行路不難(下)</a></td>
-<td>2024-10-07</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-<tr>
-<td><a href="/smoothtripml2/">馬來筆記 Part.1 行路不難(中)</a></td>
-<td>2024-10-07</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-<tr>
-<td><a href="/smoothtripml1/">馬來筆記 Part.1 行路不難(上)</a></td>
-<td>2024-10-07</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-</tbody>
-</table>
-
 ## 本篇重點導覽問答（FAQ）
 
 ### Q1: 為什麼在檳城點麵常會遇到「米粉＋麵」的雙拼混合吃法？
@@ -835,8 +604,6 @@ KTM ETS 城際列車分為 Platinum、Gold 與 Silver 等級。Platinum 停靠�
 
 ---
 **【馬來筆記】深度觀察全系列**：[點此查看全系列 9 篇導覽地圖](/tobecontinued/)
-- 上一篇：[Part.3 從檳城看見台南的府城味](/penangtotainan/)
-- 下一篇：[Part4 再談馬來西亞飲食（中）：東南亞餐飲出海](/malaysianfood2/)
 
 
 ---
@@ -911,43 +678,6 @@ KTM ETS 城際列車分為 Platinum、Gold 與 Silver 等級。Platinum 停靠�
 
 如果你渴望嘗試新奇、創新的飲食，吉隆坡很不錯，如同新加坡，有大量國際化的風味激盪，追求成熟雋永的老味道，你得往不那麼熱鬧的城市去。
 
-<table class="wpb-plt-table wpb-plt-table-hover">
-<thead>
-<tr>
-<th>Title</th>
-<th>Date</th> <th>Tag</th> </tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="/tobecontinued/">馬來筆記 Part5 未完待續</a></td>
-<td>2024-10-28</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-<tr>
-<td><a href="/malaysianfood3/">馬來筆記 Part4 再談馬來西亞飲食（下）</a></td>
-<td>2024-10-17</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-<tr>
-<td><a href="/malaysianfood2/">馬來筆記 Part4 再談馬來西亞飲食（中）</a></td>
-<td>2024-10-15</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-<tr>
-<td><a href="/malaysianfood1/">馬來筆記 Part4 再談馬來西亞飲食（上）</a></td>
-<td>2024-10-14</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-<tr>
-<td><a href="/penangtotainan/">馬來筆記 Part.3 從檳城看見台南的府城味</a></td>
-<td>2024-10-09</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-<tr>
-<td><a href="/livingwisdom/">馬來筆記 Part.2 折衷的共存智慧</a></td>
-<td>2024-10-08</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-<tr>
-<td><a href="/smoothtripml3/">馬來筆記 Part.1 行路不難(下)</a></td>
-<td>2024-10-07</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-<tr>
-<td><a href="/smoothtripml2/">馬來筆記 Part.1 行路不難(中)</a></td>
-<td>2024-10-07</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-<tr>
-<td><a href="/smoothtripml1/">馬來筆記 Part.1 行路不難(上)</a></td>
-<td>2024-10-07</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-</tbody>
-</table>
-
 ## 本篇重點導覽問答（FAQ）
 
 ### Q1: 中國餐飲連鎖品牌近年在馬來西亞與東南亞是如何快速擴張的？
@@ -962,8 +692,6 @@ KTM ETS 城際列車分為 Platinum、Gold 與 Silver 等級。Platinum 停靠�
 
 ---
 **【馬來筆記】深度觀察全系列**：[點此查看全系列 9 篇導覽地圖](/tobecontinued/)
-- 上一篇：[Part4 再談馬來西亞飲食（上）：巴生肉骨茶與混合麵食](/malaysianfood1/)
-- 下一篇：[Part4 再談馬來西亞飲食（下）：海南菜與國民漢堡](/malaysianfood3/)
 
 
 ---
@@ -1099,43 +827,6 @@ Ramly burger的故事可以追溯到1979年，當時的創始人Ramly bin Mokni 
 
 行筆至此，深感味覺的形成遠比你我想的更複雜，不僅是個人偏好，也帶著家庭環境的塑造，更還有社會變遷脈絡與大時代國族的傳承；也恍然明白，隨著自己年歲增長，明明是刻意越來越少吃糕點甜點，可偏偏每當看到台灣路邊販售傳統糕點的小攤子，總是抱著莫名的情緒買下（像是基隆的名古屋日式甜點，每次在台北市區看到攤車都爆買），並非味蕾渴望其滋味，而是一種希望飲食傳承能延續下去、不捨其凋零的支持，年幼時帶著這些食物來串門的長輩們，除了對我的關愛，也許也是類似的心境吧。
 
-<table class="wpb-plt-table wpb-plt-table-hover">
-<thead>
-<tr>
-<th>Title</th>
-<th>Date</th> <th>Tag</th> </tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="/tobecontinued/">馬來筆記 Part5 未完待續</a></td>
-<td>2024-10-28</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-<tr>
-<td><a href="/malaysianfood3/">馬來筆記 Part4 再談馬來西亞飲食（下）</a></td>
-<td>2024-10-17</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-<tr>
-<td><a href="/malaysianfood2/">馬來筆記 Part4 再談馬來西亞飲食（中）</a></td>
-<td>2024-10-15</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-<tr>
-<td><a href="/malaysianfood1/">馬來筆記 Part4 再談馬來西亞飲食（上）</a></td>
-<td>2024-10-14</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-<tr>
-<td><a href="/penangtotainan/">馬來筆記 Part.3 從檳城看見台南的府城味</a></td>
-<td>2024-10-09</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-<tr>
-<td><a href="/livingwisdom/">馬來筆記 Part.2 折衷的共存智慧</a></td>
-<td>2024-10-08</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-<tr>
-<td><a href="/smoothtripml3/">馬來筆記 Part.1 行路不難(下)</a></td>
-<td>2024-10-07</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-<tr>
-<td><a href="/smoothtripml2/">馬來筆記 Part.1 行路不難(中)</a></td>
-<td>2024-10-07</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-<tr>
-<td><a href="/smoothtripml1/">馬來筆記 Part.1 行路不難(上)</a></td>
-<td>2024-10-07</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-</tbody>
-</table>
-
 ## 本篇重點導覽問答（FAQ）
 
 ### Q1: 海南飲食是如何跨越族群界線，深深融入馬來西亞日常茶餐廳文化中的？
@@ -1150,8 +841,6 @@ Ramly Burger 是大馬本土清真漢堡品牌，以路邊鐵板餐車現點現�
 
 ---
 **【馬來筆記】深度觀察全系列**：[點此查看全系列 9 篇導覽地圖](/tobecontinued/)
-- 上一篇：[Part4 再談馬來西亞飲食（中）：東南亞餐飲出海](/malaysianfood2/)
-- 下一篇：[Part 5 未完待續：馬來西亞深度觀察全系列導覽](/tobecontinued/)
 
 
 ---

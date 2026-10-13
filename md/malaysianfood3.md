@@ -129,43 +129,6 @@ Ramly burger的故事可以追溯到1979年，當時的創始人Ramly bin Mokni 
 
 行筆至此，深感味覺的形成遠比你我想的更複雜，不僅是個人偏好，也帶著家庭環境的塑造，更還有社會變遷脈絡與大時代國族的傳承；也恍然明白，隨著自己年歲增長，明明是刻意越來越少吃糕點甜點，可偏偏每當看到台灣路邊販售傳統糕點的小攤子，總是抱著莫名的情緒買下（像是基隆的名古屋日式甜點，每次在台北市區看到攤車都爆買），並非味蕾渴望其滋味，而是一種希望飲食傳承能延續下去、不捨其凋零的支持，年幼時帶著這些食物來串門的長輩們，除了對我的關愛，也許也是類似的心境吧。
 
-<table class="wpb-plt-table wpb-plt-table-hover">
-<thead>
-<tr>
-<th>Title</th>
-<th>Date</th> <th>Tag</th> </tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="/tobecontinued/">馬來筆記 Part5 未完待續</a></td>
-<td>2024-10-28</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-<tr>
-<td><a href="/malaysianfood3/">馬來筆記 Part4 再談馬來西亞飲食（下）</a></td>
-<td>2024-10-17</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-<tr>
-<td><a href="/malaysianfood2/">馬來筆記 Part4 再談馬來西亞飲食（中）</a></td>
-<td>2024-10-15</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-<tr>
-<td><a href="/malaysianfood1/">馬來筆記 Part4 再談馬來西亞飲食（上）</a></td>
-<td>2024-10-14</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-<tr>
-<td><a href="/penangtotainan/">馬來筆記 Part.3 從檳城看見台南的府城味</a></td>
-<td>2024-10-09</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-<tr>
-<td><a href="/livingwisdom/">馬來筆記 Part.2 折衷的共存智慧</a></td>
-<td>2024-10-08</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-<tr>
-<td><a href="/smoothtripml3/">馬來筆記 Part.1 行路不難(下)</a></td>
-<td>2024-10-07</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-<tr>
-<td><a href="/smoothtripml2/">馬來筆記 Part.1 行路不難(中)</a></td>
-<td>2024-10-07</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-<tr>
-<td><a href="/smoothtripml1/">馬來筆記 Part.1 行路不難(上)</a></td>
-<td>2024-10-07</td> <td><ul class="wpb-plt-cat-list"><li><a href="/tag/my2024/">MY2024</a></li></ul></td> </tr>
-</tbody>
-</table>
-
 ## 本篇重點導覽問答（FAQ）
 
 ### Q1: 海南飲食是如何跨越族群界線，深深融入馬來西亞日常茶餐廳文化中的？
@@ -180,5 +143,3 @@ Ramly Burger 是大馬本土清真漢堡品牌，以路邊鐵板餐車現點現�
 
 ---
 **【馬來筆記】深度觀察全系列**：[點此查看全系列 9 篇導覽地圖](/tobecontinued/)
-- 上一篇：[Part4 再談馬來西亞飲食（中）：東南亞餐飲出海](/malaysianfood2/)
-- 下一篇：[Part 5 未完待續：馬來西亞深度觀察全系列導覽](/tobecontinued/)
