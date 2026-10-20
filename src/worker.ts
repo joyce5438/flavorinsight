@@ -22,9 +22,9 @@ export default {
 
 		// Cloudflare Edge Cache API with cache version salt
 		const cache = caches.default;
-		// Version salt v42: author name Austin in metadata & descriptions
+		// Version salt v43: Google AdSense script integration
 		const cacheKeyUrl = new URL(url.toString());
-		cacheKeyUrl.searchParams.set("__cfv", "42");
+		cacheKeyUrl.searchParams.set("__cfv", "43");
 		const cacheKey = new Request(cacheKeyUrl.toString(), {
 			method: "GET",
 			headers: { "accept": request.headers.get("accept") || "*/*" },
