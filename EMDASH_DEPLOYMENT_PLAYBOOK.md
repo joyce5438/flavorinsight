@@ -124,18 +124,6 @@ git push -u origin main --force
 
 ---
 
-### 5. 廣告與第三方驗證腳本放置規範
-* **Astro 的 `is:inline` 規則**：
-  * 若在 Astro 模板（如 `Base.astro`）中直接置入第三方 JavaScript（如 Google AdSense、聯盟網 Converly/AdotOne、Google Analytics），**必須加上 `is:inline` 屬性**，否則 Astro 會嘗試將其打包或改寫：
-    ```html
-    <script is:inline async src="https://pagead2.googlesyndication.com/..."></script>
-    ```
-* **`ads.txt` 雙重保險架構**：
-  * 在 `public/ads.txt` 放置靜態檔案。
-  * 同時在 `src/pages/ads.txt.ts` 建立 API Route 直接回傳 `HTTP 200 text/plain`，確保無論 Cloudflare Static Assets 或 Worker SSR 路由都能秒級命中。
-
----
-
 ## 🚀 第三部分：全新 EmDash 站點極速安裝通用流程說明書（SOP）
 
 當您未來要建立另一個全新 EmDash 站點時，依照以下 6 個標準步驟，即可在 15 分鐘內完成從零到上線的完整部署：
@@ -144,7 +132,7 @@ git push -u origin main --force
 flowchart TD
     A["步驟 1：建立專案與安裝套件"] --> B["步驟 2：Cloudflare 資源配置 (D1/R2/KV/Images)"]
     B --> C["步驟 3：移植核心 Worker 入口 (快取鹽與 R2 修復)"]
-    C --> D["步驟 4：佈建 SEO、Layout 與 ads.txt 機制"]
+    C --> D["步驟 4：佈建 SEO 與 Layout 基礎架構"]
     D --> E["步驟 5：D1 Migration 與初始化管理員帳號"]
     E --> F["步驟 6：編譯建置與正式部署上線"]
 ```
