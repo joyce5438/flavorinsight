@@ -22,9 +22,9 @@ export default {
 
 		// Cloudflare Edge Cache API with cache version salt
 		const cache = caches.default;
-		// Version salt v43: Google AdSense script integration
+		// Version salt v44: Affiliates.one Converly verification script integration
 		const cacheKeyUrl = new URL(url.toString());
-		cacheKeyUrl.searchParams.set("__cfv", "43");
+		cacheKeyUrl.searchParams.set("__cfv", "44");
 		const cacheKey = new Request(cacheKeyUrl.toString(), {
 			method: "GET",
 			headers: { "accept": request.headers.get("accept") || "*/*" },
