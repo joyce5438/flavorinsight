@@ -1,0 +1,56 @@
+---
+import { htmlBlockFields } from "@emdash-cms/admin/html-block";
+import sanitizeHtml from "sanitize-html";
+import {
+	SITE_HTML_ALLOWED_ATTRIBUTES,
+	SITE_HTML_ALLOWED_SCHEMES,
+	SITE_HTML_ALLOWED_TAGS,
+	SITE_HTML_IFRAME_HOSTS,
+} from "@emdash-cms/admin/html-block";
+
+export interface Props {
+	node: {
+		_type: "htmlBlock";
+		_key: string;
+		html: string;
+		css?: string;
+		js?: string;
+		isolated?: boolean;
+	};
+}
+
+const { node } = Astro.props;
+const { html } = htmlBlockFields(node ?? {});
+
+if (!html) {
+	return null;
+}
+
+const safeHtml = sanitizeHtml(html, {
+	allowedTags: [
+		...SITE_HTML_ALLOWED_TAGS,
+		"details", "summary", "h2", "h3", "p", "div", "span", "i", "blockquote", "ul", "li", "strong", "em", "b"
+	],
+	allowedAttributes: {
+		...Object.fromEntries(
+			Object.entries(SITE_HTML_ALLOWED_ATTRIBUTES).map(([tag, names]) => [tag, [...names]]),
+		),
+		details: ["class", "id", "open", "data-*"],
+		summary: ["class", "id", "data-*"],
+		i: ["class", "id", "aria-hidden", "data-*"],
+		span: ["class", "id", "style", "data-*"],
+		div: ["class", "id", "style", "data-*"],
+		h2: ["class", "id", "style", "data-*"],
+		h3: ["class", "id", "style", "data-*"],
+		p: ["class", "id", "style", "data-*"],
+		blockquote: ["class", "id", "style", "data-*"],
+		ul: ["class", "id", "style", "data-*"],
+		li: ["class", "id", "style", "data-*"],
+		strong: ["class", "id", "style", "data-*"],
+	},
+	allowedSchemes: [...SITE_HTML_ALLOWED_SCHEMES],
+	allowedIframeHostnames: [...SITE_HTML_IFRAME_HOSTS],
+});
+---
+
+<div class="emdash-html-block" set:html={safeHtml} />

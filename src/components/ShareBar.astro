@@ -1,0 +1,481 @@
+---
+import { shortCode } from "@plugdash/shortlink";
+
+interface Props {
+	post: Record<string, any>;
+	layout?: "bar" | "compact";
+	class?: string;
+}
+
+const { post, layout = "bar", class: className = "" } = Astro.props;
+
+const data = post?.data as Record<string, any> | undefined;
+const title = data?.title || "風味洞察 From Flavor to Insight";
+const entryId = typeof data?.id === "string" ? data.id : "";
+const code = entryId ? shortCode(entryId) : "";
+
+const origin = Astro.site ? new URL(Astro.site).origin : Astro.url.origin;
+const canonicalUrl = `${origin}/posts/${post?.slug || data?.slug || ""}`;
+const shortUrl = code ? `${origin}/s/${code}` : canonicalUrl;
+const shareText = `${title} — 風味洞察`;
+
+const encodedCanonical = encodeURIComponent(canonicalUrl);
+const encodedShort = encodeURIComponent(shortUrl);
+const encodedText = encodeURIComponent(shareText);
+
+// Direct sharing URLs
+const lineShareUrl = `https://social-plugins.line.me/lineit/share?url=${encodedShort}`;
+const fbShareUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodedShort}`;
+const threadsShareUrl = `https://threads.net/intent/post?text=${encodeURIComponent(`${shareText} ${shortUrl}`)}`;
+const xShareUrl = `https://twitter.com/intent/tweet?url=${encodedShort}&text=${encodedText}`;
+---
+
+{layout === "bar" ? (
+	<section class={`fi-share-bar fi-share-bar--full ${className}`} aria-label="社群分享">
+		<div class="fi-share-intro">
+			<h3 class="fi-share-title">喜歡這篇飲食觀察嗎？</h3>
+			<p class="fi-share-subtitle">分享給身邊好友，或直接複製專屬短網址</p>
+		</div>
+
+		<div class="fi-share-toolbar">
+			<div class="fi-share-buttons">
+				<!-- LINE -->
+				<a
+					href={lineShareUrl}
+					target="_blank"
+					rel="noopener noreferrer"
+					class="fi-share-action fi-share-action--line"
+					aria-label="分享到 LINE"
+					title="分享到 LINE"
+				>
+					<svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+						<path d="M19.365 9.863c.349 0 .63.285.63.631 0 .345-.281.63-.63.63H17.61v1.125h1.755c.349 0 .63.283.63.63 0 .344-.281.629-.63.629h-2.386c-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.627-.63h2.386c.349 0 .63.285.63.63 0 .349-.281.63-.63.63H17.61v1.125h1.755zm-3.855 3.016c0 .27-.174.51-.432.596-.064.021-.133.031-.199.031-.211 0-.391-.09-.51-.25l-2.443-3.317v2.94c0 .344-.279.629-.631.629-.346 0-.626-.285-.626-.629V8.108c0-.27.173-.51.43-.595.06-.023.136-.033.194-.033.195 0 .375.104.477.254l2.486 3.372V8.108c0-.345.282-.63.628-.63.345 0 .626.285.626.63v4.771zm-5.741 0c0 .344-.282.629-.631.629-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.627-.63.349 0 .631.285.631.63v4.771zm-2.466.629H4.917c-.345 0-.63-.285-.63-.629V8.108c0-.345.285-.63.63-.63.348 0 .63.285.63.63v4.141h1.756c.348 0 .629.283.629.63 0 .344-.281.629-.629.629M24 10.314C24 4.943 18.615.572 12 .572S0 4.943 0 10.314c0 4.811 4.27 8.842 10.035 9.608.391.082.923.258 1.058.59.12.301.079.766.038 1.08l-.164 1.02c-.045.301-.24 1.186 1.049.645 1.291-.539 6.916-4.078 9.436-6.975C23.176 14.393 24 12.458 24 10.314"/>
+					</svg>
+					<span>LINE</span>
+				</a>
+
+				<!-- Threads -->
+				<a
+					href={threadsShareUrl}
+					target="_blank"
+					rel="noopener noreferrer"
+					class="fi-share-action fi-share-action--threads"
+					aria-label="分享到 Threads"
+					title="分享到 Threads"
+				>
+					<svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+						<path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.836 12.753c-.079 3.491-2.222 5.568-5.719 5.568-3.415 0-5.797-2.31-5.797-5.617 0-3.328 2.457-5.64 5.923-5.64 3.414 0 5.626 2.217 5.626 5.377 0 .285-.018.57-.056.853h-8.91c.148 2.052 1.547 3.238 3.323 3.238 1.258 0 2.247-.565 2.569-1.579h2.041zm-2.09-2.007c-.156-1.516-1.328-2.452-2.73-2.452-1.42 0-2.557.943-2.752 2.452h5.482z"/>
+					</svg>
+					<span>Threads</span>
+				</a>
+
+				<!-- Facebook -->
+				<a
+					href={fbShareUrl}
+					target="_blank"
+					rel="noopener noreferrer"
+					class="fi-share-action fi-share-action--fb"
+					aria-label="分享到 Facebook"
+					title="分享到 Facebook"
+				>
+					<svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+						<path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+					</svg>
+					<span>Facebook</span>
+				</a>
+
+				<!-- X / Twitter -->
+				<a
+					href={xShareUrl}
+					target="_blank"
+					rel="noopener noreferrer"
+					class="fi-share-action fi-share-action--x"
+					aria-label="分享到 X"
+					title="分享到 X"
+				>
+					<svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+						<path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.73-8.835L1.254 2.25H8.08l4.259 5.63zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+					</svg>
+					<span>X</span>
+				</a>
+			</div>
+
+			{code && (
+				<button
+					type="button"
+					class="fi-copy-btn fi-copy-btn--pill"
+					data-fi-copy={shortUrl}
+					aria-label="複製短網址"
+				>
+					<svg class="fi-icon-link" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+						<path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+						<path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+					</svg>
+					<svg class="fi-icon-check" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+						<polyline points="20 6 9 17 4 12"></polyline>
+					</svg>
+					<span class="fi-copy-label">/s/{code}</span>
+					<span class="fi-copy-badge">複製</span>
+				</button>
+			)}
+		</div>
+	</section>
+) : (
+	<div class={`fi-share-compact ${className}`} aria-label="社群分享">
+		<a
+			href={lineShareUrl}
+			target="_blank"
+			rel="noopener noreferrer"
+			class="fi-compact-btn fi-compact-btn--line"
+			aria-label="LINE 分享"
+			title="LINE 分享"
+		>
+			<svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+				<path d="M19.365 9.863c.349 0 .63.285.63.631 0 .345-.281.63-.63.63H17.61v1.125h1.755c.349 0 .63.283.63.63 0 .344-.281.629-.63.629h-2.386c-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.627-.63h2.386c.349 0 .63.285.63.63 0 .349-.281.63-.63.63H17.61v1.125h1.755zm-3.855 3.016c0 .27-.174.51-.432.596-.064.021-.133.031-.199.031-.211 0-.391-.09-.51-.25l-2.443-3.317v2.94c0 .344-.279.629-.631.629-.346 0-.626-.285-.626-.629V8.108c0-.27.173-.51.43-.595.06-.023.136-.033.194-.033.195 0 .375.104.477.254l2.486 3.372V8.108c0-.345.282-.63.628-.63.345 0 .626.285.626.63v4.771zm-5.741 0c0 .344-.282.629-.631.629-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.627-.63.349 0 .631.285.631.63v4.771zm-2.466.629H4.917c-.345 0-.63-.285-.63-.629V8.108c0-.345.285-.63.63-.63.348 0 .63.285.63.63v4.141h1.756c.348 0 .629.283.629.63 0 .344-.281.629-.629.629M24 10.314C24 4.943 18.615.572 12 .572S0 4.943 0 10.314c0 4.811 4.27 8.842 10.035 9.608.391.082.923.258 1.058.59.12.301.079.766.038 1.08l-.164 1.02c-.045.301-.24 1.186 1.049.645 1.291-.539 6.916-4.078 9.436-6.975C23.176 14.393 24 12.458 24 10.314"/>
+			</svg>
+		</a>
+		<a
+			href={threadsShareUrl}
+			target="_blank"
+			rel="noopener noreferrer"
+			class="fi-compact-btn fi-compact-btn--threads"
+			aria-label="Threads 分享"
+			title="Threads 分享"
+		>
+			<svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+				<path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.836 12.753c-.079 3.491-2.222 5.568-5.719 5.568-3.415 0-5.797-2.31-5.797-5.617 0-3.328 2.457-5.64 5.923-5.64 3.414 0 5.626 2.217 5.626 5.377 0 .285-.018.57-.056.853h-8.91c.148 2.052 1.547 3.238 3.323 3.238 1.258 0 2.247-.565 2.569-1.579h2.041zm-2.09-2.007c-.156-1.516-1.328-2.452-2.73-2.452-1.42 0-2.557.943-2.752 2.452h5.482z"/>
+			</svg>
+		</a>
+		<a
+			href={fbShareUrl}
+			target="_blank"
+			rel="noopener noreferrer"
+			class="fi-compact-btn fi-compact-btn--fb"
+			aria-label="Facebook 分享"
+			title="Facebook 分享"
+		>
+			<svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+				<path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+			</svg>
+		</a>
+		<a
+			href={xShareUrl}
+			target="_blank"
+			rel="noopener noreferrer"
+			class="fi-compact-btn fi-compact-btn--x"
+			aria-label="X 分享"
+			title="X 分享"
+		>
+			<svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+				<path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.73-8.835L1.254 2.25H8.08l4.259 5.63zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+			</svg>
+		</a>
+		<button
+			type="button"
+			class="fi-compact-btn fi-compact-btn--copy"
+			data-fi-copy={shortUrl}
+			aria-label="複製短網址"
+			title="複製短網址"
+		>
+			<svg class="fi-icon-link" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+				<path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+				<path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+			</svg>
+			<svg class="fi-icon-check" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+				<polyline points="20 6 9 17 4 12"></polyline>
+			</svg>
+		</button>
+	</div>
+)}
+
+<script>
+	function setupShareCopy() {
+		document.querySelectorAll("[data-fi-copy]").forEach((btn) => {
+			if (btn.hasAttribute("data-bound")) return;
+			btn.setAttribute("data-bound", "true");
+
+			btn.addEventListener("click", async () => {
+				const url = btn.getAttribute("data-fi-copy");
+				if (!url) return;
+				try {
+					await navigator.clipboard.writeText(url);
+					btn.setAttribute("data-copied", "true");
+					const labelEl = btn.querySelector(".fi-copy-badge");
+					if (labelEl) labelEl.textContent = "已複製！";
+
+					setTimeout(() => {
+						btn.removeAttribute("data-copied");
+						if (labelEl) labelEl.textContent = "複製";
+					}, 2200);
+				} catch (e) {
+					console.error("Copy failed", e);
+				}
+			});
+		});
+	}
+
+	setupShareCopy();
+	document.addEventListener("astro:page-load", setupShareCopy);
+</script>
+
+<style>
+	/* Full share bar at article bottom */
+	.fi-share-bar--full {
+		margin-top: 3.5rem;
+		margin-bottom: 2.5rem;
+		padding: 1.5rem 1.75rem;
+		background: var(--color-bg-subtle, #F6F2EB);
+		border: 1px solid var(--color-border, #E8E2D8);
+		border-radius: 6px;
+		box-shadow: 0 1px 3px rgba(60, 40, 20, 0.04);
+		transition: border-color 0.2s ease;
+	}
+
+	:global(.theme-dark) .fi-share-bar--full,
+	:global(.dark) .fi-share-bar--full {
+		background: var(--color-bg-subtle, #191816);
+		border-color: var(--color-border, #2A2724);
+		box-shadow: none;
+	}
+
+	.fi-share-intro {
+		margin-bottom: 1.25rem;
+	}
+
+	.fi-share-title {
+		margin: 0;
+		font-family: var(--font-heading);
+		font-size: 1.15rem;
+		font-weight: 600;
+		color: var(--color-text, #24211E);
+		line-height: 1.35;
+		letter-spacing: -0.01em;
+	}
+
+	.fi-share-subtitle {
+		margin: 0.3rem 0 0 0;
+		font-size: 0.875rem;
+		color: var(--color-text-secondary, #5C554E);
+		letter-spacing: 0.015em;
+		line-height: 1.5;
+	}
+
+	.fi-share-toolbar {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 1rem;
+		flex-wrap: wrap;
+	}
+
+	.fi-share-buttons {
+		display: flex;
+		align-items: center;
+		gap: 0.65rem;
+		flex-wrap: wrap;
+	}
+
+	/* Copy shortlink pill */
+	.fi-copy-btn--pill {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.55rem;
+		padding: 0.45rem 0.95rem;
+		background: #24211E;
+		border: 1px solid rgba(0, 0, 0, 0.1);
+		border-radius: 9999px;
+		font-family: var(--font-mono, monospace);
+		font-size: 0.8125rem;
+		color: #FAF7F2;
+		cursor: pointer;
+		box-shadow: 0 2px 6px rgba(36, 33, 30, 0.12);
+		transition: transform 0.15s ease, background-color 0.15s ease, box-shadow 0.15s ease;
+	}
+
+	:global(.theme-dark) .fi-copy-btn--pill,
+	:global(.dark) .fi-copy-btn--pill {
+		background: #2E2B28;
+		border-color: rgba(255, 255, 255, 0.1);
+		color: #FAF7F2;
+	}
+
+	.fi-copy-btn--pill:hover {
+		background: #3A3530;
+		transform: translateY(-1px);
+		box-shadow: 0 4px 10px rgba(36, 33, 30, 0.2);
+	}
+
+	.fi-copy-label {
+		font-weight: 600;
+		color: #FAF7F2;
+		letter-spacing: 0.04em;
+	}
+
+	.fi-copy-badge {
+		font-size: 0.6875rem;
+		font-weight: 600;
+		letter-spacing: 0.06em;
+		padding: 0.15rem 0.55rem;
+		background: var(--color-brand, #C4403B);
+		border-radius: 9999px;
+		color: #FFFFFF;
+		font-family: var(--font-body, sans-serif);
+		transition: background-color 0.18s ease;
+	}
+
+	.fi-icon-check {
+		display: none;
+		color: #34D399;
+	}
+
+	.fi-copy-btn[data-copied="true"] .fi-icon-link {
+		display: none;
+	}
+
+	.fi-copy-btn[data-copied="true"] .fi-icon-check {
+		display: inline-block;
+	}
+
+	.fi-copy-btn[data-copied="true"] .fi-copy-badge {
+		background: #0E7A3D;
+		color: #FFFFFF;
+	}
+
+	/* Share button grid / flex */
+	.fi-share-buttons {
+		display: flex;
+		gap: 0.75rem;
+		flex-wrap: wrap;
+	}
+
+	.fi-share-action {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.5rem;
+		padding: 0.52rem 1.15rem;
+		border-radius: 9999px;
+		font-size: 0.84rem;
+		font-weight: 600;
+		letter-spacing: 0.02em;
+		text-decoration: none;
+		color: #FFFFFF !important;
+		box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+		transition: transform 0.15s ease, filter 0.15s ease, box-shadow 0.15s ease;
+	}
+
+	.fi-share-action:hover {
+		transform: translateY(-1.5px);
+		filter: brightness(1.08);
+		box-shadow: 0 5px 12px rgba(0, 0, 0, 0.16);
+	}
+
+	.fi-share-action:active {
+		transform: translateY(0);
+	}
+
+	/* Color-Calibrated Social Brand Contrast */
+	.fi-share-action--line {
+		background-color: #0E7A3D;
+	}
+
+	.fi-share-action--threads {
+		background-color: #24211E;
+	}
+
+	:global(.theme-dark) .fi-share-action--threads,
+	:global(.dark) .fi-share-action--threads {
+		background-color: #2E2B28;
+		border: 1px solid rgba(255, 255, 255, 0.1);
+	}
+
+	.fi-share-action--fb {
+		background-color: #195396;
+	}
+
+	.fi-share-action--x {
+		background-color: #1A1816;
+	}
+
+	:global(.theme-dark) .fi-share-action--x,
+	:global(.dark) .fi-share-action--x {
+		background-color: #22201D;
+		border: 1px solid rgba(255, 255, 255, 0.1);
+	}
+
+	/* Compact mode for sidebar */
+	.fi-share-compact {
+		display: flex;
+		align-items: center;
+		gap: 0.4rem;
+		flex-wrap: wrap;
+	}
+
+	.fi-compact-btn {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		width: 2rem;
+		height: 2rem;
+		border-radius: 9999px;
+		border: 1px solid var(--color-border, #e5e7eb);
+		background: var(--color-fill, #f9fafb);
+		color: var(--color-text, #4b5563);
+		text-decoration: none;
+		cursor: pointer;
+		transition: all 0.18s ease;
+	}
+
+	:global(.dark) .fi-compact-btn {
+		background: #252d37;
+		border-color: #374151;
+		color: #cbd5e1;
+	}
+
+	.fi-compact-btn:hover {
+		transform: translateY(-1px);
+	}
+
+	.fi-compact-btn--line:hover {
+		background: #06C755;
+		border-color: #06C755;
+		color: #ffffff;
+	}
+
+	.fi-compact-btn--threads:hover {
+		background: #000000;
+		border-color: #000000;
+		color: #ffffff;
+	}
+
+	.fi-compact-btn--fb:hover {
+		background: #1877F2;
+		border-color: #1877F2;
+		color: #ffffff;
+	}
+
+	.fi-compact-btn--x:hover {
+		background: #0f1419;
+		border-color: #0f1419;
+		color: #ffffff;
+	}
+
+	.fi-compact-btn--copy:hover {
+		background: var(--color-brand, #2563eb);
+		border-color: var(--color-brand, #2563eb);
+		color: #ffffff;
+	}
+
+	.fi-compact-btn[data-copied="true"] {
+		background: #10b981 !important;
+		border-color: #10b981 !important;
+		color: #ffffff !important;
+	}
+
+	.fi-compact-btn[data-copied="true"] .fi-icon-link {
+		display: none;
+	}
+
+	.fi-compact-btn[data-copied="true"] .fi-icon-check {
+		display: inline-block;
+	}
+</style>

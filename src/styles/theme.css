@@ -1,0 +1,357 @@
+/*
+  theme.css -- FlavorInsight Design System Overrides
+  Cultural Gastronomy & Slow-Travel Field Notes (南洋風土漫遊誌)
+  Inspired by Passporto & Roam
+*/
+
+:root {
+	/* ==========================================================================
+	   1. Warm Paper & Culinary Earth Palette (Default Light Mode)
+	   ========================================================================== */
+	--color-bg: #FAF7F2; /* Warm organic paper canvas */
+	--color-surface: #FFFFFF; /* Clean card surface */
+	--color-fill: #F2EEE7; /* Warm chips, tag pills, hovered fills */
+	--color-fill-strong: #E8E2D8;
+	--color-bg-subtle: #F6F2EB;
+
+	--color-text: #24211E; /* Soft charcoal ink */
+	--color-text-secondary: #5C554E; /* Warm medium stone */
+	--color-muted: #7E756B; /* Meta text, labels, dates */
+
+	--color-border: #E8E2D8; /* Subtle warm paper frame rails */
+	--color-border-subtle: #F0EBE3;
+	--color-border-strong: #D5CCC0;
+
+	--color-ring: rgba(140, 110, 80, 0.08);
+	--color-media-outline: rgba(140, 110, 80, 0.1);
+
+	/* Brand & Accents: Signature Terracotta Red (User Screenshot #c4403b) */
+	--color-brand: #C4403B;
+	--color-brand-hover: #A83530;
+	--color-on-brand: #FFFFFF;
+	--color-brand-ring: rgba(196, 64, 59, 0.2);
+
+	/* Yuki original design system variables (Light mode defaults) */
+	--yuki-content-base-color: #212A33;
+	--yuki-headings-color: #17212A;
+	--yuki-accent-color: #4B5563;
+	--yuki-accent-active: #17212A;
+	--yuki-base-color: #FFFFFF;
+	--yuki-base-100: #F8F9F8;
+	--yuki-base-200: #E0E2E0;
+	--yuki-primary-color: #C4403B;
+
+	/* ==========================================================================
+	   2. Editorial Serif Typography Hierarchy
+	   ========================================================================== */
+	--font-heading: "Lora", "Noto Serif TC", "Source Han Serif TC", "Songti SC", Georgia, serif;
+	--font-weight-heading: 600;
+	--font-weight-display: 600;
+
+	/* ==========================================================================
+	   3. Organic Shadows & Elevated Cards
+	   ========================================================================== */
+	--shadow-sm: 0 1px 3px rgba(60, 40, 20, 0.04);
+	--shadow-card: 0 4px 20px -2px rgba(60, 40, 20, 0.05);
+	--shadow-card-hover: 0 14px 34px -4px rgba(60, 40, 20, 0.1);
+	--shadow-lg: 0 12px 36px -4px rgba(60, 40, 20, 0.08);
+
+	/* ==========================================================================
+	   4. Editorial Curves & Transitions
+	   ========================================================================== */
+	--radius: 10px;
+	--radius-lg: 14px;
+	--radius-xl: 18px;
+	--transition-base: 220ms cubic-bezier(0.16, 1, 0.3, 1);
+	--transition-fast: 140ms ease;
+}
+
+/* ==========================================================================
+   Explicit Light Mode Bridge & Tokens
+   ========================================================================== */
+:root.light,
+html.light,
+html.theme-light,
+[data-theme="light"] {
+	color-scheme: light;
+	--lightningcss-light: initial;
+	--lightningcss-dark: ;
+
+	--color-bg: #FAF7F2;
+	--color-surface: #FFFFFF;
+	--color-fill: #F2EEE7;
+	--color-fill-strong: #E8E2D8;
+	--color-bg-subtle: #F6F2EB;
+
+	--color-text: #24211E;
+	--color-text-secondary: #5C554E;
+	--color-muted: #7E756B;
+
+	--color-border: #E8E2D8;
+	--color-border-subtle: #F0EBE3;
+	--color-border-strong: #D5CCC0;
+
+	--color-ring: rgba(140, 110, 80, 0.08);
+	--color-media-outline: rgba(140, 110, 80, 0.1);
+
+	--color-brand: #C4403B;
+	--color-brand-hover: #A83530;
+	--color-on-brand: #FFFFFF;
+	--color-brand-ring: rgba(196, 64, 59, 0.2);
+
+	--shadow-sm: 0 1px 3px rgba(60, 40, 20, 0.04);
+	--shadow-card: 0 4px 20px -2px rgba(60, 40, 20, 0.05);
+	--shadow-card-hover: 0 14px 34px -4px rgba(60, 40, 20, 0.1);
+	--shadow-lg: 0 12px 36px -4px rgba(60, 40, 20, 0.08);
+
+	--yuki-content-base-color: #212A33;
+	--yuki-headings-color: #17212A;
+	--yuki-accent-color: #4B5563;
+	--yuki-accent-active: #17212A;
+	--yuki-base-color: #FFFFFF;
+	--yuki-base-100: #F8F9F8;
+	--yuki-base-200: #E0E2E0;
+	--yuki-primary-color: #C4403B;
+}
+
+/* ==========================================================================
+   Explicit Dark Mode Bridge & Tokens (Deep Espresso Canvas & Warm Ivory)
+   ========================================================================== */
+:root.dark,
+html.dark,
+html.theme-dark,
+[data-theme="dark"] {
+	color-scheme: dark;
+	--lightningcss-light: ;
+	--lightningcss-dark: initial;
+
+	--color-bg: #141312; /* Rich dark espresso canvas */
+	--color-surface: #1C1B19; /* Warm dark surface */
+	--color-fill: #242220; /* Chips, tags, hover fills */
+	--color-fill-strong: #2E2B28;
+	--color-bg-subtle: #191816;
+
+	--color-text: #EDE8E1; /* Warm ivory typography */
+	--color-text-secondary: #A49D94; /* Soft warm stone */
+	--color-muted: #8A8176; /* Meta dates, counts */
+
+	--color-border: #2A2724; /* Subtle dark divider */
+	--color-border-subtle: #22201D;
+	--color-border-strong: #3D3934;
+
+	--color-ring: rgba(255, 240, 220, 0.08);
+	--color-media-outline: rgba(255, 240, 220, 0.1);
+
+	--color-brand: #E05A54; /* Warm terracotta in dark mode */
+	--color-brand-hover: #F06E68;
+	--color-on-brand: #141312;
+	--color-brand-ring: rgba(224, 90, 84, 0.25);
+
+	--shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.4);
+	--shadow-card: 0 4px 20px -2px rgba(0, 0, 0, 0.5);
+	--shadow-card-hover: 0 14px 34px -4px rgba(0, 0, 0, 0.7);
+	--shadow-lg: 0 12px 36px -4px rgba(0, 0, 0, 0.6);
+
+	/* Yuki original design system variables (Dark mode) */
+	--yuki-content-base-color: #EDE8E1;
+	--yuki-headings-color: #F5EFEB;
+	--yuki-accent-color: #A49D94;
+	--yuki-accent-active: #EDE8E1;
+	--yuki-base-color: #1C1B19;
+	--yuki-base-100: #242220;
+	--yuki-base-200: #2A2724;
+	--yuki-primary-color: #E05A54;
+}
+
+/* ==========================================================================
+   OS Preference Fallback (System Mode)
+   ========================================================================== */
+@media (prefers-color-scheme: dark) {
+	:root:not(.light),
+	html:not(.light) {
+		color-scheme: dark;
+		--lightningcss-light: ;
+		--lightningcss-dark: initial;
+
+		--color-bg: #141312;
+		--color-surface: #1C1B19;
+		--color-fill: #242220;
+		--color-fill-strong: #2E2B28;
+		--color-bg-subtle: #191816;
+
+		--color-text: #EDE8E1;
+		--color-text-secondary: #A49D94;
+		--color-muted: #8A8176;
+
+		--color-border: #2A2724;
+		--color-border-subtle: #22201D;
+		--color-border-strong: #3D3934;
+
+		--color-ring: rgba(255, 240, 220, 0.08);
+		--color-media-outline: rgba(255, 240, 220, 0.1);
+
+		--color-brand: #E05A54;
+		--color-brand-hover: #F06E68;
+		--color-on-brand: #141312;
+		--color-brand-ring: rgba(224, 90, 84, 0.25);
+
+		--shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.4);
+		--shadow-card: 0 4px 20px -2px rgba(0, 0, 0, 0.5);
+		--shadow-card-hover: 0 14px 34px -4px rgba(0, 0, 0, 0.7);
+		--shadow-lg: 0 12px 36px -4px rgba(0, 0, 0, 0.6);
+
+		--yuki-content-base-color: #EDE8E1;
+		--yuki-headings-color: #F5EFEB;
+		--yuki-accent-color: #A49D94;
+		--yuki-accent-active: #EDE8E1;
+		--yuki-base-color: #1C1B19;
+		--yuki-base-100: #242220;
+		--yuki-base-200: #2A2724;
+		--yuki-primary-color: #E05A54;
+	}
+}
+
+/* ==========================================================================
+   Editorial Heading & Card Enhancements
+   ========================================================================== */
+h1, h2, h3, .brand__name, .intro__title, .post__title, .section-head__title {
+	font-family: var(--font-heading) !important;
+	letter-spacing: -0.015em;
+}
+
+/* Cardless / Frameless Editorial Magazine Layout */
+.post--card, .post--feature {
+	background: transparent !important;
+	box-shadow: none !important;
+	border: none !important;
+	padding: 0 !important;
+	border-radius: 0 !important;
+	transform: none !important;
+}
+
+.post--card:hover, .post--feature:hover {
+	transform: none !important;
+	box-shadow: none !important;
+}
+
+.post--card .post__media {
+	aspect-ratio: 3 / 4 !important;
+	border-radius: 0 !important;
+	overflow: hidden;
+}
+
+.post--feature .post__media {
+	aspect-ratio: 16 / 10 !important;
+	border-radius: 0 !important;
+	overflow: hidden;
+}
+
+.post__media {
+	border-radius: 0 !important;
+}
+
+/* Global Editorial Image Sharpness: Sharp architectural straight edges like Passporto */
+img, .post__image img, .post__featured-media, .post__featured-media img, .wp-block-image img, figure img {
+	border-radius: 0 !important;
+}
+
+.post__image img {
+	transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+.post:hover .post__image img {
+	transform: scale(1.03);
+}
+
+/* Chips / Tag pills: warm subtle magazine styling */
+.chip {
+	font-size: 0.75rem !important;
+	padding: 4px 10px !important;
+	border-radius: var(--radius-full) !important;
+	background: var(--color-fill) !important;
+	color: var(--color-text-secondary) !important;
+	border: 1px solid var(--color-border-subtle) !important;
+	transition: background-color var(--transition-fast), color var(--transition-fast), border-color var(--transition-fast) !important;
+}
+
+.chip:hover {
+	background: var(--color-fill-strong) !important;
+	color: var(--color-brand) !important;
+	border-color: var(--color-border-strong) !important;
+}
+
+/* Header brand styling */
+.brand__name {
+	font-weight: 600 !important;
+	letter-spacing: -0.02em !important;
+}
+
+/* Minimalist Floating Back to Top Button */
+.back-to-top {
+	position: fixed;
+	bottom: clamp(1.5rem, 1.25rem + 1.5vw, 2.75rem);
+	right: clamp(1.5rem, 1.25rem + 1.5vw, 2.75rem);
+	z-index: 99;
+	width: 42px;
+	height: 42px;
+	border-radius: 50% !important;
+	background: var(--color-surface, #FFFFFF);
+	color: var(--color-text);
+	border: 1px solid var(--color-border);
+	box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	opacity: 0;
+	visibility: hidden;
+	transform: translateY(12px);
+	transition:
+		opacity 220ms ease,
+		transform 220ms cubic-bezier(0.16, 1, 0.3, 1),
+		background-color var(--transition-fast),
+		color var(--transition-fast),
+		border-color var(--transition-fast),
+		box-shadow var(--transition-fast),
+		visibility 220ms;
+}
+
+.dark .back-to-top,
+.theme-dark .back-to-top {
+	background: var(--color-surface, #1C1B19);
+	color: var(--color-text, #EDE8E1);
+	border-color: var(--color-border, #2A2724);
+	box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+}
+
+.back-to-top.is-visible {
+	opacity: 1;
+	visibility: visible;
+	transform: translateY(0);
+}
+
+.back-to-top:hover {
+	background: var(--color-text);
+	color: var(--color-bg);
+	border-color: var(--color-text);
+	transform: translateY(-2px);
+	box-shadow: 0 8px 24px rgba(0, 0, 0, 0.14);
+}
+
+.dark .back-to-top:hover,
+.theme-dark .back-to-top:hover {
+	background: var(--color-fill-strong, #2E2B28);
+	color: var(--color-brand, #E05A54);
+	border-color: var(--color-border-strong, #3D3934);
+	box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
+}
+
+.back-to-top:active {
+	transform: translateY(0);
+}
+
+.back-to-top svg {
+	width: 18px;
+	height: 18px;
+	stroke-width: 2.25;
+}

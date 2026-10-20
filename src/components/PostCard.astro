@@ -1,0 +1,526 @@
+---
+import type { ContentEntry, InferCollectionData } from "emdash";
+import { Image } from "emdash/ui";
+import Byline from "./Byline.astro";
+import { formatDate } from "../utils/locale";
+import { formatReadingTime, getReadingTime } from "../utils/reading-time";
+
+interface Props {
+	post: ContentEntry<InferCollectionData<"posts">>;
+	tags?: Array<{ slug: string; label: string }>;
+	category?: { slug: string; label: string };
+	/** card: grid tile. feature: large split card. row: archive list item. */
+	variant?: "card" | "feature" | "row";
+	headingLevel?: 2 | 3;
+	/** Load the image eagerly; use for the largest image above the fold. */
+	priority?: boolean;
+}
+
+const {
+	post,
+	tags = [],
+	category,
+	variant = "card",
+	headingLevel = 2,
+	priority = false,
+} = Astro.props;
+
+const Heading = `h${headingLevel}` as const;
+const href = `/posts/${post.id}`;
+const titleId = `post-${variant}-${post.id}`;
+const title = post.data.title || "Untitled";
+const publishedAt = post.data.publishedAt ?? null;
+const primaryTag = tags[0] ?? null;
+const badgeLabel = category?.label || "Malaysia";
+const bylines = post.data.bylines ?? [];
+const visibleTags = tags;
+
+const sizes = {
+	card: "(min-width: 1080px) 360px, (min-width: 700px) 45vw, 100vw",
+	feature: "(min-width: 900px) 640px, 100vw",
+	row: "(min-width: 720px) 240px, 120px",
+}[variant];
+---
+
+<article class:list={["post", `post--${variant}`]}>
+	<a href={href} class="post__media" tabindex="-1" aria-hidden="true">
+		{
+			post.data.featured_image ? (
+				<div class="post__image" {...post.edit.featured_image}>
+					<Image
+						image={post.data.featured_image}
+						sizes={sizes}
+						priority={priority}
+					/>
+				</div>
+			) : (
+				<div class="post__placeholder" />
+			)
+		}
+		<span class="post__badge">
+			{variant === "feature" ? `FEATURED · ${badgeLabel}` : badgeLabel}
+		</span>
+	</a>
+	<div class="post__body">
+		<a href={href} class="post__link" aria-labelledby={titleId}>
+			<span class="post__meta">
+				{
+					publishedAt && (
+						<time datetime={publishedAt.toISOString()}>
+							{formatDate(publishedAt, "short")}
+						</time>
+					)
+				}
+			</span>
+			<Heading class="post__title" id={titleId} {...post.edit.title}>
+				{title}
+			</Heading>
+			{
+				post.data.excerpt && (
+					<p class="post__excerpt" {...post.edit.excerpt}>
+						{post.data.excerpt}
+					</p>
+				)
+			}
+			{
+				variant === "feature" && (
+					<span class="post__cta arrow-link" aria-hidden="true">
+						閱讀完整筆記
+						<svg
+							viewBox="0 0 24 24"
+							fill="none"
+							stroke="currentColor"
+							stroke-width="1.75"
+							stroke-linecap="round"
+							stroke-linejoin="round"
+						>
+							<path d="M5 12h14" />
+							<path d="m12 5 7 7-7 7" />
+						</svg>
+					</span>
+				)
+			}
+		</a>
+		{
+			variant === "row" && (bylines.length > 0 || visibleTags.length > 0) && (
+				<div class="post__footer">
+					<Byline
+						bylines={bylines}
+						max={1}
+						size="xs"
+					/>
+					{visibleTags.length > 0 && (
+						<ul class="chips post__tags" aria-label="Tags">
+							{visibleTags.map((tag) => (
+								<li>
+									<a href={`/tag/${tag.slug}`} class="chip">
+										{tag.label}
+									</a>
+								</li>
+							))}
+						</ul>
+					)}
+				</div>
+			)
+		}
+	</div>
+</article>
+
+<style>
+	.post {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		min-width: 0;
+		transition:
+			box-shadow var(--transition-base),
+			outline-color var(--transition-fast);
+	}
+
+	.post:has(.post__link:focus-visible) {
+		outline: 2px solid var(--color-brand);
+		outline-offset: 2px;
+	}
+
+	@supports selector(:has(*)) {
+		.post__link:focus-visible {
+			outline: none;
+		}
+	}
+
+	/* Media */
+	.post__media {
+		position: relative;
+		display: block;
+		overflow: hidden;
+		aspect-ratio: 16 / 10;
+		border-radius: 0;
+		background: var(--color-fill);
+	}
+
+	.post__media::after {
+		content: "";
+		position: absolute;
+		inset: 0;
+		border-radius: inherit;
+		outline: 1px solid var(--color-media-outline);
+		outline-offset: -1px;
+		pointer-events: none;
+	}
+
+	.post__image {
+		height: 100%;
+	}
+
+	.post__image :global(img) {
+		width: 100%;
+		max-width: none;
+		height: 100%;
+		max-height: none;
+		object-fit: cover;
+		transition: scale 500ms var(--ease-out);
+	}
+
+	.post:has(.post__link:hover, .post__media:hover) .post__image :global(img) {
+		scale: 1.03;
+	}
+
+	.post__placeholder {
+		position: absolute;
+		inset: 0;
+		background-image: radial-gradient(
+			circle,
+			var(--color-border-strong) 1px,
+			transparent 1.5px
+		);
+		background-size: 14px 14px;
+		mask-image: radial-gradient(ellipse at center, #000 20%, transparent 75%);
+	}
+
+	/* Text */
+	.post__body {
+		display: flex;
+		flex: 1;
+		flex-direction: column;
+		min-width: 0;
+	}
+
+	.post__link {
+		display: flex;
+		flex-direction: column;
+		gap: var(--spacing-2);
+		color: inherit;
+		text-decoration: none;
+	}
+
+	.post__meta {
+		display: flex;
+		align-items: center;
+		font-size: 0.8rem;
+		font-weight: 500;
+		letter-spacing: 0.05em;
+		color: var(--color-muted);
+		font-variant-numeric: tabular-nums;
+	}
+
+	/* No trailing separator when only date is shown */
+	.post__meta > :not(:last-child)::after {
+		content: none;
+	}
+
+	.post__title {
+		font-size: var(--font-size-lg);
+		line-height: var(--leading-snug);
+		color: var(--color-text);
+		text-decoration: none;
+		transition: color var(--transition-fast);
+	}
+
+	.post:has(.post__link:hover, .post__media:hover) .post__title {
+		color: var(--color-brand);
+	}
+
+	.post__excerpt {
+		display: -webkit-box;
+		-webkit-line-clamp: 2;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+		font-size: var(--font-size-sm);
+		line-height: var(--leading-normal);
+		color: var(--color-text-secondary);
+	}
+
+	/* Inline editing needs the whole excerpt, not the clamped preview */
+	.post__excerpt[data-emdash-editing] {
+		display: block;
+		-webkit-line-clamp: unset;
+		overflow: visible;
+	}
+
+	.post__footer {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: space-between;
+		gap: var(--spacing-3);
+		margin-top: auto;
+	}
+
+	.post__footer > * {
+		min-width: 0;
+		max-width: 100%;
+	}
+
+	.post__tags {
+		gap: var(--spacing-1);
+	}
+
+	/* Pinned Editorial Badge on Top-Left of Image */
+	.post__badge {
+		position: absolute;
+		top: 14px;
+		left: 14px;
+		z-index: 2;
+		background: rgba(255, 255, 255, 0.94);
+		backdrop-filter: blur(8px);
+		-webkit-backdrop-filter: blur(8px);
+		color: #24211e;
+		font-family: var(--font-mono, ui-monospace, SFMono-Regular, Menlo, monospace);
+		font-size: 0.65rem;
+		font-weight: 600;
+		letter-spacing: 0.1em;
+		text-transform: uppercase;
+		padding: 5px 9px;
+		border-radius: 0;
+		box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+		border: 1px solid rgba(0, 0, 0, 0.06);
+		pointer-events: none;
+		line-height: 1;
+	}
+
+	:global(.dark) .post__badge {
+		background: rgba(26, 25, 23, 0.92);
+		color: #ede8e1;
+		border-color: rgba(255, 255, 255, 0.12);
+		box-shadow: 0 1px 6px rgba(0, 0, 0, 0.4);
+	}
+
+	/* Card: grid tile with portrait 3:4 media (Frameless / Cardless) */
+	.post--card {
+		padding: 0;
+		border-radius: 0;
+		background: transparent;
+		box-shadow: none;
+	}
+
+	.post--card:has(.post__link:hover, .post__media:hover) {
+		box-shadow: none;
+	}
+
+	.post--card:has(.post__link:focus-visible) {
+		outline-offset: 3px;
+	}
+
+	.post--card .post__media {
+		aspect-ratio: 3 / 4;
+		border-radius: 0;
+	}
+
+	.post--card .post__link {
+		padding-top: clamp(1.35rem, 1.1rem + 1vw, 1.85rem);
+		gap: 0;
+	}
+
+	.post--card .post__meta {
+		font-size: 0.72rem;
+		font-weight: 600;
+		letter-spacing: 0.12em;
+		color: var(--color-muted);
+		text-transform: uppercase;
+		margin-bottom: 0.75rem;
+	}
+
+	.post--card .post__title {
+		font-size: clamp(1.25rem, 1.12rem + 0.5vw, 1.48rem);
+		font-weight: 600;
+		line-height: 1.34;
+		letter-spacing: -0.015em;
+		margin-bottom: 0.85rem;
+	}
+
+	.post--card .post__excerpt {
+		margin-top: 0;
+		font-size: 0.925rem;
+		line-height: 1.68;
+		color: var(--color-text-secondary);
+		-webkit-line-clamp: 3;
+	}
+
+	/* Feature: large split layout (Frameless / Cardless) */
+	.post--feature {
+		display: grid;
+		grid-template-columns: minmax(0, 1.45fr) minmax(0, 1fr);
+		gap: clamp(2rem, 1.5rem + 3vw, 4.5rem);
+		padding: 0;
+		border-radius: 0;
+		background: transparent;
+		box-shadow: none;
+		align-items: start;
+	}
+
+	.post--feature:has(.post__link:hover, .post__media:hover) {
+		box-shadow: none;
+	}
+
+	.post--feature:has(.post__link:focus-visible) {
+		outline-offset: 3px;
+	}
+
+	.post--feature .post__media {
+		aspect-ratio: 16 / 10;
+		border-radius: 0;
+	}
+
+	.post--feature .post__body {
+		justify-content: flex-start;
+		gap: 0;
+		padding: 0;
+	}
+
+	.post--feature .post__link {
+		gap: 0;
+	}
+
+	.post--feature .post__meta {
+		font-size: 0.75rem;
+		font-weight: 600;
+		letter-spacing: 0.12em;
+		color: var(--color-muted);
+		text-transform: uppercase;
+		margin-bottom: 0.85rem;
+	}
+
+	.post--feature .post__title {
+		font-size: clamp(2.1rem, 1.5rem + 2vw, 3.2rem);
+		line-height: 1.15;
+		font-weight: var(--font-weight-display);
+		letter-spacing: -0.025em;
+		margin-bottom: 1.25rem;
+	}
+
+	.post--feature .post__excerpt {
+		-webkit-line-clamp: 4;
+		font-size: clamp(1rem, 0.95rem + 0.3vw, 1.15rem);
+		line-height: 1.72;
+		color: var(--color-text-secondary);
+		margin-bottom: 1.5rem;
+	}
+
+	.post--feature .post__cta {
+		color: var(--color-text);
+		font-weight: 500;
+		font-size: 0.95rem;
+	}
+
+	@media (max-width: 800px) {
+		.post--feature {
+			grid-template-columns: 1fr;
+			gap: var(--spacing-6);
+		}
+	}
+
+	.post--feature:has(.post__link:hover) .post__cta :global(svg) {
+		translate: 2px 0;
+	}
+
+	.post--feature:has(.post__link:hover) .post__cta :global(svg:dir(rtl)) {
+		translate: -2px 0;
+	}
+
+	.post--feature .post__footer {
+		margin-top: 0;
+		padding-top: var(--spacing-6);
+		border-top: 1px solid var(--color-border-subtle);
+	}
+
+	/* Row: archive list item with an end-side thumbnail */
+	.post--row {
+		--avatar-ring: var(--color-bg);
+		display: grid;
+		grid-template-columns: minmax(0, 1fr) clamp(7.5rem, 24%, 15rem);
+		align-items: start;
+		gap: var(--spacing-8);
+		padding-block: var(--spacing-8);
+		border-radius: var(--radius-lg);
+	}
+
+	.post--row .post__media {
+		grid-column: 2;
+		grid-row: 1;
+	}
+
+	.post--row .post__body {
+		grid-column: 1;
+		grid-row: 1;
+		gap: var(--spacing-4);
+		max-width: 44rem;
+	}
+
+	.post--row .post__title {
+		font-size: var(--font-size-xl);
+	}
+
+	.post--row .post__excerpt {
+		font-size: var(--font-size-base);
+	}
+
+	.post--row:has(.post__link:hover) .post__title {
+		text-decoration-color: currentColor;
+	}
+
+	.post--row .post__footer {
+		justify-content: flex-start;
+		column-gap: var(--spacing-4);
+	}
+
+	@media (max-width: 900px) {
+		.post--feature {
+			grid-template-columns: minmax(0, 1fr);
+		}
+
+		.post--feature .post__media {
+			aspect-ratio: 16 / 9;
+		}
+
+		.post--feature .post__body {
+			padding: var(--spacing-6) var(--spacing-4) var(--spacing-4);
+		}
+	}
+
+	@media (max-width: 560px) {
+		.post--row {
+			grid-template-columns: minmax(0, 1fr) 6rem;
+			gap: var(--spacing-4);
+			padding-block: var(--spacing-6);
+		}
+
+		.post--row .post__media {
+			aspect-ratio: 1;
+		}
+
+		.post--row .post__title {
+			font-size: var(--font-size-lg);
+		}
+
+		.post--row .post__excerpt {
+			font-size: var(--font-size-sm);
+		}
+	}
+
+	@media (max-width: 400px) {
+		.post--row {
+			grid-template-columns: minmax(0, 1fr) 4.5rem;
+			gap: var(--spacing-3);
+		}
+	}
+</style>

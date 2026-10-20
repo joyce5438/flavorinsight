@@ -1,0 +1,47 @@
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "flavorinsight",
+	"main": "./src/worker.ts",
+	"compatibility_date": "2026-02-24",
+	"compatibility_flags": ["nodejs_compat"],
+	"d1_databases": [
+		{
+			"binding": "DB",
+			"database_name": "flavorinsight-db",
+			"database_id": "4b4525d9-f65d-42c6-8bd4-b0242e6d0866"
+		},
+	],
+	"r2_buckets": [
+		{
+			"binding": "MEDIA",
+			"bucket_name": "flavorinsight-media",
+		},
+	],
+	"kv_namespaces": [
+		{
+			"binding": "SESSION",
+			"id": "7463831341304104b944db0eb25063d5"
+		}
+	],
+	// Sandboxed plugins require Worker Loader, available on Workers paid plans. Uncomment to enable:
+	// "worker_loaders": [{ "binding": "LOADER" }],
+	"workers_dev": true,
+	"observability": {
+		"enabled": true,
+		"head_sampling_rate": 1
+	},
+	// Maintenance cron trigger (runs every 10 minutes instead of every minute to save cost and avoid constant D1 wakeups)
+	"triggers": {
+		"crons": ["*/10 * * * *"]
+	},
+	"routes": [
+		{
+			"pattern": "flavorinsight.com/*",
+			"zone_name": "flavorinsight.com"
+		},
+		{
+			"pattern": "www.flavorinsight.com/*",
+			"zone_name": "flavorinsight.com"
+		}
+	]
+}

@@ -1,0 +1,460 @@
+---
+// src/components/ImageLightbox.astro
+// Passporto-inspired Editorial Image Lightbox with Hover Zoom Button & Fullscreen Gallery Modal
+---
+
+<div id="fi-lightbox" class="fi-lightbox" aria-hidden="true" role="dialog" aria-modal="true">
+	<div class="fi-lightbox__backdrop" data-lightbox-close></div>
+
+	<!-- Close Button (Top Right) -->
+	<button type="button" class="fi-lightbox__btn fi-lightbox__btn--close" data-lightbox-close aria-label="關閉全螢幕 (Esc)">
+		<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+			<line x1="18" y1="6" x2="6" y2="18"></line>
+			<line x1="6" y1="6" x2="18" y2="18"></line>
+		</svg>
+	</button>
+
+	<!-- Prev Button (Left) -->
+	<button type="button" class="fi-lightbox__btn fi-lightbox__btn--prev" data-lightbox-prev aria-label="上一張 (←)">
+		<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+			<line x1="19" y1="12" x2="5" y2="12"></line>
+			<polyline points="12 19 5 12 12 5"></polyline>
+		</svg>
+	</button>
+
+	<!-- Next Button (Right) -->
+	<button type="button" class="fi-lightbox__btn fi-lightbox__btn--next" data-lightbox-next aria-label="下一張 (→)">
+		<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+			<line x1="5" y1="12" x2="19" y2="12"></line>
+			<polyline points="12 5 19 12 12 19"></polyline>
+		</svg>
+	</button>
+
+	<!-- Main Stage -->
+	<div class="fi-lightbox__stage">
+		<img class="fi-lightbox__img" src="" alt="" />
+	</div>
+
+	<!-- Footer with Caption and Counter -->
+	<div class="fi-lightbox__footer">
+		<div class="fi-lightbox__caption"></div>
+		<div class="fi-lightbox__counter"></div>
+	</div>
+</div>
+
+<style is:global>
+	/* ==========================================================================
+	   1. Post Content Image Wrapper & Zoom Hover Button (Passporto style)
+	   ========================================================================== */
+	.fi-img-zoomable-wrap {
+		position: relative;
+		display: block;
+		cursor: zoom-in;
+		border-radius: var(--radius-md, 8px);
+		overflow: hidden;
+		line-height: 0;
+	}
+
+	.fi-img-zoomable-wrap img {
+		display: block;
+		width: 100%;
+		height: auto;
+		transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), filter 0.35s ease;
+	}
+
+	.fi-img-zoomable-wrap:hover img {
+		filter: brightness(0.97);
+	}
+
+	/* Top-Right Circular Expand Button */
+	.fi-img-zoom-btn {
+		position: absolute;
+		top: 14px;
+		right: 14px;
+		width: 36px;
+		height: 36px;
+		border-radius: 50%;
+		background: rgba(255, 255, 255, 0.92);
+		backdrop-filter: blur(8px);
+		-webkit-backdrop-filter: blur(8px);
+		color: #111827;
+		border: 1px solid rgba(0, 0, 0, 0.08);
+		box-shadow: 0 4px 14px rgba(0, 0, 0, 0.16);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 0;
+		cursor: pointer;
+		opacity: 0;
+		transform: scale(0.85);
+		transition: opacity 0.25s cubic-bezier(0.16, 1, 0.3, 1), transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), background-color 0.15s ease;
+		z-index: 5;
+		pointer-events: none;
+	}
+
+	.fi-img-zoomable-wrap:hover .fi-img-zoom-btn {
+		opacity: 1;
+		transform: scale(1);
+	}
+
+	.fi-img-zoomable-wrap:hover .fi-img-zoom-btn:hover {
+		background: #ffffff;
+		transform: scale(1.1);
+	}
+
+	/* Touch devices: always show subtle hint */
+	@media (hover: none) {
+		.fi-img-zoom-btn {
+			opacity: 0.85;
+			transform: scale(0.9);
+		}
+	}
+
+	/* ==========================================================================
+	   2. Fullscreen Lightbox Modal (Passporto Dark Minimalist Gallery)
+	   ========================================================================== */
+	.fi-lightbox {
+		position: fixed;
+		inset: 0;
+		z-index: 999999;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		opacity: 0;
+		visibility: hidden;
+		transition: opacity 0.28s cubic-bezier(0.16, 1, 0.3, 1), visibility 0.28s;
+		user-select: none;
+	}
+
+	.fi-lightbox.is-open {
+		opacity: 1;
+		visibility: visible;
+	}
+
+	/* Dark translucent backdrop */
+	.fi-lightbox__backdrop {
+		position: absolute;
+		inset: 0;
+		background: rgba(12, 14, 18, 0.95);
+		backdrop-filter: blur(16px);
+		-webkit-backdrop-filter: blur(16px);
+		cursor: zoom-out;
+	}
+
+	/* Nav & Close Buttons (Circular Outline style) */
+	.fi-lightbox__btn {
+		position: absolute;
+		z-index: 10;
+		background: rgba(255, 255, 255, 0.06);
+		color: #ffffff;
+		border: 1px solid rgba(255, 255, 255, 0.22);
+		border-radius: 50%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		cursor: pointer;
+		padding: 0;
+		transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+		outline: none;
+	}
+
+	.fi-lightbox__btn:hover {
+		background: rgba(255, 255, 255, 0.18);
+		border-color: rgba(255, 255, 255, 0.5);
+		transform: scale(1.06);
+	}
+
+	.fi-lightbox__btn:active {
+		transform: scale(0.96);
+	}
+
+	/* Close Button (Top-Right) */
+	.fi-lightbox__btn--close {
+		top: 24px;
+		right: 24px;
+		width: 44px;
+		height: 44px;
+	}
+
+	/* Prev Button (Left) */
+	.fi-lightbox__btn--prev {
+		left: 24px;
+		top: 50%;
+		transform: translateY(-50%);
+		width: 48px;
+		height: 48px;
+	}
+	.fi-lightbox__btn--prev:hover {
+		transform: translateY(-50%) scale(1.08);
+	}
+
+	/* Next Button (Right) */
+	.fi-lightbox__btn--next {
+		right: 24px;
+		top: 50%;
+		transform: translateY(-50%);
+		width: 48px;
+		height: 48px;
+	}
+	.fi-lightbox__btn--next:hover {
+		transform: translateY(-50%) scale(1.08);
+	}
+
+	/* Hide nav buttons if only 1 image */
+	.fi-lightbox.is-single-image .fi-lightbox__btn--prev,
+	.fi-lightbox.is-single-image .fi-lightbox__btn--next {
+		display: none;
+	}
+
+	/* Center Stage Image */
+	.fi-lightbox__stage {
+		position: relative;
+		z-index: 2;
+		max-width: 90vw;
+		max-height: 82vh;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		pointer-events: none;
+	}
+
+	.fi-lightbox__img {
+		max-width: 100%;
+		max-height: 80vh;
+		object-fit: contain;
+		border-radius: 4px;
+		box-shadow: 0 20px 60px rgba(0, 0, 0, 0.65);
+		transform: scale(0.96);
+		opacity: 0;
+		transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.3s ease;
+		pointer-events: auto;
+		cursor: default;
+	}
+
+	.fi-lightbox.is-open .fi-lightbox__img {
+		transform: scale(1);
+		opacity: 1;
+	}
+
+	/* Footer Info: Caption & Counter */
+	.fi-lightbox__footer {
+		position: absolute;
+		bottom: 22px;
+		left: 24px;
+		right: 24px;
+		z-index: 5;
+		text-align: center;
+		pointer-events: none;
+		color: rgba(255, 255, 255, 0.7);
+	}
+
+	.fi-lightbox__caption {
+		font-size: 0.875rem;
+		line-height: 1.4;
+		color: rgba(255, 255, 255, 0.85);
+		font-weight: 400;
+		max-width: 680px;
+		margin: 0 auto 4px auto;
+		text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+	}
+
+	.fi-lightbox__counter {
+		font-size: 0.75rem;
+		letter-spacing: 0.12em;
+		color: rgba(255, 255, 255, 0.5);
+		font-variant-numeric: tabular-nums;
+		font-weight: 500;
+	}
+
+	/* Mobile Responsive */
+	@media (max-width: 768px) {
+		.fi-lightbox__btn--close {
+			top: 16px;
+			right: 16px;
+			width: 40px;
+			height: 40px;
+		}
+
+		.fi-lightbox__btn--prev {
+			left: 12px;
+			width: 40px;
+			height: 40px;
+		}
+
+		.fi-lightbox__btn--next {
+			right: 12px;
+			width: 40px;
+			height: 40px;
+		}
+
+		.fi-lightbox__img {
+			max-height: 72vh;
+		}
+
+		.fi-lightbox__footer {
+			bottom: 16px;
+		}
+	}
+</style>
+
+<script>
+	function setupImageLightbox() {
+		const content = document.querySelector("[data-post-content]");
+		const lightbox = document.getElementById("fi-lightbox");
+		if (!content || !lightbox) return;
+
+		// Select all content images (excluding avatar, author box, reaction emojis, etc.)
+		const rawImages = Array.from(content.querySelectorAll<HTMLImageElement>("img"))
+			.filter(img => !img.closest(".post-hero-card") && !img.closest(".comment") && !img.closest(".author-box"));
+
+		if (rawImages.length === 0) return;
+
+		interface LightboxItem {
+			src: string;
+			alt: string;
+			caption: string;
+		}
+
+		const items: LightboxItem[] = [];
+		let currentIndex = 0;
+
+		const lightboxImg = lightbox.querySelector<HTMLImageElement>(".fi-lightbox__img")!;
+		const lightboxCaption = lightbox.querySelector<HTMLElement>(".fi-lightbox__caption")!;
+		const lightboxCounter = lightbox.querySelector<HTMLElement>(".fi-lightbox__counter")!;
+
+		// 1. Wrap each content image with zoomable wrapper & button
+		rawImages.forEach((img, idx) => {
+			// Find caption from closest figure or figcaption
+			const figure = img.closest("figure");
+			const figcaption = figure ? figure.querySelector("figcaption") : null;
+			const captionText = figcaption?.textContent?.trim() || img.alt || img.getAttribute("title") || "";
+
+			items.push({
+				src: img.currentSrc || img.src,
+				alt: img.alt || "",
+				caption: captionText
+			});
+
+			// If already wrapped, skip
+			if (img.parentElement?.classList.contains("fi-img-zoomable-wrap")) return;
+
+			const wrap = document.createElement("span");
+			wrap.className = "fi-img-zoomable-wrap";
+			img.parentNode?.insertBefore(wrap, img);
+			wrap.appendChild(img);
+
+			// Append zoom button (diagonal arrows icon)
+			const zoomBtn = document.createElement("button");
+			zoomBtn.type = "button";
+			zoomBtn.className = "fi-img-zoom-btn";
+			zoomBtn.setAttribute("aria-label", "放大查看圖片");
+			zoomBtn.innerHTML = `
+				<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+					<polyline points="15 3 21 3 21 9"></polyline>
+					<polyline points="9 21 3 21 3 15"></polyline>
+					<line x1="21" y1="3" x2="14" y2="10"></line>
+					<line x1="3" y1="21" x2="10" y2="14"></line>
+				</svg>
+			`;
+			wrap.appendChild(zoomBtn);
+
+			// Click to open
+			wrap.addEventListener("click", (e) => {
+				e.preventDefault();
+				openLightbox(idx);
+			});
+		});
+
+		if (items.length <= 1) {
+			lightbox.classList.add("is-single-image");
+		}
+
+		// 2. Open / Close Lightbox
+		function openLightbox(index: number) {
+			currentIndex = index;
+			updateStage();
+			lightbox.classList.add("is-open");
+			lightbox.setAttribute("aria-hidden", "false");
+			document.body.style.overflow = "hidden";
+			window.addEventListener("keydown", handleKeyDown);
+		}
+
+		function closeLightbox() {
+			lightbox.classList.remove("is-open");
+			lightbox.setAttribute("aria-hidden", "true");
+			document.body.style.overflow = "";
+			window.removeEventListener("keydown", handleKeyDown);
+		}
+
+		function updateStage() {
+			const item = items[currentIndex];
+			if (!item) return;
+
+			lightboxImg.style.opacity = "0.3";
+			lightboxImg.style.transform = "scale(0.97)";
+
+			const temp = new Image();
+			temp.src = item.src;
+			temp.onload = () => {
+				lightboxImg.src = item.src;
+				lightboxImg.alt = item.alt;
+				lightboxImg.style.opacity = "1";
+				lightboxImg.style.transform = "scale(1)";
+			};
+			if (temp.complete) {
+				lightboxImg.src = item.src;
+				lightboxImg.alt = item.alt;
+				lightboxImg.style.opacity = "1";
+				lightboxImg.style.transform = "scale(1)";
+			}
+
+			lightboxCaption.textContent = item.caption;
+			lightboxCounter.textContent = `${currentIndex + 1}  /  ${items.length}`;
+		}
+
+		function prevImage() {
+			currentIndex = (currentIndex - 1 + items.length) % items.length;
+			updateStage();
+		}
+
+		function nextImage() {
+			currentIndex = (currentIndex + 1) % items.length;
+			updateStage();
+		}
+
+		function handleKeyDown(e: KeyboardEvent) {
+			if (e.key === "Escape") closeLightbox();
+			if (e.key === "ArrowLeft") prevImage();
+			if (e.key === "ArrowRight") nextImage();
+		}
+
+		// 3. Event Listeners on Lightbox controls
+		lightbox.querySelectorAll("[data-lightbox-close]").forEach(el => {
+			el.addEventListener("click", closeLightbox);
+		});
+
+		lightbox.querySelector("[data-lightbox-prev]")?.addEventListener("click", prevImage);
+		lightbox.querySelector("[data-lightbox-next]")?.addEventListener("click", nextImage);
+
+		// Touch swipe gestures
+		let touchStartX = 0;
+		lightbox.addEventListener("touchstart", (e) => {
+			touchStartX = e.changedTouches[0].screenX;
+		}, { passive: true });
+
+		lightbox.addEventListener("touchend", (e) => {
+			const touchEndX = e.changedTouches[0].screenX;
+			const delta = touchEndX - touchStartX;
+			if (Math.abs(delta) > 50) {
+				if (delta > 0) prevImage();
+				else nextImage();
+			}
+		}, { passive: true });
+	}
+
+	if (document.readyState === "loading") {
+		document.addEventListener("DOMContentLoaded", setupImageLightbox);
+	} else {
+		setupImageLightbox();
+	}
+</script>
