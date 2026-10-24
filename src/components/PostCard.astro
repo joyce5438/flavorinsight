@@ -102,6 +102,17 @@ const sizes = {
 			}
 		</a>
 		{
+			(variant === "card" || variant === "feature") && visibleTags.length > 0 && (
+				<div class="post__card-tags" aria-label="Tags">
+					{visibleTags.slice(0, 3).map((tag) => (
+						<a href={`/tag/${tag.slug}`} class="post__tag-pill">
+							#{tag.label}
+						</a>
+					))}
+				</div>
+			)
+		}
+		{
 			variant === "row" && (bylines.length > 0 || visibleTags.length > 0) && (
 				<div class="post__footer">
 					<Byline
@@ -273,6 +284,44 @@ const sizes = {
 
 	.post__tags {
 		gap: var(--spacing-1);
+	}
+
+	.post__card-tags {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 6px;
+		margin-top: 0.85rem;
+	}
+
+	.post__tag-pill {
+		display: inline-flex;
+		align-items: center;
+		padding: 3px 9px;
+		border-radius: 9999px;
+		font-size: 0.75rem;
+		font-family: var(--font-mono, monospace);
+		color: var(--color-muted);
+		background: var(--color-fill);
+		border: 1px solid var(--color-border);
+		text-decoration: none;
+		line-height: 1.2;
+		transition: all 180ms ease;
+	}
+
+	.post__tag-pill:hover {
+		color: var(--color-brand);
+		background: var(--color-fill-strong);
+		border-color: var(--color-brand);
+		transform: translateY(-1px);
+	}
+
+	/* Micro-interaction & Hover Physics */
+	.post__image :global(img) {
+		transition: transform 600ms cubic-bezier(0.16, 1, 0.3, 1), filter 600ms ease;
+	}
+
+	.post:hover .post__image :global(img) {
+		transform: scale(1.035);
 	}
 
 	/* Pinned Editorial Badge on Top-Left of Image */

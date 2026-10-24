@@ -37,8 +37,6 @@ const gridPosts = visiblePosts
 	.slice(0, 6);
 
 // Single batched query for tags across the featured post + grid posts.
-// Avoids the N+1 pattern of calling getEntryTerms() per entry.
-// Bylines are already hydrated on entry.data.bylines by getEmDashCollection.
 const tagEntryIds = [
 	...(featuredPost ? [featuredPost.data.id] : []),
 	...gridPosts.map((p) => p.data.id),
@@ -67,6 +65,17 @@ const gridPostsWithTags = gridPosts.map((post) => ({
 		label: t.label,
 	})),
 }));
+
+// Curated Topic Clusters for the tactile cluster bar
+const topicClusters = [
+	{ label: "全部探索 All", href: "/posts" },
+	{ label: "馬來西亞深度遊", href: "/tag/malaysia-deep-travel" },
+	{ label: "娘惹菜", href: "/tag/%E5%A8%98%E6%83%B9%E8%8F%9C" },
+	{ label: "檳城CityWalk", href: "/tag/penang-citywalk" },
+	{ label: "大馬茶室文化", href: "/tag/kopitiam-culture" },
+	{ label: "KTM ETS 鐵道攻略", href: "/tag/ktm-ets-guide" },
+	{ label: "虎咬獅 Hor Ka Sai", href: "/tag/hor-ka-sai" },
+];
 ---
 
 <Base
@@ -75,15 +84,61 @@ const gridPostsWithTags = gridPosts.map((post) => ({
 	description="風味洞察 From Flavor to Insight — 由 Austin 撰寫，以個人深度視角探索馬來西亞與台灣的飲食文化、歷史脈絡與在地滋味。深度剖析檳城與台南文化對照、巴生肉骨茶、大馬火車自由行全攻略與多元種族社會觀察。"
 	canonical="https://flavorinsight.com/"
 >
-	<header class="band intro home-cover">
-		<div class="frame home-cover__inner">
-			<div class="home-cover__header">
-				<p class="eyebrow home-cover__eyebrow">
-					<span class="home-cover__dot"></span>
-					FIELD NOTES & ESSAYS · 飲食文化風土誌
+	<!-- Editorial Masthead (Award-Tier Header) -->
+	<header class="editorial-masthead">
+		<div class="frame editorial-masthead__inner">
+			<!-- Top Metabar: Coordinates, Issue volume, Curator -->
+			<div class="editorial-masthead__meta">
+				<span class="meta-pill">VOL. 01 · 2024–2026 FIELD LOG</span>
+				<span class="meta-coords" aria-hidden="true">PEN 5.4164°N ⇄ TNN 22.9997°N</span>
+				<span class="meta-pill meta-pill--author">BY AUSTIN · 飲食風土誌</span>
+			</div>
+
+			<!-- Main Masthead Brand Title -->
+			<div class="editorial-masthead__title-group">
+				<h1 class="editorial-masthead__title">{siteTitle}</h1>
+				<span class="editorial-masthead__sub-title">FROM FLAVOR TO INSIGHT</span>
+			</div>
+
+			<!-- Literary Tagline & Mission Lead -->
+			<div class="editorial-masthead__narrative">
+				<p class="editorial-masthead__tagline">{siteTagline}</p>
+				<p class="editorial-masthead__desc">
+					在常民攤席、鑊氣、當歸與甘甜之間，尋找兩座島嶼的隱密對話。深入記錄馬來西亞與台灣的飲食身世、歷史脈絡與街頭田野觀察。
 				</p>
-				<h1 class="intro__title home-cover__title">{siteTitle}</h1>
-				{siteTagline && <p class="intro__subtitle home-cover__subtitle">{siteTagline}</p>}
+			</div>
+
+			<!-- Tactile Topic Cluster Navigator -->
+			<nav class="topic-scroller" aria-label="Topic Clusters">
+				<ul class="topic-scroller__list">
+					{topicClusters.map((cluster, idx) => (
+						<li>
+							<a
+								href={cluster.href}
+								class:list={["topic-pill", { "topic-pill--active": idx === 0 }]}
+							>
+								{cluster.label}
+							</a>
+						</li>
+					))}
+				</ul>
+			</nav>
+
+			<!-- Majolica Hairline Emblem Divider -->
+			<div class="masthead-divider" aria-hidden="true">
+				<span class="masthead-divider__line"></span>
+				<span class="majolica-cross-emblem">
+					<svg width="36" height="36" viewBox="0 0 42 42" fill="none">
+						<path d="M 21.0,2.0 L 24.06,13.61 L 30.55,11.45 L 28.39,17.94 L 40.0,21.0 L 28.39,24.06 L 30.55,30.55 L 24.06,28.39 L 21.0,40.0 L 17.94,28.39 L 11.45,30.55 L 13.61,24.06 L 2.0,21.0 L 13.61,17.94 L 11.45,11.45 L 17.94,13.61 Z" fill="currentColor" />
+						<circle cx="21" cy="6.5" r="1" fill="var(--color-bg)" />
+						<circle cx="35.5" cy="21" r="1" fill="var(--color-bg)" />
+						<circle cx="21" cy="35.5" r="1" fill="var(--color-bg)" />
+						<circle cx="6.5" cy="21" r="1" fill="var(--color-bg)" />
+						<circle cx="21" cy="21" r="6" fill="var(--color-bg)" />
+						<polygon points="21,16.5 25.5,21 21,25.5 16.5,21" fill="currentColor" />
+					</svg>
+				</span>
+				<span class="masthead-divider__line"></span>
 			</div>
 		</div>
 	</header>
@@ -107,30 +162,64 @@ const gridPostsWithTags = gridPosts.map((post) => ({
 			</section>
 		) : (
 			<>
+				{/* 1. Cover Story Feature Post */}
 				{featuredPost && (
-					<section class="band section">
+					<section class="section section--featured">
 						<div class="frame">
-							<PostCard
-								post={featuredPost}
-								tags={featuredTags}
-								variant="feature"
-								headingLevel={2}
-								priority
-							/>
+							<div class="featured-wrapper">
+								<PostCard
+									post={featuredPost}
+									tags={featuredTags}
+									variant="feature"
+									headingLevel={2}
+									priority
+								/>
+							</div>
 						</div>
 					</section>
 				)}
 
+				{/* 2. Curator's Field Manifesto Callout */}
+				<section class="section section--manifesto" aria-label="Curator's Field Note">
+					<div class="frame">
+						<div class="manifesto-card">
+							<div class="manifesto-card__top">
+								<span class="manifesto-card__badge">FIELD LOG · OBSERVATION NOTE</span>
+								<span class="manifesto-card__serial" aria-hidden="true">SERIES 01 / AUSTIN</span>
+							</div>
+							<blockquote class="manifesto-card__quote">
+								「食物從不是靜止的標本，而是人、氣候與遷徙歷史在舌尖上折衷交會的現場。走進南洋的茶室與台灣的街巷，每一次咀嚼，都是在拆解一座城市的文化密碼。」
+							</blockquote>
+							<div class="manifesto-card__footer">
+								<div class="manifesto-card__author">
+									<div class="manifesto-card__avatar" aria-hidden="true">A</div>
+									<div class="manifesto-card__author-details">
+										<p class="manifesto-card__author-name">Austin</p>
+										<p class="manifesto-card__author-title">飲食文化觀察家 · 慢行筆記發起人</p>
+									</div>
+								</div>
+								<div class="manifesto-card__seal" aria-hidden="true">
+									<span>AUTHENTIC FIELD WORK</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				{/* 3. Latest Dispatches Post Grid */}
 				{gridPostsWithTags.length > 0 && (
 					<section class="section section--latest" aria-labelledby="latest-posts">
 						<div class="frame">
 							<div class="section-head">
-								<h2 id="latest-posts" class="section-head__title">
-									最新探索筆記
-								</h2>
+								<div class="section-head__title-group">
+									<p class="section-head__eyebrow">FIELD ESSAYS & DISPATCHES</p>
+									<h2 id="latest-posts" class="section-head__title">
+										最新風土探索筆記
+									</h2>
+								</div>
 								{hasMorePosts && (
-									<a href="/posts" class="arrow-link">
-										查看全部文章<span class="sr-only"> posts</span>
+									<a href="/posts" class="arrow-link archive-cta">
+										<span>查看全數篇章 ALL DISPATCHES</span>
 										<svg
 											viewBox="0 0 24 24"
 											fill="none"
@@ -165,54 +254,370 @@ const gridPostsWithTags = gridPosts.map((post) => ({
 </Base>
 
 <style>
-	.home-cover {
-		padding-block: clamp(2rem, 1.5rem + 1.2vw, 2.75rem);
+	/* ==========================================================================
+	   1. Editorial Masthead
+	   ========================================================================== */
+	.editorial-masthead {
+		padding-top: clamp(2rem, 1.8rem + 1.5vw, 3.5rem);
+		padding-bottom: clamp(1.5rem, 1.2rem + 1vw, 2.5rem);
+		animation: editorialFadeIn 500ms cubic-bezier(0.16, 1, 0.3, 1) both;
 	}
 
-	.home-cover__eyebrow {
-		display: inline-flex;
-		align-items: center;
-		gap: 8px;
-		color: var(--color-brand);
-		font-weight: 600;
-		letter-spacing: 0.08em;
-	}
-
-	.home-cover__dot {
-		display: inline-block;
-		width: 7px;
-		height: 7px;
-		border-radius: 9999px;
-		background: var(--color-brand);
-		box-shadow: 0 0 6px var(--color-brand);
-	}
-
-	.home-cover__title {
-		max-width: none;
-		white-space: nowrap;
-		font-size: clamp(1.8rem, 1.2rem + 2.2vw, 3.4rem);
-		letter-spacing: -0.025em;
-		line-height: 1.15;
-		margin-top: var(--spacing-3);
-	}
-
-	@media (max-width: 680px) {
-		.home-cover__title {
-			white-space: normal;
-			font-size: clamp(1.6rem, 1.3rem + 1.5vw, 2.2rem);
+	@keyframes editorialFadeIn {
+		from {
+			opacity: 0;
+			transform: translateY(10px);
+		}
+		to {
+			opacity: 1;
+			transform: translateY(0);
 		}
 	}
 
-	.home-cover__subtitle {
-		font-size: clamp(1.1rem, 0.95rem + 0.6vw, 1.35rem);
-		line-height: 1.6;
+	.editorial-masthead__meta {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		gap: 0.75rem;
+		padding-bottom: 1.25rem;
+		border-bottom: 1px solid var(--color-border);
+		font-family: var(--font-mono, monospace);
+		font-size: 0.72rem;
+		letter-spacing: 0.14em;
+		color: var(--color-muted);
+		text-transform: uppercase;
+	}
+
+	.meta-pill {
+		display: inline-flex;
+		align-items: center;
+		gap: 6px;
+	}
+
+	.meta-coords {
 		color: var(--color-text-secondary);
-		max-width: 52ch;
-		margin-top: var(--spacing-4);
+		font-weight: 500;
+	}
+
+	.editorial-masthead__title-group {
+		margin-top: clamp(1.5rem, 1.2rem + 1vw, 2.25rem);
+		text-align: center;
+	}
+
+	.editorial-masthead__title {
+		font-family: var(--font-heading);
+		font-size: clamp(2.5rem, 1.8rem + 3vw, 4.8rem);
+		font-weight: 700;
+		letter-spacing: -0.025em;
+		line-height: 1.1;
+		color: var(--color-text);
+		text-wrap: balance;
+		margin: 0;
+	}
+
+	.editorial-masthead__sub-title {
+		display: block;
+		margin-top: 0.75rem;
+		font-family: var(--font-mono, monospace);
+		font-size: clamp(0.75rem, 0.7rem + 0.25vw, 0.95rem);
+		letter-spacing: 0.28em;
+		color: var(--color-brand);
+		font-weight: 600;
+		text-transform: uppercase;
+	}
+
+	.editorial-masthead__narrative {
+		max-width: 68ch;
+		margin: clamp(1.5rem, 1.2rem + 1vw, 2rem) auto 0;
+		text-align: center;
+	}
+
+	.editorial-masthead__tagline {
+		font-family: var(--font-heading);
+		font-size: clamp(1.15rem, 1.05rem + 0.4vw, 1.45rem);
+		font-style: italic;
+		font-weight: 500;
+		color: var(--color-text);
+		margin-bottom: 0.6rem;
+		line-height: 1.4;
+	}
+
+	.editorial-masthead__desc {
+		font-size: clamp(0.95rem, 0.9rem + 0.2vw, 1.05rem);
+		line-height: 1.7;
+		color: var(--color-text-secondary);
+		text-wrap: pretty;
+	}
+
+	/* ==========================================================================
+	   2. Tactile Topic Scroller Bar
+	   ========================================================================== */
+	.topic-scroller {
+		margin-top: clamp(2rem, 1.5rem + 1.2vw, 2.75rem);
+		overflow-x: auto;
+		scrollbar-width: none;
+		-webkit-overflow-scrolling: touch;
+		padding: 4px 0;
+	}
+
+	.topic-scroller::-webkit-scrollbar {
+		display: none;
+	}
+
+	.topic-scroller__list {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 8px;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		white-space: nowrap;
+	}
+
+	@media (max-width: 768px) {
+		.topic-scroller__list {
+			justify-content: flex-start;
+			padding-inline: 4px;
+		}
+	}
+
+	.topic-pill {
+		display: inline-flex;
+		align-items: center;
+		padding: 6px 14px;
+		border-radius: 9999px;
+		font-size: 0.8rem;
+		font-family: var(--font-mono, monospace);
+		color: var(--color-text-secondary);
+		background: var(--color-fill);
+		border: 1px solid var(--color-border);
+		text-decoration: none;
+		transition: all 200ms cubic-bezier(0.16, 1, 0.3, 1);
+	}
+
+	.topic-pill:hover {
+		color: var(--color-text);
+		background: var(--color-fill-strong);
+		border-color: var(--color-border-strong);
+		transform: translateY(-1px);
+	}
+
+	.topic-pill--active {
+		color: var(--color-on-brand);
+		background: var(--color-brand);
+		border-color: var(--color-brand);
+		box-shadow: 0 2px 8px var(--color-brand-ring);
+	}
+
+	.topic-pill--active:hover {
+		color: var(--color-on-brand);
+		background: var(--color-brand-hover);
+		border-color: var(--color-brand-hover);
+	}
+
+	/* ==========================================================================
+	   3. Masthead Majolica Hairline Divider
+	   ========================================================================== */
+	.masthead-divider {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 1.5rem;
+		margin-top: clamp(2.25rem, 1.8rem + 1.5vw, 3.25rem);
+		color: var(--color-border-strong);
+	}
+
+	.masthead-divider__line {
+		flex: 1;
+		height: 1px;
+		background: linear-gradient(
+			to right,
+			transparent,
+			var(--color-border) 20%,
+			var(--color-border) 80%,
+			transparent
+		);
+	}
+
+	.majolica-cross-emblem {
+		display: inline-flex;
+		color: var(--color-brand);
+		opacity: 0.85;
+	}
+
+	/* ==========================================================================
+	   4. Featured Wrapper
+	   ========================================================================== */
+	.section--featured {
+		padding-block: clamp(1rem, 0.5rem + 1vw, 2rem);
+	}
+
+	.featured-wrapper {
+		background: var(--color-surface);
+		border: 1px solid var(--color-border);
+		padding: clamp(1.25rem, 1rem + 1vw, 2.25rem);
+		box-shadow: var(--shadow-card);
+		transition: border-color 220ms ease, box-shadow 220ms ease;
+	}
+
+	.featured-wrapper:hover {
+		box-shadow: var(--shadow-card-hover);
+		border-color: var(--color-border-strong);
+	}
+
+	/* ==========================================================================
+	   5. Curator's Field Manifesto Callout
+	   ========================================================================== */
+	.section--manifesto {
+		padding-block: clamp(2rem, 1.5rem + 2vw, 3.5rem);
+	}
+
+	.manifesto-card {
+		background: var(--color-fill);
+		border: 1px solid var(--color-border);
+		border-left: 4px solid var(--color-brand);
+		padding: clamp(1.75rem, 1.2rem + 1.8vw, 3rem);
+		position: relative;
+	}
+
+	.manifesto-card__top {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		font-family: var(--font-mono, monospace);
+		font-size: 0.72rem;
+		letter-spacing: 0.12em;
+		color: var(--color-brand);
+		font-weight: 600;
+		text-transform: uppercase;
+		margin-bottom: 1.25rem;
+	}
+
+	.manifesto-card__serial {
+		color: var(--color-muted);
+		font-weight: normal;
+	}
+
+	.manifesto-card__quote {
+		font-family: var(--font-heading);
+		font-size: clamp(1.15rem, 1rem + 0.6vw, 1.55rem);
+		line-height: 1.68;
+		color: var(--color-text);
+		font-style: italic;
+		margin: 0 0 1.75rem 0;
+		text-wrap: pretty;
+	}
+
+	.manifesto-card__footer {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding-top: 1.25rem;
+		border-top: 1px solid var(--color-border);
+		flex-wrap: wrap;
+		gap: 1rem;
+	}
+
+	.manifesto-card__author {
+		display: flex;
+		align-items: center;
+		gap: 12px;
+	}
+
+	.manifesto-card__avatar {
+		width: 38px;
+		height: 38px;
+		border-radius: 9999px;
+		background: var(--color-brand);
+		color: var(--color-on-brand);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-weight: 700;
+		font-family: var(--font-heading);
+		font-size: 1.1rem;
+	}
+
+	.manifesto-card__author-name {
+		font-weight: 600;
+		font-size: 0.95rem;
+		color: var(--color-text);
+		margin: 0;
+		line-height: 1.2;
+	}
+
+	.manifesto-card__author-title {
+		font-size: 0.78rem;
+		color: var(--color-text-secondary);
+		margin: 2px 0 0 0;
+	}
+
+	.manifesto-card__seal {
+		font-family: var(--font-mono, monospace);
+		font-size: 0.65rem;
+		letter-spacing: 0.16em;
+		padding: 4px 10px;
+		border: 1px dashed var(--color-border-strong);
+		color: var(--color-muted);
+		text-transform: uppercase;
+	}
+
+	/* ==========================================================================
+	   6. Latest Dispatches Section Head & Grid
+	   ========================================================================== */
+	.section--latest {
+		padding-top: clamp(1.5rem, 1rem + 1.5vw, 2.5rem);
+		padding-bottom: clamp(3rem, 2rem + 3vw, 5rem);
 	}
 
 	.section-head {
-		margin-bottom: clamp(1.75rem, 1.2rem + 1.5vw, 2.75rem);
+		display: flex;
+		align-items: flex-end;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		gap: 1rem;
+		margin-bottom: clamp(2rem, 1.5rem + 1.5vw, 3rem);
+		padding-bottom: 1rem;
+		border-bottom: 1px solid var(--color-border);
+	}
+
+	.section-head__eyebrow {
+		font-family: var(--font-mono, monospace);
+		font-size: 0.72rem;
+		letter-spacing: 0.14em;
+		color: var(--color-brand);
+		font-weight: 600;
+		text-transform: uppercase;
+		margin-bottom: 0.35rem;
+	}
+
+	.section-head__title {
+		font-family: var(--font-heading);
+		font-size: clamp(1.6rem, 1.3rem + 1vw, 2.2rem);
+		font-weight: 700;
+		letter-spacing: -0.02em;
+		color: var(--color-text);
+		margin: 0;
+	}
+
+	.archive-cta {
+		display: inline-flex;
+		align-items: center;
+		gap: 8px;
+		font-family: var(--font-mono, monospace);
+		font-size: 0.8rem;
+		letter-spacing: 0.08em;
+		color: var(--color-text);
+		font-weight: 600;
+		text-decoration: none;
+		transition: color 180ms ease, transform 180ms ease;
+	}
+
+	.archive-cta:hover {
+		color: var(--color-brand);
+		transform: translateX(3px);
 	}
 
 	.post-grid {
