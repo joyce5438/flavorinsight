@@ -65,17 +65,6 @@ const gridPostsWithTags = gridPosts.map((post) => ({
 		label: t.label,
 	})),
 }));
-
-// Curated Topic Clusters for the tactile cluster bar
-const topicClusters = [
-	{ label: "全部探索 All", href: "/posts" },
-	{ label: "馬來西亞深度遊", href: "/tag/malaysia-deep-travel" },
-	{ label: "娘惹菜", href: "/tag/%E5%A8%98%E6%83%B9%E8%8F%9C" },
-	{ label: "檳城CityWalk", href: "/tag/penang-citywalk" },
-	{ label: "大馬茶室文化", href: "/tag/kopitiam-culture" },
-	{ label: "KTM ETS 鐵道攻略", href: "/tag/ktm-ets-guide" },
-	{ label: "虎咬獅 Hor Ka Sai", href: "/tag/hor-ka-sai" },
-];
 ---
 
 <Base
@@ -87,13 +76,6 @@ const topicClusters = [
 	<!-- Editorial Masthead (Award-Tier Header) -->
 	<header class="editorial-masthead">
 		<div class="frame editorial-masthead__inner">
-			<!-- Top Metabar: Coordinates, Issue volume, Curator -->
-			<div class="editorial-masthead__meta">
-				<span class="meta-pill">VOL. 01 · 2024–2026 FIELD LOG</span>
-				<span class="meta-coords" aria-hidden="true">PEN 5.4164°N ⇄ TNN 22.9997°N</span>
-				<span class="meta-pill meta-pill--author">BY AUSTIN · 飲食風土誌</span>
-			</div>
-
 			<!-- Main Masthead Brand Title -->
 			<div class="editorial-masthead__title-group">
 				<h1 class="editorial-masthead__title">{siteTitle}</h1>
@@ -104,25 +86,9 @@ const topicClusters = [
 			<div class="editorial-masthead__narrative">
 				<p class="editorial-masthead__tagline">{siteTagline}</p>
 				<p class="editorial-masthead__desc">
-					在常民攤席、鑊氣、當歸與甘甜之間，尋找兩座島嶼的隱密對話。深入記錄馬來西亞與台灣的飲食身世、歷史脈絡與街頭田野觀察。
+					在常民攤席、鑊氣、辛辣與甘甜之間，尋找各種飲食身世、歷史脈絡與街頭觀察。
 				</p>
 			</div>
-
-			<!-- Tactile Topic Cluster Navigator -->
-			<nav class="topic-scroller" aria-label="Topic Clusters">
-				<ul class="topic-scroller__list">
-					{topicClusters.map((cluster, idx) => (
-						<li>
-							<a
-								href={cluster.href}
-								class:list={["topic-pill", { "topic-pill--active": idx === 0 }]}
-							>
-								{cluster.label}
-							</a>
-						</li>
-					))}
-				</ul>
-			</nav>
 
 			<!-- Majolica Hairline Emblem Divider -->
 			<div class="masthead-divider" aria-hidden="true">
@@ -274,34 +240,8 @@ const topicClusters = [
 		}
 	}
 
-	.editorial-masthead__meta {
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
-		flex-wrap: wrap;
-		gap: 0.75rem;
-		padding-bottom: 1.25rem;
-		border-bottom: 1px solid var(--color-border);
-		font-family: var(--font-mono, monospace);
-		font-size: 0.72rem;
-		letter-spacing: 0.14em;
-		color: var(--color-muted);
-		text-transform: uppercase;
-	}
-
-	.meta-pill {
-		display: inline-flex;
-		align-items: center;
-		gap: 6px;
-	}
-
-	.meta-coords {
-		color: var(--color-text-secondary);
-		font-weight: 500;
-	}
-
 	.editorial-masthead__title-group {
-		margin-top: clamp(1.5rem, 1.2rem + 1vw, 2.25rem);
+		margin-top: 0;
 		text-align: center;
 	}
 
@@ -351,74 +291,7 @@ const topicClusters = [
 	}
 
 	/* ==========================================================================
-	   2. Tactile Topic Scroller Bar
-	   ========================================================================== */
-	.topic-scroller {
-		margin-top: clamp(2rem, 1.5rem + 1.2vw, 2.75rem);
-		overflow-x: auto;
-		scrollbar-width: none;
-		-webkit-overflow-scrolling: touch;
-		padding: 4px 0;
-	}
-
-	.topic-scroller::-webkit-scrollbar {
-		display: none;
-	}
-
-	.topic-scroller__list {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		gap: 8px;
-		list-style: none;
-		margin: 0;
-		padding: 0;
-		white-space: nowrap;
-	}
-
-	@media (max-width: 768px) {
-		.topic-scroller__list {
-			justify-content: flex-start;
-			padding-inline: 4px;
-		}
-	}
-
-	.topic-pill {
-		display: inline-flex;
-		align-items: center;
-		padding: 6px 14px;
-		border-radius: 9999px;
-		font-size: 0.8rem;
-		font-family: var(--font-mono, monospace);
-		color: var(--color-text-secondary);
-		background: var(--color-fill);
-		border: 1px solid var(--color-border);
-		text-decoration: none;
-		transition: all 200ms cubic-bezier(0.16, 1, 0.3, 1);
-	}
-
-	.topic-pill:hover {
-		color: var(--color-text);
-		background: var(--color-fill-strong);
-		border-color: var(--color-border-strong);
-		transform: translateY(-1px);
-	}
-
-	.topic-pill--active {
-		color: var(--color-on-brand);
-		background: var(--color-brand);
-		border-color: var(--color-brand);
-		box-shadow: 0 2px 8px var(--color-brand-ring);
-	}
-
-	.topic-pill--active:hover {
-		color: var(--color-on-brand);
-		background: var(--color-brand-hover);
-		border-color: var(--color-brand-hover);
-	}
-
-	/* ==========================================================================
-	   3. Masthead Majolica Hairline Divider
+	   2. Masthead Majolica Hairline Divider
 	   ========================================================================== */
 	.masthead-divider {
 		display: flex;

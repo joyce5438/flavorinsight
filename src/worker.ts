@@ -22,9 +22,9 @@ export default {
 
 		// Cloudflare Edge Cache API with cache version salt
 		const cache = caches.default;
-		// Version salt v45: Award-Tier Editorial Redesign Preview
+		// Version salt v46: Refine Masthead (remove metabar and topic scroller, update narrative)
 		const cacheKeyUrl = new URL(url.toString());
-		cacheKeyUrl.searchParams.set("__cfv", "45");
+		cacheKeyUrl.searchParams.set("__cfv", "46");
 		const cacheKey = new Request(cacheKeyUrl.toString(), {
 			method: "GET",
 			headers: { "accept": request.headers.get("accept") || "*/*" },
